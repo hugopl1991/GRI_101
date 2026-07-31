@@ -1,0 +1,7 @@
+# Ignore directories and contents
+inputs/*
+!inputs/Planilhas/
+!inputs/Planilhas/**
+
+tmp/
+output/
