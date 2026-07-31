@@ -14,3 +14,8 @@ inputs/Planilhas/*
 # Outras pastas temporárias
 tmp/
 output/
+__pycache__
+
+# Outros
+.build_hash
+.bak

@@ -6,9 +6,9 @@ Paths:
   out_dir: "output" # Diretório de saída para os arquivos processados.
   tmp_path: tmp     # Diretório de saída para os arquivos temporarios.
   # mapbiomas e shapefiles
-  lulc_path: C:/Users/lima-/Downloads/Dados_Hugo/FUCA/inputs_indicadores/inputs/mapbiomas_col10/mapbiomas_col10_{AREA}_{YEAR}.tif # Caminho para o arquivo raster de uso e cobertura da terra (LULC)
-  shp_path: C:/Users/lima-/Downloads/Dados_Hugo/FUCA/inputs_indicadores/inputs/Shape_estados/{AREA}_Mapbiomas.shp # Caminho para o arquivo shapefile do estado 
-  shp_file: C:/Users/lima-/Downloads/Dados_Hugo/FUCA/inputs_indicadores/inputs/Shapes_2024/ADAimo_{AREA}_{YEAR}.shp # Caminho para o arquivo shapefile de area operacional (AOI)
+  lulc_path: "inputs/mapbiomas_col10/mapbiomas_col10_{AREA}_{YEAR}.tif" # Caminho para o arquivo raster de uso e cobertura da terra (LULC)
+  shp_path: "inputs/Shape_estados/{AREA}_Mapbiomas.shp" # Caminho para o arquivo shapefile do estado 
+  shp_file: inputs/Shapes_ADAIMO_2025/ADAIMO_2025_{AREA}.shp # Caminho para o arquivo shapefile de area operacional (AOI)
   # script burn frequencia
   in_dir: "inputs/MODIS_BurnDate_RAW"                   # Diretório de entrada contendo os arquivos raster MODIS BurnDate_*.tif
   out_burn: "burn_frequency_para_{SYERAR}_{EYERAR}.tif" # Nome do arquivo raster de saida com a frequencia das queimadas.
@@ -23,20 +23,19 @@ Paths:
   out_clip_edge: "map_cond_edge_{AREA}_{YEAR}_clip.tif" # Caminho para o arquivo raster de condição de borda recortado pelo shapefile (AIO) -- Desativado no script
   mask_temp: "tmp/temp_shape_mask.tif"                  # Caminho para o arquivo raster temporário de máscara do shapefile (temporário)
   # script condicoes de vegetacao segundaria
-  sec_veg_map_file: C:/Users/lima-/Downloads/Dados_Hugo/FUCA/inputs_indicadores/inputs/Flor_Sec_col10/raster_Sec_Veg_col10_{AREA}_{YEAR}.tif  # Caminho para o arquivo raster da vegetação segundaria
-  sec_veg_weight_map_file: "output/veg_sec_weight_{AREA}_{YEAR}.tif"           # Caminho para o arquivo raster de condição da vegetação segundaria (AIO)
+  sec_veg_map_file: "inputs/Flor_Sec_col10/raster_Sec_Veg_col10_{AREA}_{YEAR}.tif"  # Caminho para o arquivo raster da vegetação segundaria
+  sec_veg_weight_map_file: "output/veg_sec_weight_{AREA}_{YEAR}.tif"                # Caminho para o arquivo raster de condição da vegetação segundaria (AIO)
   # script de condicoes do ecossistema
-  fito_map_file: C:/Users/lima-/Downloads/Dados_Hugo/FUCA/inputs_indicadores/inputs/Fitofisionomia/Brasil_vege_areaWGS84.shp # Caminho para o arquivo shapefile das fitofisionomias 
+  fito_map_file: "inputs/Fitofisionomia/Brasil_vege_areaWGS84.shp" # Caminho para o arquivo shapefile das fitofisionomias 
   # script de comparacao de condicoes
-  bioma_map_file: C:/Users/lima-/Downloads/Dados_Hugo/FUCA/inputs_indicadores/inputs/Biomas/{BIOMA}.shp                           # Caminho para o shape de biomas
+  bioma_map_file: "inputs_indicadores/inputs/Biomas/{BIOMA}.shp"      # Caminho para o shape de biomas
   condition_map_file_base: output/map_weights_100_{BASE_YEAR}.tif     # Caminho para o mapa de condicao ano base
   condition_map_file_end: output/map_weights_100_{END_YEAR}.tif       # Caminho para o mapa de condicao ano final
-  area_map_file: C:/Users/lima-/Downloads/Dados_Hugo/FUCA/inputs_indicadores/inputs/Mapa_Area/pxA_x10m2_sembuffer.tif             # Caminho para o mapa de area
-  opunit_id_csv_file: C:/Users/lima-/Downloads/Dados_Hugo/FUCA/inputs_indicadores/inputs/Planilhas/OpUnit_ID_2025.csv             # Arquivo csv contendo os IDs de cada unidade operacional
-  opunit_id_map_file: C:/Users/lima-/Downloads/Dados_Hugo/FUCA/inputs_indicadores/inputs/Mapas_OpUnit_2025/ADAimo_{AREA}_2025.tif # Diretorio do mapa de IDs de cada unidade operacional
-  opunit_metadata_file: C:/Users/lima-/Downloads/Dados_Hugo/FUCA/inputs_indicadores/inputs/Planilhas/OpUnit_Lista_2025.csv        # Arquivo csv contendo os metadados de cada unidade operacional
-  legendas_file: C:/Users/lima-/Downloads/Dados_Hugo/FUCA/inputs_indicadores/inputs/Planilhas/Dicionario.xlsx                     # Arquivo xlsx com as legendas de LULC, Fitofisionomia, Queimadas Pixels de Borda
-
+  area_map_file: "inputs/Mapa_Area/pxA_x10m2_sembuffer.tif"           # Caminho para o mapa de area
+  opunit_id_csv_file: "inputs/Planilhas/OpUnit_ID_2025.csv"             # Arquivo csv contendo os IDs de cada unidade operacional
+  opunit_id_map_file: "inputs/Mapas_OpUnit_2025/ADAimo_{AREA}_2025.tif" # Diretorio do mapa de IDs de cada unidade operacional
+  opunit_metadata_file: "inputs/Planilhas/OpUnit_Lista_2025.csv"        # Arquivo csv contendo os metadados de cada unidade operacional
+  legendas_file: "inputs/Planilhas/Dicionario.xlsx"                     # Arquivo xlsx com as legendas de LULC, Fitofisionomia, Queimadas Pixels de Borda
 # =============================================================================
 # - VARIÁVEIS
 # =============================================================================
@@ -44,9 +43,9 @@ Data:
   # Variaveis globais
   area: "PA"       # Estado de interesse - Ex: PA
   start_year: 2000 # Ano inicial para o cálculo da frequência de queimadas
-  end_year: 2023   # Ano final para o processamento, usado em todos os scripts
+  end_year: 2024   # Ano final para o processamento, usado em todos os scripts
   base_year_veg: 1985  # Ano base usado no script de vegetacao segundaria.
-  base_year_compare: 2023 # Ano final para o processamento, usado em comparacao de condicoes
+  base_year_compare: 2020 # Ano final para o processamento, usado em comparacao de condicoes
   # Variaveis usadas pelos script burn frq, queimadas e bordas
   max_ram_usage: 0.6  # Porcentagem máxima de uso de RAM (0.6 = 60%)
   nodata: -9999       # Nodata (Alterado para valores negativo). NÃO USAR ZERO AQUI - Condicao de borda apresenta valores negativos no raster.
