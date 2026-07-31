@@ -1,7 +1,16 @@
-# Ignore directories and contents
+# Ignora tudo dentro de inputs
 inputs/*
-!inputs/Planilhas/
-!inputs/Planilhas/**
 
+# Permite acessar a pasta Planilhas
+!inputs/Planilhas/
+
+# Ignora todo o conteúdo da pasta Planilhas
+inputs/Planilhas/*
+
+# Mantém apenas estes arquivos
+!inputs/Planilhas/tabela_queimadas.csv
+!inputs/Planilhas/Dicionario.xlsx
+
+# Outras pastas temporárias
 tmp/
 output/
