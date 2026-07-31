@@ -1,0 +1,76 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Pipeline Sequencial: Veg_sec -> Down -> Burn -> Queimadas -> Borda
+# ─────────────────────────────────────────────────────────────────────────────
+
+
+services:
+  veg-sec-weight:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: npi-geo:latest
+    #pull_policy: build
+    container_name: veg-sec-weight
+    volumes:
+      - ./:/app:delegated
+    working_dir: /app
+    #environment:
+    #  - PYTHONUNBUFFERED=1
+    command: ["python3", "veg_sec_weight.py"]
+    restart: "no"
+
+  npi_burn:
+    image: npi-geo:latest
+    container_name: npi_burn
+    volumes:
+      - ./:/app:delegated
+    working_dir: /app
+    #environment:
+    #  - PYTHONUNBUFFERED=1
+    command: ["python3", "NPI_Burn_Freq_v3.py"]
+    restart: "no"
+    depends_on:
+      veg-sec-weight:
+        condition: service_completed_successfully
+
+  npi_queimadas:
+    image: npi-geo:latest
+    container_name: npi_queimadas
+    volumes:
+      - ./:/app:delegated
+    working_dir: /app
+    #environment:
+    #  - PYTHONUNBUFFERED=1
+    command: ["python3", "NPI_queimadas_Organizado_v3.py"]
+    restart: "no"
+    depends_on:
+      npi_burn:
+        condition: service_completed_successfully
+
+  npi_borda:
+    image: npi-geo:latest
+    container_name: npi_borda
+    volumes:
+      - ./:/app:delegated
+    working_dir: /app
+    #environment:
+    #  - PYTHONUNBUFFERED=1
+    command: ["python3", "NPI_borda_Organizado_v5_clip.py"]
+    restart: "no"
+    depends_on:
+      npi_queimadas:
+        condition: service_completed_successfully
+
+  npi_weights:
+    image: npi-geo:latest
+    container_name: npi_weights
+    volumes:
+      - ./:/app:delegated
+    working_dir: /app
+    #environment:
+    #  - PYTHONUNBUFFERED=1
+    command: ["python3", "make_map_weights.py"]
+    restart: "no"
+    depends_on:
+      npi_borda:
+        condition: service_completed_successfully
