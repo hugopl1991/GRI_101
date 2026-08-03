@@ -10,6 +10,7 @@ inputs/Planilhas/*
 # Mantém apenas estes arquivos
 !inputs/Planilhas/tabela_queimadas.csv
 !inputs/Planilhas/Dicionario.xlsx
+!inputs/Planilhas/Reclass_PA.xlsx
 
 # Outras pastas temporárias
 tmp/
@@ -18,4 +19,4 @@ __pycache__
 
 # Outros
 .build_hash
-.bak
+*.bak
