@@ -137,7 +137,14 @@ def run_docker_compose(compose_file, build=False):
         cmd.insert(-1, "--build")
 
     try:
-        subprocess.run(cmd, check=True)
+        process = subprocess.Popen(
+            cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, encoding="utf-8", errors="replace", bufsize=1
+        )
+        for line in process.stdout:
+            print(line, end="")
+        process.wait()
+        if process.returncode != 0:
+            raise subprocess.CalledProcessError(process.returncode, cmd)
         print(f"[*] Processamento do {compose_file} concluído com sucesso.\n")
     except subprocess.CalledProcessError as e:
         print(f"[!] Erro ao executar {compose_file}: {e}")
