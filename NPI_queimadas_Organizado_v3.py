@@ -6,7 +6,8 @@ from rasterio.warp import Resampling, reproject
 from rasterio.windows import Window
 from utils import calcular_tile_size_dinamico, remove_if_exists, clipar_por_shapefile
 
-with open('config.yaml', 'r', encoding='utf-8') as f:
+CONFIG_FILE = os.environ.get('CONFIG_FILE', 'config.yaml')
+with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
     cfg = yaml.safe_load(f)
 PATHS, DATA = cfg['Paths'], cfg['Data']
 

@@ -111,7 +111,9 @@ def fractional_pixel_weights_optimized(raster_path: str, geom: Any) -> np.ndarra
         
     return weights
 
-with open('config.yaml', 'r', encoding='utf-8') as f:
+import os
+CONFIG_FILE = os.environ.get('CONFIG_FILE', 'config.yaml')
+with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
     cfg = yaml.safe_load(f)
 PATHS, DATA = cfg['Paths'], cfg['Data']
 

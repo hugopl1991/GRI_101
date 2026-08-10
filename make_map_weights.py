@@ -51,7 +51,9 @@ def make_raster_from_matrix(band: np.ndarray, raster_std: str, nodata_value: int
 
   return final_name
 
-with open('config.yaml', 'r', encoding='utf-8') as f:
+import os
+CONFIG_FILE = os.environ.get('CONFIG_FILE', 'config.yaml')
+with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
     cfg = yaml.safe_load(f)
 PATHS, DATA = cfg['Paths'], cfg['Data']
 

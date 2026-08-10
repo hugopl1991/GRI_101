@@ -6,11 +6,15 @@ import subprocess
 import sys
 import shutil
 from pathlib import Path
+import os
 from ruamel.yaml import YAML
 
-CONFIG_FILE = 'config.yaml'  # Arquivo de configuração
-DEFAULT_BASE_YEAR = 2020     # Ano base do processamento
-DEFAULT_END_YEAR = 2024      # Ano final do processamento
+# Configurável via ambiente para execução em Azure
+CONFIG_FILE = os.environ.get('CONFIG_FILE', 'config.yaml')  # Arquivo de configuração (padrão no repo)
+RUNTIME_CONFIG_PATH = os.environ.get('RUNTIME_CONFIG_PATH', '/tmp/config.yaml')
+AZURE_MODE = os.environ.get('AZURE_MODE', '0') == '1'
+DEFAULT_BASE_YEAR = int(os.environ.get('DEFAULT_BASE_YEAR', '2020'))     # Ano base do processamento
+DEFAULT_END_YEAR = int(os.environ.get('DEFAULT_END_YEAR', '2024'))      # Ano final do processamento
 
 BUILD_INPUT_FILES = ['Dockerfile', 'requirements.txt']
 BUILD_HASH_FILE = '.build_hash'
@@ -159,8 +163,46 @@ def cleanup_environment(compose_files):
 if __name__ == "__main__":
     args = parse_args()
 
-    backup_config()
-    cleanup_environment(["docker-compose_raster.yml", "docker-compose_table.yml"])
+    # Em AZURE_MODE não alteramos o repo; geramos config de runtime
+    if not AZURE_MODE:
+        backup_config()
+        cleanup_environment(["docker-compose_raster.yml", "docker-compose_table.yml"])
+    else:
+        # Carrega config do repo se existir para preservar seções estáticas
+        base_cfg = {}
+        repo_cfg_path = Path('config.yaml')
+        try:
+            if repo_cfg_path.exists():
+                with open(repo_cfg_path, 'r', encoding='utf-8') as f:
+                    base_cfg = yaml.load(f) or {}
+        except Exception:
+            base_cfg = {}
+
+        if 'Paths' not in base_cfg:
+            base_cfg['Paths'] = {}
+        if 'Data' not in base_cfg:
+            base_cfg['Data'] = {}
+
+        # Prioriza valores vindos das variáveis/args
+        base_cfg['Data']['base_year_compare'] = args.base_year
+        base_cfg['Data']['end_year'] = args.end_year
+        base_cfg['Data']['area'] = os.environ.get('AREA', base_cfg['Data'].get('area', 'PA'))
+
+        # Escreve config de runtime e aponta CONFIG_FILE para ele
+        try:
+            # 1) arquivo temporário (opcional)
+            with open(RUNTIME_CONFIG_PATH, 'w', encoding='utf-8') as f:
+                yaml.dump(base_cfg, f)
+            # 2) também sobrescreve o config.yaml no diretório de trabalho
+            with open(repo_cfg_path, 'w', encoding='utf-8') as f:
+                yaml.dump(base_cfg, f)
+
+            CONFIG_FILE = str(repo_cfg_path)
+            print(f"[*] AZURE_MODE ativo: config de runtime escrito em {RUNTIME_CONFIG_PATH} e em {repo_cfg_path}")
+        except Exception as e:
+            print(f"[!] Falha ao escrever config runtime: {e}")
+            sys.exit(1)
+
 
     # Decide UMA vez, no início, se a imagem precisa ser reconstruída.
     # Se sim, o build acontece apenas na primeira chamada abaixo — as

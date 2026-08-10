@@ -6,7 +6,8 @@ from rasterio.mask import mask as rio_mask
 from rasterio.features import geometry_mask
 from pathlib import Path
 
-with open('config.yaml', 'r', encoding='utf-8') as f:
+CONFIG_FILE = os.environ.get('CONFIG_FILE', 'config.yaml')
+with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
     cfg = yaml.safe_load(f)
 PATHS, DATA = cfg['Paths'], cfg['Data']
 

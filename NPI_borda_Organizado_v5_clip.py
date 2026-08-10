@@ -7,7 +7,8 @@ from rasterio.windows import Window
 from scipy.ndimage import distance_transform_edt
 from utils import calcular_tile_size_dinamico, remove_if_exists, clipar_por_shapefile
 
-with open('config.yaml', 'r', encoding='utf-8') as f:
+CONFIG_FILE = os.environ.get('CONFIG_FILE', 'config.yaml')
+with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
     cfg = yaml.safe_load(f)
 PATHS, DATA = cfg['Paths'], cfg['Data']
 
