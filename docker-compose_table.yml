@@ -29,3 +29,6 @@ services:
     #  - PYTHONUNBUFFERED=1
     command: ["python3", "GRI_106_107.py"]
     restart: "no"
+    depends_on:
+      npi_tables:
+        condition: service_completed_successfully
