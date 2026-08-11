@@ -32,7 +32,16 @@ def carregar_dados(arquivo_fuca, arquivo_reclass, base_year, end_year, size_pixe
             Reclass_N4N5 = pd.read_excel(xls, sheet_name='Reclass_LULC_N4N5')
         else:
             Reclass_N4N5 = pd.DataFrame(columns=['LULC', 'Reclass_LULC']) # DataFrame vazio de fallback
-        
+
+        # Prioridade da regra GERAL:
+        # - No Pará (aba Reclass_LULC_canga presente): mantém a lógica histórica/validada
+        #   no MATLAB, em que a própria tabela de canga também serve como regra geral
+        #   para as linhas que não são N4N5 nem OpUnit com canga.
+        # - Em outros estados (sem aba de canga): usa a tabela geral/floresta
+        #   (Reclass_LULC_geral ou, no nome legado, Reclass_LULC_floresta) como fallback.
+        if not Reclass_canga.empty:
+            Reclass_geral = Reclass_canga
+
     except FileNotFoundError as e:
         print(f"Erro ao carregar arquivos: Verifique se os caminhos estão corretos. Detalhe: {e}")
         raise

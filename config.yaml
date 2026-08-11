@@ -50,7 +50,7 @@ Paths:
 # =============================================================================
 Data:
   # Variaveis globais
-  area: "PA"       # Estado de interesse - Ex: PA
+  area: "MG"       # Estado de interesse - Ex: PA
   start_year: 2000 # Ano inicial para o cálculo da frequência de queimadas
   end_year: 2024   # Ano final para o processamento, usado em todos os scripts
   base_year_veg: 1985  # Ano base usado no script de vegetacao segundaria.

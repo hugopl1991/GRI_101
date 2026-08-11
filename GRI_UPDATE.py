@@ -31,7 +31,7 @@ def main():
     OUT_G107 = PATHS['output_g107'].format(AREA=AREA)
     OUT_LULC_COND = PATHS['output_lulc_cond'].format(AREA=AREA)
     OUT_BALANCE = PATHS['output_balance'].format(AREA=AREA)
-
+    
     # 1. Carregar os dados (passando as variáveis parametrizadas)
     FUCA, Reclass_IBGE, Reclass_geral, Reclass_canga, Reclass_N4N5 = carregar_dados(
         arquivo_fuca=FILE_TABLE,
