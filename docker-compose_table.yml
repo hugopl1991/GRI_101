@@ -27,7 +27,7 @@ services:
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
-    command: ["python3", "GRI_106_107.py"]
+    command: ["python3", "GRI_UPDATE.py"]
     restart: "no"
     depends_on:
       npi_tables:
