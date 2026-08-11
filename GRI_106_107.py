@@ -23,10 +23,10 @@ FLOAT_FORMAT = DATA['float_format']
 FILE_TABLE = PATHS['file_table_comparison'].format(AREA=AREA)
 FILE_RECLASS = PATHS['file_reclass_path'].format(AREA=AREA)
 
-OUT_G106 = PATHS['output_g106']
-OUT_G107 = PATHS['output_g107']
-OUT_LULC_COND = PATHS['output_lulc_cond']
-OUT_BALANCE = PATHS['output_balance']
+OUT_G106 = PATHS['output_g106'].format(AREA=AREA)
+OUT_G107 = PATHS['output_g107'].format(AREA=AREA)
+OUT_LULC_COND = PATHS['output_lulc_cond'].format(AREA=AREA)
+OUT_BALANCE = PATHS['output_balance'].format(AREA=AREA)
 
 def reclass_novo(var, opunit, ibge, lookup_geral, lookup_N4N5, lookup_canga, keycol, valcol):
     """

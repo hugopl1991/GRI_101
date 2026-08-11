@@ -39,10 +39,10 @@ Paths:
   # script de GRI_106_107
   file_table_comparison: "output/lulc_condicao_legenda_{AREA}.xlsx"
   file_reclass_path: "inputs/Planilhas/Reclass_{AREA}.xlsx"
-  output_g106: "output/Saida1016.csv"
-  output_g107: "output/Saida1017b.csv"
-  output_lulc_cond: "output/lulc_condicao_reclass.csv"
-  output_balance: "output/Saida_balanco_natural.csv"
+  output_g106: "output/Saida1016_{AREA}.csv"
+  output_g107: "output/Saida1017b_{AREA}.csv"
+  output_lulc_cond: "output/lulc_condicao_reclass_{AREA}.csv"
+  output_balance: "output/Saida_balanco_natural_{AREA}.csv"
 
 
 # =============================================================================
