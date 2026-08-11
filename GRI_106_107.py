@@ -9,9 +9,17 @@ with open('config.yaml', 'r', encoding='utf-8') as f:
     cfg = yaml.safe_load(f)
 
 PATHS, DATA = cfg['Paths'], cfg['Data']
-AREA = DATA['area']
+
 
 # Formatando os caminhos com a variável de Área
+AREA = DATA['area']
+SIZE_PIXEL = DATA['size_pixel']
+BASE_YEAR = DATA['base_year_compare']
+END_YEAR = DATA['end_year']
+SEP = DATA['separator']
+DECIMAL = DATA['decimal_separator']
+FLOAT_FORMAT = DATA['float_format']
+
 FILE_TABLE = PATHS['file_table_comparison'].format(AREA=AREA)
 FILE_RECLASS = PATHS['file_reclass_path'].format(AREA=AREA)
 
@@ -19,11 +27,6 @@ OUT_G106 = PATHS['output_g106']
 OUT_G107 = PATHS['output_g107']
 OUT_LULC_COND = PATHS['output_lulc_cond']
 OUT_BALANCE = PATHS['output_balance']
-
-SIZE_PIXEL = DATA['size_pixel']
-BASE_YEAR = DATA['base_year_compare']
-END_YEAR = DATA['end_year']
-
 
 def reclass_novo(var, opunit, ibge, lookup_geral, lookup_N4N5, lookup_canga, keycol, valcol):
     """
@@ -155,10 +158,10 @@ def main():
     # ================================
     # Exportar resultados iniciais
     # ================================
-    G106.to_csv(OUT_G106, index=False,  sep=';', decimal=',') #float_format='%.2f',
-    G107b.to_csv(OUT_G107, index=False, sep=';', decimal=',') #float_format='%.2f',
-    FUCA.to_csv(OUT_LULC_COND, index=False, sep=';', decimal=',') #float_format='%.2f',
-    
+    G106.to_csv(OUT_G106, index=False,  sep=SEP, decimal=DECIMAL, float_format=FLOAT_FORMAT)
+    G107b.to_csv(OUT_G107, index=False, sep=SEP, decimal=DECIMAL, float_format=FLOAT_FORMAT)
+    FUCA.to_csv(OUT_LULC_COND, index=False, sep=SEP, decimal=DECIMAL, float_format=FLOAT_FORMAT)
+
     print('Tabelas parciais geradas com sucesso.')
 
     # ====================================================
@@ -249,7 +252,7 @@ def main():
     SaidaBalanco['ordClasse'] = SaidaBalanco['Classe'].apply(class_order)
     SaidaBalanco = SaidaBalanco.sort_values(by=['OpUnit', 'ordClasse', 'Classe']).drop(columns=['ordClasse'])
 
-    SaidaBalanco.to_csv(OUT_BALANCE, index=False, sep=';', decimal=',') #float_format='%.2f',
+    SaidaBalanco.to_csv(OUT_BALANCE, index=False, sep=SEP, decimal=DECIMAL, float_format=FLOAT_FORMAT)
     
     print('Tabela de balanço gerada com sucesso.')
 

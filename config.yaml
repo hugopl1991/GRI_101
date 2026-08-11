@@ -87,4 +87,6 @@ Data:
   id_class_compare: 3        # Classes selecionadas
   all_touched_compare: false # Opção all_touched do rasterio para script de comparacao de condicoes
   # script de GRI_106_107
-  
+  decimal_separator: "," # Separador decimal para os arquivos CSV de saída ("," ou ".")
+  separator: ";"         # Separador de campo para os arquivos CSV de saída (";" ou ",")
+  float_format: "%.5f"   # Formato de ponto flutuante para os arquivos CSV de saída (ex: "%.2f" para duas casas decimais)
