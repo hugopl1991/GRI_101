@@ -1,0 +1,1635 @@
+OpUnit,LULC_2020,LULC_2024,IBGE,Condicao_2020,Condicao_2024,Qtd_pixels,Area m2
+Opunit1,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,25,0.0
+Opunit1,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,8,0.0
+Opunit1,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Very Poor: 0-20,3,0.0
+Opunit1,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,4,0.0
+Opunit1,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Good: 40-60,1,0.0
+Opunit1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Good: 40-60,2,0.0
+Opunit1,Formação Florestal,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,17,0.0
+Opunit1,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,1,0.0
+Opunit1,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,25,0.0
+Opunit1,Floresta Alagável,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,10,0.0
+Opunit1,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,136,0.0
+Opunit4,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Poor: 20-40,5,0.0
+Opunit4,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Good: 40-60,32,0.0
+Opunit4,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very good: 60-80,13,0.0
+Opunit4,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Excellent : 80-100,178,0.0
+Opunit4,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,1,0.0
+Opunit4,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,3,0.0
+Opunit4,Mineração,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,104,0.0
+Opunit4,Mineração,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,69,0.0
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,2224,1986490.5
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,223,199188.6
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Very Poor: 0-20,101,90221.0
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,1242,1109507.1
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Good: 40-60,4,3572.8
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,959,856736.4
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Good: 40-60,1705,1523139.0
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Very good: 60-80,6,5360.4
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Poor: 20-40,180,160810.4
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Good: 40-60,386,344839.0
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Very good: 60-80,613,547649.5
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Poor: 20-40,9,8039.7
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Good: 40-60,74,66111.6
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Very good: 60-80,325,290355.0
+Bioenergia,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Excellent : 80-100,829,740628.6
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Aluvial,Very good: 60-80,Very good: 60-80,33,29482.2
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Aluvial,Excellent : 80-100,Very good: 60-80,5,4467.0
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Aluvial,Excellent : 80-100,Excellent : 80-100,9,8040.6
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,461,411740.6
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,6,5359.0
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Very Poor: 0-20,124,110756.9
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Poor: 20-40,5511,4922398.8
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Good: 40-60,112,100038.4
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Poor: 20-40,2425,2166026.6
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Good: 40-60,6729,6010445.9
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very good: 60-80,40,35730.4
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Poor: 20-40,445,397510.4
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Good: 40-60,1707,1524730.1
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very good: 60-80,2596,2318840.6
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Excellent : 80-100,6,5360.4
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Poor: 20-40,6,5359.9
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Good: 40-60,339,302841.6
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Very good: 60-80,1276,1139894.1
+Bioenergia,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Excellent : 80-100,3365,3006121.9
+Bioenergia,Formação Florestal,Formação Savânica,3.0,Good: 40-60,Very Poor: 0-20,1,893.3
+Bioenergia,Formação Florestal,Formação Savânica,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Very Poor: 0-20,2,1786.6
+Bioenergia,Formação Florestal,Formação Savânica,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very Poor: 0-20,3,2679.9
+Bioenergia,Formação Florestal,Formação Savânica,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very Poor: 0-20,1,893.3
+Bioenergia,Formação Florestal,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,2,1786.6
+Bioenergia,Formação Florestal,Floresta Alagável,3.0,Poor: 20-40,Good: 40-60,5,4466.0
+Bioenergia,Formação Florestal,Floresta Alagável,3.0,Good: 40-60,Poor: 20-40,1,893.2
+Bioenergia,Formação Florestal,Floresta Alagável,3.0,Good: 40-60,Good: 40-60,2,1786.4
+Bioenergia,Formação Florestal,Floresta Alagável,3.0,Very good: 60-80,Poor: 20-40,1,893.4
+Bioenergia,Formação Florestal,Floresta Alagável,3.0,Very good: 60-80,Good: 40-60,1,893.3
+Bioenergia,Formação Florestal,Floresta Alagável,3.0,Excellent : 80-100,Poor: 20-40,1,893.3
+Bioenergia,Formação Florestal,Floresta Alagável,3.0,Excellent : 80-100,Excellent : 80-100,5,4467.0
+Bioenergia,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,2,1786.2
+Bioenergia,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,5,4465.5
+Bioenergia,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Poor: 20-40,31,27686.2
+Bioenergia,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Poor: 20-40,11,9824.1
+Bioenergia,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Poor: 20-40,2,1786.2
+Bioenergia,Formação Florestal,Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,6,5359.2
+Bioenergia,Formação Florestal,Campo Alagado e Área Pantanosa,3.0,Poor: 20-40,Very Poor: 0-20,1,893.3
+Bioenergia,Formação Florestal,Formação Campestre,3.0,Good: 40-60,Very Poor: 0-20,1,893.3
+Bioenergia,Formação Florestal,Formação Campestre,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Very Poor: 0-20,6,5359.8
+Bioenergia,Formação Florestal,Formação Campestre,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very Poor: 0-20,1,893.3
+Bioenergia,Formação Florestal,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,175,156314.0
+Bioenergia,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,369,329636.9
+Bioenergia,Formação Florestal,Pastagem,3.0,Good: 40-60,Very Poor: 0-20,341,304646.3
+Bioenergia,Formação Florestal,Pastagem,3.0,Very good: 60-80,Very Poor: 0-20,97,86654.9
+Bioenergia,Formação Florestal,Pastagem,3.0,Excellent : 80-100,Very Poor: 0-20,15,13399.5
+Bioenergia,Formação Florestal,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,568,507285.4
+Bioenergia,Formação Florestal,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Very Poor: 0-20,2357,2105180.7
+Bioenergia,Formação Florestal,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very Poor: 0-20,1002,894931.1
+Bioenergia,Formação Florestal,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very Poor: 0-20,172,153632.1
+Bioenergia,Formação Florestal,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Very Poor: 0-20,13,11612.9
+Bioenergia,Formação Florestal,Outras Áreas não Vegetadas,3.0,Poor: 20-40,Very Poor: 0-20,7,6253.8
+Bioenergia,Formação Florestal,Outras Áreas não Vegetadas,3.0,Good: 40-60,Very Poor: 0-20,70,62538.0
+Bioenergia,Formação Florestal,Outras Áreas não Vegetadas,3.0,Very good: 60-80,Very Poor: 0-20,31,27695.4
+Bioenergia,Formação Florestal,Outras Áreas não Vegetadas,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very Poor: 0-20,16,14294.4
+Bioenergia,Formação Savânica,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,5,4466.5
+Bioenergia,Formação Savânica,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Good: 40-60,1,893.3
+Bioenergia,Formação Savânica,Formação Savânica,3.0,Very Poor: 0-20,Very Poor: 0-20,68,60745.2
+Bioenergia,Formação Savânica,Formação Savânica,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,410,366253.0
+Bioenergia,Formação Savânica,Floresta Alagável,3.0,Very Poor: 0-20,Good: 40-60,3,2679.9
+Bioenergia,Formação Savânica,Floresta Alagável,3.0,Very Poor: 0-20,Very good: 60-80,2,1786.6
+Bioenergia,Formação Savânica,Formação Campestre,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,9,8039.7
+Bioenergia,Formação Savânica,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,24,21439.2
+Bioenergia,Floresta Alagável,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2679.9
+Bioenergia,Floresta Alagável,Formação Florestal,3.0,Poor: 20-40,Very Poor: 0-20,1,893.3
+Bioenergia,Floresta Alagável,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,1,893.2
+Bioenergia,Floresta Alagável,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,1,893.3
+Bioenergia,Floresta Alagável,Formação Florestal,3.0,Very good: 60-80,Very good: 60-80,2,1786.8
+Bioenergia,Floresta Alagável,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,4,3572.8
+Bioenergia,Floresta Alagável,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Very Poor: 0-20,4,3573.1
+Bioenergia,Floresta Alagável,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Poor: 20-40,4,3572.9
+Bioenergia,Floresta Alagável,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Poor: 20-40,1,893.3
+Bioenergia,Floresta Alagável,Floresta Alagável,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1786.6
+Bioenergia,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Very Poor: 0-20,6,5359.8
+Bioenergia,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,133,118806.3
+Bioenergia,Floresta Alagável,Floresta Alagável,3.0,Good: 40-60,Poor: 20-40,42,37515.0
+Bioenergia,Floresta Alagável,Floresta Alagável,3.0,Good: 40-60,Good: 40-60,414,369848.8
+Bioenergia,Floresta Alagável,Floresta Alagável,3.0,Very good: 60-80,Poor: 20-40,280,250146.9
+Bioenergia,Floresta Alagável,Floresta Alagável,3.0,Very good: 60-80,Good: 40-60,13,11614.2
+Bioenergia,Floresta Alagável,Floresta Alagável,3.0,Very good: 60-80,Very good: 60-80,566,505658.7
+Bioenergia,Floresta Alagável,Floresta Alagável,3.0,Excellent : 80-100,Poor: 20-40,307,274255.7
+Bioenergia,Floresta Alagável,Floresta Alagável,3.0,Excellent : 80-100,Good: 40-60,553,494042.2
+Bioenergia,Floresta Alagável,Floresta Alagável,3.0,Excellent : 80-100,Very good: 60-80,333,297502.1
+Bioenergia,Floresta Alagável,Floresta Alagável,3.0,Excellent : 80-100,Excellent : 80-100,610,544974.0
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Good: 40-60,Poor: 20-40,5,4467.0
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Good: 40-60,Good: 40-60,58,51817.0
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Very good: 60-80,Poor: 20-40,85,75934.8
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Very good: 60-80,Good: 40-60,201,179563.8
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Very good: 60-80,Very good: 60-80,95,84871.5
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Excellent : 80-100,Poor: 20-40,9,8039.7
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Excellent : 80-100,Good: 40-60,70,62531.2
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Excellent : 80-100,Very good: 60-80,120,107199.3
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Excellent : 80-100,Excellent : 80-100,48,42882.9
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,66,58944.8
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Very Poor: 0-20,149,133078.0
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Poor: 20-40,717,640368.1
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Poor: 20-40,162,144684.1
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Good: 40-60,659,588568.9
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very good: 60-80,1,893.4
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Poor: 20-40,102,91096.4
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Good: 40-60,251,224168.1
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very good: 60-80,665,593944.2
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Poor: 20-40,1,893.4
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Good: 40-60,27,24115.8
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Very good: 60-80,191,170617.9
+Bioenergia,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Excellent : 80-100,126,112556.4
+Bioenergia,Floresta Alagável,Floresta Alagável,Corpo da,Good: 40-60,Poor: 20-40,1,893.4
+Bioenergia,Floresta Alagável,Floresta Alagável,Corpo da,Good: 40-60,Good: 40-60,2,1786.7
+Bioenergia,Floresta Alagável,Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,6,5359.8
+Bioenergia,Floresta Alagável,Campo Alagado e Área Pantanosa,3.0,Poor: 20-40,Very Poor: 0-20,18,16079.4
+Bioenergia,Floresta Alagável,Campo Alagado e Área Pantanosa,3.0,Good: 40-60,Very Poor: 0-20,25,22334.2
+Bioenergia,Floresta Alagável,Campo Alagado e Área Pantanosa,3.0,Very good: 60-80,Very Poor: 0-20,22,19654.2
+Bioenergia,Floresta Alagável,Campo Alagado e Área Pantanosa,3.0,Excellent : 80-100,Very Poor: 0-20,13,11613.7
+Bioenergia,Floresta Alagável,Campo Alagado e Área Pantanosa,Floresta Ombrofila Densa Aluvial,Very good: 60-80,Very Poor: 0-20,14,12507.5
+Bioenergia,Floresta Alagável,Campo Alagado e Área Pantanosa,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very Poor: 0-20,8,7144.8
+Bioenergia,Floresta Alagável,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,9,8039.7
+Bioenergia,Floresta Alagável,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,30,26798.9
+Bioenergia,Floresta Alagável,Pastagem,3.0,Good: 40-60,Very Poor: 0-20,16,14292.8
+Bioenergia,Floresta Alagável,Pastagem,3.0,Very good: 60-80,Very Poor: 0-20,121,108091.5
+Bioenergia,Floresta Alagável,Pastagem,3.0,Excellent : 80-100,Very Poor: 0-20,138,123276.1
+Bioenergia,Floresta Alagável,Pastagem,Floresta Ombrofila Densa Aluvial,Very good: 60-80,Very Poor: 0-20,41,36627.4
+Bioenergia,Floresta Alagável,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,12,10717.2
+Bioenergia,Floresta Alagável,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Very Poor: 0-20,114,101818.0
+Bioenergia,Floresta Alagável,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very Poor: 0-20,31,27686.6
+Bioenergia,Floresta Alagável,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very Poor: 0-20,22,19648.2
+Bioenergia,Campo Alagado e Área Pantanosa,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1786.6
+Bioenergia,Campo Alagado e Área Pantanosa,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,9,8039.7
+Bioenergia,Campo Alagado e Área Pantanosa,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,1,893.3
+Bioenergia,Campo Alagado e Área Pantanosa,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Good: 40-60,4,3573.2
+Bioenergia,Campo Alagado e Área Pantanosa,Floresta Alagável,3.0,Very Poor: 0-20,Very Poor: 0-20,1,893.3
+Bioenergia,Campo Alagado e Área Pantanosa,Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,38,33944.9
+Bioenergia,Campo Alagado e Área Pantanosa,Floresta Alagável,3.0,Very Poor: 0-20,Good: 40-60,36,32159.3
+Bioenergia,Campo Alagado e Área Pantanosa,Floresta Alagável,3.0,Very Poor: 0-20,Very good: 60-80,2,1786.6
+Bioenergia,Campo Alagado e Área Pantanosa,Floresta Alagável,3.0,Very Poor: 0-20,Excellent : 80-100,17,15187.8
+Bioenergia,Campo Alagado e Área Pantanosa,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Very Poor: 0-20,Poor: 20-40,3,2680.1
+Bioenergia,Campo Alagado e Área Pantanosa,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Very Poor: 0-20,Good: 40-60,11,9827.4
+Bioenergia,Campo Alagado e Área Pantanosa,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,12,10717.2
+Bioenergia,Campo Alagado e Área Pantanosa,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Good: 40-60,9,8037.9
+Bioenergia,Campo Alagado e Área Pantanosa,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very good: 60-80,51,45548.1
+Bioenergia,Campo Alagado e Área Pantanosa,Floresta Alagável,Corpo da,Very Poor: 0-20,Good: 40-60,1,893.4
+Bioenergia,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,656,586031.0
+Bioenergia,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,Floresta Ombrofila Densa Aluvial,Very Poor: 0-20,Very Poor: 0-20,174,155450.4
+Bioenergia,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,15,13396.5
+Bioenergia,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,Corpo da,Very Poor: 0-20,Very Poor: 0-20,8,7147.2
+Bioenergia,Campo Alagado e Área Pantanosa,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2679.9
+Bioenergia,Campo Alagado e Área Pantanosa,Formação Campestre,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,12,10719.6
+Bioenergia,Campo Alagado e Área Pantanosa,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,2580,2304712.6
+Bioenergia,Campo Alagado e Área Pantanosa,Pastagem,Floresta Ombrofila Densa Aluvial,Very Poor: 0-20,Very Poor: 0-20,29,25907.6
+Bioenergia,Campo Alagado e Área Pantanosa,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,27,24118.3
+Bioenergia,Campo Alagado e Área Pantanosa,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Aluvial,Very Poor: 0-20,Very Poor: 0-20,4,3573.6
+Bioenergia,Formação Campestre,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,3,2679.9
+Bioenergia,Formação Campestre,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,1,893.3
+Bioenergia,Formação Campestre,Formação Savânica,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,12,10719.6
+Bioenergia,Formação Campestre,Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,3,2679.9
+Bioenergia,Formação Campestre,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,19,16973.5
+Bioenergia,Formação Campestre,Formação Campestre,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,258,230471.4
+Bioenergia,Formação Campestre,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,7,6253.1
+Bioenergia,Formação Campestre,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,51,45558.3
+Bioenergia,Pastagem,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,69,61630.8
+Bioenergia,Pastagem,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,69,61630.1
+Bioenergia,Pastagem,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,1,893.1
+Bioenergia,Pastagem,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,20,17862.6
+Bioenergia,Pastagem,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,4,3572.4
+Bioenergia,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,4849,4331341.5
+Bioenergia,Pastagem,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,7863,7022886.8
+Bioenergia,Dendê,Dendê,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2679.6
+Bioenergia,Outras Lavouras Perenes,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,3,2679.3
+Bioenergia,Outras Lavouras Perenes,Outras Lavouras Perenes,3.0,Very Poor: 0-20,Very Poor: 0-20,46,41091.8
+Cristalino,0.0,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Poor: 20-40,4,3553.6
+Cristalino,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,3094,2748918.2
+Cristalino,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,38,33762.6
+Cristalino,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Very Poor: 0-20,762,677003.0
+Cristalino,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,1798,1597426.7
+Cristalino,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,242,215008.5
+Cristalino,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Good: 40-60,15,13326.4
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,9,7996.1
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,22,19544.8
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Poor: 20-40,1,888.5
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,3647,3240073.7
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,111,98614.6
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,1077,956823.7
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Poor: 20-40,3920,3482613.4
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Good: 40-60,28,24875.2
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Very Poor: 0-20,34,30205.6
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Poor: 20-40,2239,1989135.1
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Good: 40-60,1522,1352144.9
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Very good: 60-80,16,14214.4
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Poor: 20-40,210,186564.0
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Good: 40-60,406,360690.4
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very good: 60-80,504,447753.6
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Poor: 20-40,14,12437.6
+Cristalino,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Good: 40-60,10,8884.0
+Cristalino,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,26,23098.4
+Cristalino,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Poor: 20-40,Very Poor: 0-20,21,18656.4
+Cristalino,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Poor: 20-40,Poor: 20-40,33,29317.2
+Cristalino,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Good: 40-60,Poor: 20-40,98,87063.2
+Cristalino,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Good: 40-60,Good: 40-60,29,25763.6
+Cristalino,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Very good: 60-80,Poor: 20-40,51,45308.4
+Cristalino,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Very good: 60-80,Good: 40-60,19,16879.6
+Cristalino,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Excellent : 80-100,Poor: 20-40,19,16879.6
+Cristalino,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Excellent : 80-100,Good: 40-60,16,14214.4
+Cristalino,Formação Florestal,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1777.0
+Cristalino,Formação Florestal,Formação Campestre,3.0,Poor: 20-40,Very Poor: 0-20,3,2665.4
+Cristalino,Formação Florestal,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,2995,2660917.3
+Cristalino,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,920,817364.6
+Cristalino,Formação Florestal,Pastagem,3.0,Good: 40-60,Very Poor: 0-20,39,34651.0
+Cristalino,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,88,78179.2
+Cristalino,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,90,79956.0
+Cristalino,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,546,485081.1
+Cristalino,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,574,509967.4
+Cristalino,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Good: 40-60,Very Poor: 0-20,44,39091.0
+Cristalino,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very Poor: 0-20,40,35536.0
+Cristalino,Formação Florestal,Pastagem,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,6,5330.4
+Cristalino,Formação Florestal,Pastagem,Refrgio Vegetacional Montano,Poor: 20-40,Very Poor: 0-20,2,1776.8
+Cristalino,Formação Florestal,Afloramento Rochoso,Floresta Ombrofila Densa Submontana,Good: 40-60,Very Poor: 0-20,10,8884.0
+Cristalino,Formação Florestal,Afloramento Rochoso,Refrgio Vegetacional Montano,Good: 40-60,Very Poor: 0-20,4,3553.6
+Cristalino,Formação Florestal,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,131,116393.5
+Cristalino,Formação Florestal,Mineração,3.0,Poor: 20-40,Very Poor: 0-20,163,144825.5
+Cristalino,Formação Florestal,Mineração,3.0,Good: 40-60,Very Poor: 0-20,71,63083.5
+Cristalino,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,1,888.5
+Cristalino,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,24,21324.0
+Cristalino,Formação Florestal,Outras Lavouras Temporárias,3.0,Very Poor: 0-20,Very Poor: 0-20,1,888.4
+Cristalino,Formação Savânica,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,7,6219.5
+Cristalino,Formação Campestre,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Poor: 20-40,1,888.4
+Cristalino,Formação Campestre,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,422,374939.6
+Cristalino,Formação Campestre,Formação Campestre,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,140,124386.7
+Cristalino,Formação Campestre,Formação Campestre,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,421,374016.4
+Cristalino,Formação Campestre,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,256,227453.6
+Cristalino,Formação Campestre,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,6,5330.4
+Cristalino,Formação Campestre,Pastagem,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,90,79956.0
+Cristalino,Formação Campestre,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,6,5331.0
+Cristalino,Formação Campestre,Afloramento Rochoso,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3553.6
+Cristalino,Formação Campestre,Afloramento Rochoso,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,43,38201.2
+Cristalino,Pastagem,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,90,79964.4
+Cristalino,Pastagem,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,275,244319.2
+Cristalino,Pastagem,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,4,3553.6
+Cristalino,Pastagem,Pastagem,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,232,206132.0
+Cristalino,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,30508,27105289.7
+Cristalino,Pastagem,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,105,93282.3
+Cristalino,Pastagem,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,16868,14986404.1
+Cristalino,Pastagem,Pastagem,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,74,65741.6
+Cristalino,Pastagem,Afloramento Rochoso,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,888.5
+Cristalino,Pastagem,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,253,224785.8
+Cristalino,Pastagem,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,9,7996.5
+Cristalino,Pastagem,Outras Lavouras Temporárias,3.0,Very Poor: 0-20,Very Poor: 0-20,142,126167.0
+Cristalino,Pastagem,Outras Lavouras Temporárias,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,273,242556.3
+Cristalino,Afloramento Rochoso,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Good: 40-60,5,4442.0
+Cristalino,Afloramento Rochoso,Formação Campestre,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3553.6
+Cristalino,Afloramento Rochoso,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,1,888.5
+Cristalino,Afloramento Rochoso,Afloramento Rochoso,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,117,103943.4
+Cristalino,Afloramento Rochoso,Afloramento Rochoso,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,609,541035.6
+Cristalino,Outras Lavouras Temporárias,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,15,13327.0
+Cristalino,Outras Lavouras Temporárias,Soja,3.0,Very Poor: 0-20,Very Poor: 0-20,45,39979.0
+Cristalino,Outras Lavouras Temporárias,Outras Lavouras Temporárias,3.0,Very Poor: 0-20,Very Poor: 0-20,168,149259.4
+Cristalino,Outras Lavouras Temporárias,Outras Lavouras Temporárias,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3553.6
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Poor: 20-40,Poor: 20-40,73,64853.2
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,15112,13386158.1
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,1769,1571772.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Very Poor: 0-20,522,463934.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,12736,11209406.8
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Good: 40-60,382,336760.2
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Very Poor: 0-20,10,8888.0
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,1242,1084982.1
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Good: 40-60,8261,7315083.9
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Very good: 60-80,218,193687.8
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Poor: 20-40,61,48867.5
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Good: 40-60,298,264771.2
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Very good: 60-80,2928,2601412.1
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Excellent : 80-100,199,176820.7
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Poor: 20-40,81,71961.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Good: 40-60,418,371359.8
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Very good: 60-80,369,327819.8
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Excellent : 80-100,1783,1584353.2
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,494,438971.1
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Poor: 20-40,41,36438.8
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,59,52436.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Poor: 20-40,2624,2324623.0
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Good: 40-60,85,75542.3
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,19,16883.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Poor: 20-40,616,539377.9
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Good: 40-60,4564,3958882.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very good: 60-80,69,57766.5
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Poor: 20-40,144,105755.7
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Good: 40-60,198,157290.7
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very good: 60-80,3018,2536989.0
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Excellent : 80-100,37,32881.9
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Poor: 20-40,117,100414.5
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Good: 40-60,509,428315.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Very good: 60-80,799,680688.0
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Excellent : 80-100,1154,628270.0
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Aluvial,Very Poor: 0-20,Very Poor: 0-20,8,7119.2
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Aluvial,Poor: 20-40,Poor: 20-40,7,6229.3
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,377,305274.8
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,21,18695.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,10,8890.8
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Poor: 20-40,1138,1010148.3
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Good: 40-60,53,47174.5
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very good: 60-80,4,3560.9
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Poor: 20-40,357,317720.7
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Good: 40-60,1875,1601133.5
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Very good: 60-80,62,55180.0
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Poor: 20-40,8,7122.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Good: 40-60,100,51616.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very good: 60-80,441,285694.2
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Poor: 20-40,8,7122.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Good: 40-60,21,9793.3
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Very good: 60-80,40,14244.8
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Excellent : 80-100,676,501149.3
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Poor: 20-40,Poor: 20-40,4,3556.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Savânica,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,1,890.0
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Floresta Alagável,3.0,Very Poor: 0-20,Very Poor: 0-20,6,5335.2
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,3,2667.5
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Floresta Alagável,3.0,Poor: 20-40,Very Poor: 0-20,4,3556.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,19,16889.9
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Floresta Alagável,3.0,Good: 40-60,Poor: 20-40,2,1777.8
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Floresta Alagável,3.0,Good: 40-60,Good: 40-60,1,888.9
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Poor: 20-40,Poor: 20-40,2,1780.6
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Good: 40-60,Good: 40-60,4,3561.2
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa Submontana,Poor: 20-40,Poor: 20-40,1,889.8
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa Submontana,Good: 40-60,Good: 40-60,26,23147.8
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Campestre,3.0,Poor: 20-40,Very Poor: 0-20,5,3553.7
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Campestre,3.0,Good: 40-60,Very Poor: 0-20,1,888.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Formação Campestre,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,890.0
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Aluvial,Poor: 20-40,Very Poor: 0-20,14,12437.6
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,3304,2924813.6
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,1712,1510163.8
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,3.0,Good: 40-60,Very Poor: 0-20,164,144846.3
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,3.0,Very good: 60-80,Very Poor: 0-20,7,6219.5
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,3.0,Excellent : 80-100,Very Poor: 0-20,38,33759.2
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1247,1107890.5
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,857,761414.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,459,407808.6
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very Poor: 0-20,101,89743.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Very Poor: 0-20,19,16882.7
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,Floresta Ombrofila Densa Aluvial,Very Poor: 0-20,Very Poor: 0-20,5,4449.5
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,Floresta Ombrofila Densa Aluvial,Poor: 20-40,Very Poor: 0-20,1,889.9
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,113,91594.0
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,383,339918.6
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Good: 40-60,Very Poor: 0-20,17,15128.5
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,4,3556.1
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Área Urbanizada,3.0,Poor: 20-40,Very Poor: 0-20,19,16909.3
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Área Urbanizada,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,4,3560.3
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2668.2
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Outras Áreas não Vegetadas,3.0,Poor: 20-40,Very Poor: 0-20,35,31128.7
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,890.3
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,12,10680.0
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very Poor: 0-20,6,5341.8
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Very Poor: 0-20,1,890.3
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Afloramento Rochoso,3.0,Excellent : 80-100,Very Poor: 0-20,6,5330.4
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Afloramento Rochoso,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.1
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,1435,1275434.2
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Mineração,3.0,Poor: 20-40,Very Poor: 0-20,672,597096.2
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Mineração,3.0,Good: 40-60,Very Poor: 0-20,51,45319.0
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Mineração,3.0,Very good: 60-80,Very Poor: 0-20,3,2665.5
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,2,1777.0
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,28,24888.8
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,15,13337.6
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very Poor: 0-20,12,10669.2
+Estrada_de_Ferro_Carajas_1,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,22,19577.6
+Estrada_de_Ferro_Carajas_1,Formação Florestal,"Rio, Lago e Oceano",3.0,Good: 40-60,Very Poor: 0-20,7,6220.2
+Estrada_de_Ferro_Carajas_1,Formação Florestal,"Rio, Lago e Oceano",3.0,Excellent : 80-100,Very Poor: 0-20,1,888.7
+Estrada_de_Ferro_Carajas_1,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,4,3554.0
+Estrada_de_Ferro_Carajas_1,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,3,2665.9
+Estrada_de_Ferro_Carajas_1,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,3,2670.0
+Estrada_de_Ferro_Carajas_1,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Good: 40-60,Very Poor: 0-20,4,3560.0
+Estrada_de_Ferro_Carajas_1,Formação Savânica,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,3,2670.0
+Estrada_de_Ferro_Carajas_1,Formação Savânica,Formação Savânica,3.0,Very Poor: 0-20,Very Poor: 0-20,39,34706.5
+Estrada_de_Ferro_Carajas_1,Formação Savânica,Formação Savânica,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,594,528660.0
+Estrada_de_Ferro_Carajas_1,Formação Savânica,Formação Campestre,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,890.0
+Estrada_de_Ferro_Carajas_1,Formação Savânica,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,109,96997.7
+Estrada_de_Ferro_Carajas_1,Formação Savânica,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,25,22250.0
+Estrada_de_Ferro_Carajas_1,Formação Savânica,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2670.3
+Estrada_de_Ferro_Carajas_1,Formação Savânica,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2670.0
+Estrada_de_Ferro_Carajas_1,Formação Savânica,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,12,10680.0
+Estrada_de_Ferro_Carajas_1,Formação Savânica,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,49,43610.0
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,5,4445.4
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Good: 40-60,1,890.3
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,3.0,Very Poor: 0-20,Very Poor: 0-20,27,23997.6
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Very Poor: 0-20,6,5333.5
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,1284,1139277.2
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,3.0,Good: 40-60,Poor: 20-40,215,190153.0
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,3.0,Good: 40-60,Good: 40-60,884,785404.7
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,3.0,Good: 40-60,Very good: 60-80,1,888.7
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,3.0,Very good: 60-80,Good: 40-60,21,18658.5
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,3.0,Very good: 60-80,Very good: 60-80,18,15992.8
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Aberta Submontana,Good: 40-60,Good: 40-60,94,83519.3
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Good: 40-60,4,3554.0
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very good: 60-80,54,47979.0
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Poor: 20-40,Poor: 20-40,13,11573.9
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Aluvial,Good: 40-60,Good: 40-60,9,8012.7
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Submontana,Poor: 20-40,Poor: 20-40,1,889.8
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Submontana,Good: 40-60,Good: 40-60,22,19586.6
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Submontana,Very good: 60-80,Good: 40-60,5,4451.5
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very good: 60-80,55,48966.5
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Very good: 60-80,5,4451.5
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Excellent : 80-100,8,7122.4
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,39,34668.6
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,313,278247.0
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Área Urbanizada,3.0,Poor: 20-40,Very Poor: 0-20,1,889.4
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Outras Áreas não Vegetadas,3.0,Poor: 20-40,Very Poor: 0-20,3,2668.7
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,2,1778.4
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Mineração,3.0,Poor: 20-40,Very Poor: 0-20,106,94189.9
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Mineração,3.0,Good: 40-60,Very Poor: 0-20,3,2665.5
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,Mineração,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,4,3556.8
+Estrada_de_Ferro_Carajas_1,Floresta Alagável,"Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,1,888.5
+Estrada_de_Ferro_Carajas_1,Campo Alagado e Área Pantanosa,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,1,890.1
+Estrada_de_Ferro_Carajas_1,Campo Alagado e Área Pantanosa,Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,3,2670.3
+Estrada_de_Ferro_Carajas_1,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,25,22253.3
+Estrada_de_Ferro_Carajas_1,Campo Alagado e Área Pantanosa,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,108,96132.8
+Estrada_de_Ferro_Carajas_1,Campo Alagado e Área Pantanosa,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,6,5341.8
+Estrada_de_Ferro_Carajas_1,Campo Alagado e Área Pantanosa,Pastagem,Corpo da,Very Poor: 0-20,Very Poor: 0-20,2,1780.4
+Estrada_de_Ferro_Carajas_1,Campo Alagado e Área Pantanosa,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,8,7120.8
+Estrada_de_Ferro_Carajas_1,Campo Alagado e Área Pantanosa,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2669.9
+Estrada_de_Ferro_Carajas_1,Campo Alagado e Área Pantanosa,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3560.4
+Estrada_de_Ferro_Carajas_1,Formação Campestre,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,2,1777.1
+Estrada_de_Ferro_Carajas_1,Formação Campestre,Formação Florestal,3.0,Very Poor: 0-20,Very good: 60-80,2,1776.8
+Estrada_de_Ferro_Carajas_1,Formação Campestre,Formação Savânica,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3560.0
+Estrada_de_Ferro_Carajas_1,Formação Campestre,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,821,716121.4
+Estrada_de_Ferro_Carajas_1,Formação Campestre,Formação Campestre,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,406,361337.9
+Estrada_de_Ferro_Carajas_1,Formação Campestre,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,84,72060.6
+Estrada_de_Ferro_Carajas_1,Formação Campestre,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,107,95230.6
+Estrada_de_Ferro_Carajas_1,Formação Campestre,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,1,888.9
+Estrada_de_Ferro_Carajas_1,Formação Campestre,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,12,9792.0
+Estrada_de_Ferro_Carajas_1,Formação Campestre,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,72,64080.0
+Estrada_de_Ferro_Carajas_1,Formação Campestre,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,6,5330.6
+Estrada_de_Ferro_Carajas_1,Formação Campestre,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,77,68455.8
+Estrada_de_Ferro_Carajas_1,Formação Campestre,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,107,95230.0
+Estrada_de_Ferro_Carajas_1,Formação Campestre,"Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3560.0
+Estrada_de_Ferro_Carajas_1,Pastagem,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,1328,1172096.6
+Estrada_de_Ferro_Carajas_1,Pastagem,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,10,8886.4
+Estrada_de_Ferro_Carajas_1,Pastagem,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,29,25818.1
+Estrada_de_Ferro_Carajas_1,Pastagem,Formação Savânica,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,890.0
+Estrada_de_Ferro_Carajas_1,Pastagem,Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,7,6220.9
+Estrada_de_Ferro_Carajas_1,Pastagem,Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,4,3560.8
+Estrada_de_Ferro_Carajas_1,Pastagem,Formação Campestre,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,3,2670.0
+Estrada_de_Ferro_Carajas_1,Pastagem,Pastagem,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,42,37312.8
+Estrada_de_Ferro_Carajas_1,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,53753,47188342.0
+Estrada_de_Ferro_Carajas_1,Pastagem,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,3108,2761574.0
+Estrada_de_Ferro_Carajas_1,Pastagem,Pastagem,Floresta Ombrofila Densa Aluvial,Very Poor: 0-20,Very Poor: 0-20,88,78311.2
+Estrada_de_Ferro_Carajas_1,Pastagem,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1784,1542917.6
+Estrada_de_Ferro_Carajas_1,Pastagem,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,197,174266.7
+Estrada_de_Ferro_Carajas_1,Pastagem,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,379,336299.3
+Estrada_de_Ferro_Carajas_1,Pastagem,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Aluvial,Very Poor: 0-20,Very Poor: 0-20,5,4449.9
+Estrada_de_Ferro_Carajas_1,Pastagem,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,31,27586.7
+Estrada_de_Ferro_Carajas_1,Pastagem,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1778.1
+Estrada_de_Ferro_Carajas_1,Pastagem,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,1994,1771372.6
+Estrada_de_Ferro_Carajas_1,Pastagem,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Estrada_de_Ferro_Carajas_1,Pastagem,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,26,13338.0
+Estrada_de_Ferro_Carajas_1,Pastagem,"Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,9,8000.7
+Estrada_de_Ferro_Carajas_1,Pastagem,"Rio, Lago e Oceano",Corpo da,Very Poor: 0-20,Very Poor: 0-20,1,890.2
+Estrada_de_Ferro_Carajas_1,Pastagem,Outras Lavouras Temporárias,3.0,Very Poor: 0-20,Very Poor: 0-20,82,72902.4
+Estrada_de_Ferro_Carajas_1,Área Urbanizada,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,8,7113.8
+Estrada_de_Ferro_Carajas_1,Área Urbanizada,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,3181,2712969.3
+Estrada_de_Ferro_Carajas_1,Área Urbanizada,Área Urbanizada,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,128,113858.6
+Estrada_de_Ferro_Carajas_1,Área Urbanizada,Área Urbanizada,Corpo da,Very Poor: 0-20,Very Poor: 0-20,2,1780.4
+Estrada_de_Ferro_Carajas_1,Área Urbanizada,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,6,4448.2
+Estrada_de_Ferro_Carajas_1,Área Urbanizada,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Estrada_de_Ferro_Carajas_1,Área Urbanizada,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,172,144032.7
+Estrada_de_Ferro_Carajas_1,Área Urbanizada,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,27,12450.4
+Estrada_de_Ferro_Carajas_1,Área Urbanizada,"Rio, Lago e Oceano",Corpo da,Very Poor: 0-20,Very Poor: 0-20,1,890.2
+Estrada_de_Ferro_Carajas_1,Outras Áreas não Vegetadas,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,895,796389.4
+Estrada_de_Ferro_Carajas_1,Outras Áreas não Vegetadas,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,2,1777.6
+Estrada_de_Ferro_Carajas_1,Outras Áreas não Vegetadas,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,36,32016.5
+Estrada_de_Ferro_Carajas_1,Outras Áreas não Vegetadas,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,44,39147.8
+Estrada_de_Ferro_Carajas_1,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,2787,2478782.6
+Estrada_de_Ferro_Carajas_1,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,2,1777.0
+Estrada_de_Ferro_Carajas_1,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Aluvial,Very Poor: 0-20,Very Poor: 0-20,30,26701.4
+Estrada_de_Ferro_Carajas_1,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,72,64051.0
+Estrada_de_Ferro_Carajas_1,Outras Áreas não Vegetadas,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,79,70263.3
+Estrada_de_Ferro_Carajas_1,Outras Áreas não Vegetadas,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Estrada_de_Ferro_Carajas_1,Outras Áreas não Vegetadas,"Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,5,4450.0
+Estrada_de_Ferro_Carajas_1,Afloramento Rochoso,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,2,1776.8
+Estrada_de_Ferro_Carajas_1,Afloramento Rochoso,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,23,20446.5
+Estrada_de_Ferro_Carajas_1,Afloramento Rochoso,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,1885,1674650.1
+Estrada_de_Ferro_Carajas_1,Afloramento Rochoso,Afloramento Rochoso,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,12,10669.2
+Estrada_de_Ferro_Carajas_1,Afloramento Rochoso,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,137,121803.8
+Estrada_de_Ferro_Carajas_1,Mineração,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,6,5334.6
+Estrada_de_Ferro_Carajas_1,Mineração,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2667.7
+Estrada_de_Ferro_Carajas_1,Mineração,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Estrada_de_Ferro_Carajas_1,Mineração,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,32099,28465385.5
+Estrada_de_Ferro_Carajas_1,Mineração,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,311,276356.6
+Estrada_de_Ferro_Carajas_1,Mineração,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,791,701178.2
+Estrada_de_Ferro_Carajas_1,Mineração,Mineração,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,12,10669.2
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano",Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,4,888.5
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano",Formação Florestal,3.0,Very Poor: 0-20,Good: 40-60,6,5331.3
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very good: 60-80,2,0.0
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Excellent : 80-100,1,888.7
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,3,2670.0
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Good: 40-60,4,3560.0
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano",Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,17,15105.7
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano",Floresta Alagável,3.0,Very Poor: 0-20,Good: 40-60,2,1776.8
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano",Formação Campestre,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,890.0
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano",Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,14,12443.4
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano",Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,5,4446.0
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano",Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,6,5335.8
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano",Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,12,10680.0
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano",Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,5282,4691825.7
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano","Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,190,160830.5
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano","Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3554.6
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano","Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,64,56960.0
+Estrada_de_Ferro_Carajas_1,"Rio, Lago e Oceano","Rio, Lago e Oceano",Corpo da,Very Poor: 0-20,Very Poor: 0-20,10,8902.0
+Estrada_de_Ferro_Carajas_1,Outras Lavouras Temporárias,Soja,3.0,Very Poor: 0-20,Very Poor: 0-20,1,890.3
+Estrada_de_Ferro_Carajas_1,Outras Lavouras Temporárias,Outras Lavouras Temporárias,3.0,Very Poor: 0-20,Very Poor: 0-20,10,8902.9
+Estrada_de_Ferro_Carajas_2,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,1,0.0
+Estrada_de_Ferro_Carajas_2,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,64,0.0
+Estrada_de_Ferro_Carajas_2,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,5,0.0
+Estrada_de_Ferro_Carajas_2,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Good: 40-60,45,0.0
+Estrada_de_Ferro_Carajas_2,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,5,0.0
+Estrada_de_Ferro_Carajas_2,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,174,0.0
+Estrada_de_Ferro_Carajas_2,Área Urbanizada,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,4,0.0
+Estrada_de_Ferro_Carajas_2,Outras Áreas não Vegetadas,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,1,0.0
+Estrada_de_Ferro_Carajas_2,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,1,0.0
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,4602,4094203.8
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,51,45354.3
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Very Poor: 0-20,62,55230.2
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,793,705409.3
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Good: 40-60,2,1778.6
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,21,18704.1
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Good: 40-60,318,282797.4
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Good: 40-60,2,1778.6
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Very good: 60-80,8,7114.4
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,61,54466.9
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,2,1785.8
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Poor: 20-40,70,62503.0
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Poor: 20-40,68,60717.2
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Good: 40-60,365,325908.5
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Good: 40-60,32,28572.8
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very good: 60-80,14,12500.6
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1929,1715459.7
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,28,24900.4
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,27,24011.1
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Poor: 20-40,2627,2336191.1
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Good: 40-60,34,30236.2
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Poor: 20-40,319,283686.7
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Good: 40-60,1671,1486020.3
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Very good: 60-80,10,8893.0
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Good: 40-60,174,154738.2
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very good: 60-80,1359,1208558.7
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Excellent : 80-100,1,889.3
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Very good: 60-80,232,206317.6
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Excellent : 80-100,1098,976451.4
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,43,38394.7
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,10,8929.0
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Floresta Alagável,3.0,Good: 40-60,Poor: 20-40,27,24108.3
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Poor: 20-40,4,3571.6
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Poor: 20-40,2,1785.8
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,10,8929.0
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1785.8
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,2545,2272210.9
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,74,65955.8
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Pastagem,3.0,Good: 40-60,Very Poor: 0-20,6,5357.4
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,126,112505.4
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Very Poor: 0-20,3,2678.7
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,189,168077.7
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,38,33793.4
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,51,45354.3
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Mineração,3.0,Poor: 20-40,Very Poor: 0-20,7,6225.1
+Estrada_de_Ferro_Carajas_3,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,19,16896.7
+Estrada_de_Ferro_Carajas_3,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,194,173222.6
+Estrada_de_Ferro_Carajas_3,Floresta Alagável,Floresta Alagável,3.0,Good: 40-60,Poor: 20-40,147,131256.3
+Estrada_de_Ferro_Carajas_3,Floresta Alagável,Floresta Alagável,3.0,Good: 40-60,Good: 40-60,35,31251.5
+Estrada_de_Ferro_Carajas_3,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Poor: 20-40,40,35716.0
+Estrada_de_Ferro_Carajas_3,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Poor: 20-40,14,12500.6
+Estrada_de_Ferro_Carajas_3,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Good: 40-60,128,114291.2
+Estrada_de_Ferro_Carajas_3,Floresta Alagável,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,3,2678.7
+Estrada_de_Ferro_Carajas_3,Campo Alagado e Área Pantanosa,Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,42,37501.8
+Estrada_de_Ferro_Carajas_3,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,14,12500.6
+Estrada_de_Ferro_Carajas_3,Campo Alagado e Área Pantanosa,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,51,45537.9
+Estrada_de_Ferro_Carajas_3,Campo Alagado e Área Pantanosa,"Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,4,3571.6
+Estrada_de_Ferro_Carajas_3,Formação Campestre,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2678.7
+Estrada_de_Ferro_Carajas_3,Formação Campestre,Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,35,31251.5
+Estrada_de_Ferro_Carajas_3,Formação Campestre,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,486,433949.4
+Estrada_de_Ferro_Carajas_3,Formação Campestre,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,165,147328.5
+Estrada_de_Ferro_Carajas_3,Formação Campestre,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,3,2678.7
+Estrada_de_Ferro_Carajas_3,Formação Campestre,"Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,5,4464.5
+Estrada_de_Ferro_Carajas_3,Pastagem,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,613,545407.3
+Estrada_de_Ferro_Carajas_3,Pastagem,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,33,29346.9
+Estrada_de_Ferro_Carajas_3,Pastagem,Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,10,8929.0
+Estrada_de_Ferro_Carajas_3,Pastagem,Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2678.7
+Estrada_de_Ferro_Carajas_3,Pastagem,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,13,11607.7
+Estrada_de_Ferro_Carajas_3,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,26226,23383365.2
+Estrada_de_Ferro_Carajas_3,Pastagem,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,155,138399.5
+Estrada_de_Ferro_Carajas_3,Pastagem,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,700,622510.0
+Estrada_de_Ferro_Carajas_3,Pastagem,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,60,53358.0
+Estrada_de_Ferro_Carajas_3,Pastagem,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,13,11560.9
+Estrada_de_Ferro_Carajas_3,Pastagem,"Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,18,16072.2
+Estrada_de_Ferro_Carajas_3,Mineração,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,63,56025.9
+Estrada_de_Ferro_Carajas_3,Mineração,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,17,15118.1
+Estrada_de_Ferro_Carajas_3,"Rio, Lago e Oceano",Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,1,892.9
+Estrada_de_Ferro_Carajas_3,"Rio, Lago e Oceano",Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,49,43752.1
+Estrada_de_Ferro_Carajas_3,"Rio, Lago e Oceano","Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,47,41966.3
+Estrada_de_Ferro_Carajas_5,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,315,279913.3
+Estrada_de_Ferro_Carajas_5,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,4,3554.8
+Estrada_de_Ferro_Carajas_5,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Very Poor: 0-20,2,1777.2
+Estrada_de_Ferro_Carajas_5,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,43,38207.2
+Estrada_de_Ferro_Carajas_5,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,7,6220.9
+Estrada_de_Ferro_Carajas_5,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Good: 40-60,88,78205.6
+Estrada_de_Ferro_Carajas_5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,476,422973.4
+Estrada_de_Ferro_Carajas_5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,225,199935.0
+Estrada_de_Ferro_Carajas_5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Poor: 20-40,206,183017.6
+Estrada_de_Ferro_Carajas_5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Good: 40-60,33,29317.2
+Estrada_de_Ferro_Carajas_5,Formação Florestal,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,1,888.6
+Estrada_de_Ferro_Carajas_5,Formação Florestal,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,11,9775.1
+Estrada_de_Ferro_Carajas_5,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,13,11550.6
+Estrada_de_Ferro_Carajas_5,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,21,18656.4
+Estrada_de_Ferro_Carajas_5,Formação Campestre,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,61,54207.4
+Estrada_de_Ferro_Carajas_5,Formação Campestre,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,5,4443.4
+Estrada_de_Ferro_Carajas_5,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,49,43543.9
+Estrada_de_Ferro_Carajas_5,Pastagem,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,267,237203.8
+Estrada_de_Ferro_Carajas_6,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,16,14216.0
+Estrada_de_Ferro_Carajas_6,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,111,98615.4
+Estrada_de_Ferro_Carajas_6,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,15,13326.0
+Estrada_de_Ferro_Carajas_6,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Poor: 20-40,62,55087.0
+Estrada_de_Ferro_Carajas_6,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Poor: 20-40,10,8885.0
+Estrada_de_Ferro_Carajas_6,Formação Florestal,Formação Campestre,3.0,Poor: 20-40,Very Poor: 0-20,1,888.4
+Estrada_de_Ferro_Carajas_6,Formação Florestal,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,56,49755.9
+Estrada_de_Ferro_Carajas_6,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,106,94172.3
+Estrada_de_Ferro_Carajas_6,Formação Florestal,Pastagem,3.0,Good: 40-60,Very Poor: 0-20,26,23098.4
+Estrada_de_Ferro_Carajas_6,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,2,1777.0
+Estrada_de_Ferro_Carajas_6,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,40,35540.0
+Estrada_de_Ferro_Carajas_6,Formação Campestre,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2665.2
+Estrada_de_Ferro_Carajas_6,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,1902,1689772.3
+Estrada_de_Ferro_Carajas_6,Pastagem,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,5,4442.5
+N4N5,0.0,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,13,11557.0
+N4N5,0.0,Área Urbanizada,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.0
+N4N5,0.0,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,2,1778.0
+N4N5,0.0,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.1
+N4N5,0.0,Mineração,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,4,3556.4
+N4N5,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,326,246308.4
+N4N5,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,12,5335.2
+N4N5,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,498,300549.6
+N4N5,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Good: 40-60,8,6224.4
+N4N5,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,72,43570.8
+N4N5,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Good: 40-60,251,192956.4
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,76,64022.4
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Poor: 20-40,7762,4465329.7
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Good: 40-60,12,8002.8
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Poor: 20-40,1327,633077.3
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Good: 40-60,8996,4338197.8
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very good: 60-80,15,0.0
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Poor: 20-40,205,90694.3
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Good: 40-60,1244,517506.3
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very good: 60-80,2637,572641.8
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Poor: 20-40,54,37346.1
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Good: 40-60,574,229413.6
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Very good: 60-80,674,227635.2
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Excellent : 80-100,6391,620661.6
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,926,619641.8
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,7,6223.0
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Poor: 20-40,15856,7172118.4
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Poor: 20-40,4006,1867054.3
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Good: 40-60,21213,6780078.0
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Poor: 20-40,455,109359.3
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Good: 40-60,3131,833976.0
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very good: 60-80,6812,1362998.4
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Poor: 20-40,169,0.0
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Good: 40-60,643,6223.7
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Very good: 60-80,1535,162716.3
+N4N5,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Excellent : 80-100,4262,422368.6
+N4N5,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,127,48895.1
+N4N5,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Poor: 20-40,Poor: 20-40,1553,532547.8
+N4N5,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Good: 40-60,Poor: 20-40,60,18669.1
+N4N5,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Good: 40-60,Good: 40-60,195,23116.3
+N4N5,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Very good: 60-80,Very good: 60-80,55,0.0
+N4N5,Formação Florestal,Formação Florestal,Corpo da,Very Poor: 0-20,Very Poor: 0-20,6,5335.2
+N4N5,Formação Florestal,Formação Florestal,Corpo da,Poor: 20-40,Poor: 20-40,41,16004.4
+N4N5,Formação Florestal,Formação Florestal,Corpo da,Good: 40-60,Poor: 20-40,62,55130.4
+N4N5,Formação Florestal,Formação Florestal,Corpo da,Good: 40-60,Good: 40-60,75,66690.0
+N4N5,Formação Florestal,Formação Florestal,Corpo da,Very good: 60-80,Poor: 20-40,36,32011.2
+N4N5,Formação Florestal,Formação Florestal,Corpo da,Very good: 60-80,Good: 40-60,7,6224.4
+N4N5,Formação Florestal,Formação Florestal,Corpo da,Excellent : 80-100,Poor: 20-40,34,30232.8
+N4N5,Formação Florestal,Formação Florestal,Corpo da,Excellent : 80-100,Good: 40-60,57,50684.4
+N4N5,Formação Florestal,Formação Florestal,Corpo da,Excellent : 80-100,Very good: 60-80,27,24008.4
+N4N5,Formação Florestal,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,46,29343.6
+N4N5,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,57,39124.8
+N4N5,Formação Florestal,Pastagem,3.0,Good: 40-60,Very Poor: 0-20,1,889.2
+N4N5,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,266,63130.0
+N4N5,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,228,0.0
+N4N5,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very Poor: 0-20,13,0.0
+N4N5,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,0.0
+N4N5,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,343,125355.1
+N4N5,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Good: 40-60,Very Poor: 0-20,187,54229.0
+N4N5,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very Poor: 0-20,2,0.0
+N4N5,Formação Florestal,Pastagem,Refrgio Vegetacional Montano,Poor: 20-40,Very Poor: 0-20,5,4445.0
+N4N5,Formação Florestal,Pastagem,Corpo da,Poor: 20-40,Very Poor: 0-20,1,889.0
+N4N5,Formação Florestal,Área Urbanizada,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,7,6223.1
+N4N5,Formação Florestal,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,34,30229.4
+N4N5,Formação Florestal,Afloramento Rochoso,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,12,3556.4
+N4N5,Formação Florestal,Afloramento Rochoso,Refrgio Vegetacional Montano,Poor: 20-40,Very Poor: 0-20,27,0.0
+N4N5,Formação Florestal,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,7,6224.4
+N4N5,Formação Florestal,Mineração,3.0,Poor: 20-40,Very Poor: 0-20,1,889.2
+N4N5,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+N4N5,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,1056,798478.8
+N4N5,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,73,56907.9
+N4N5,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,206,152914.7
+N4N5,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,2948,2280407.6
+N4N5,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Good: 40-60,Very Poor: 0-20,403,271164.4
+N4N5,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very Poor: 0-20,27,7112.8
+N4N5,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Very Poor: 0-20,17,0.0
+N4N5,Formação Florestal,Mineração,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,23,16891.3
+N4N5,Formação Florestal,Mineração,Refrgio Vegetacional Montano,Poor: 20-40,Very Poor: 0-20,373,266709.7
+N4N5,Formação Florestal,Mineração,Refrgio Vegetacional Montano,Good: 40-60,Very Poor: 0-20,7,6223.0
+N4N5,Formação Florestal,Mineração,Corpo da,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+N4N5,Formação Florestal,Mineração,Corpo da,Poor: 20-40,Very Poor: 0-20,65,47118.6
+N4N5,Formação Florestal,"Rio, Lago e Oceano",3.0,Poor: 20-40,Very Poor: 0-20,1,0.0
+N4N5,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,12,10669.9
+N4N5,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,17,15116.4
+N4N5,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very Poor: 0-20,16,14227.2
+N4N5,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Very Poor: 0-20,47,41792.4
+N4N5,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Good: 40-60,Very Poor: 0-20,3,2667.0
+N4N5,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Very good: 60-80,Very Poor: 0-20,10,8892.0
+N4N5,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Excellent : 80-100,Very Poor: 0-20,22,19562.4
+N4N5,Formação Florestal,"Rio, Lago e Oceano",Corpo da,Good: 40-60,Very Poor: 0-20,4,3556.8
+N4N5,Formação Florestal,"Rio, Lago e Oceano",Corpo da,Very good: 60-80,Very Poor: 0-20,5,4446.0
+N4N5,Formação Florestal,"Rio, Lago e Oceano",Corpo da,Excellent : 80-100,Very Poor: 0-20,7,6224.4
+N4N5,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,4,0.0
+N4N5,Floresta Alagável,"Rio, Lago e Oceano",3.0,Poor: 20-40,Very Poor: 0-20,1,0.0
+N4N5,Campo Alagado e Área Pantanosa,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,12,10670.4
+N4N5,Campo Alagado e Área Pantanosa,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,38,33789.6
+N4N5,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1778.4
+N4N5,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+N4N5,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,2,1778.4
+N4N5,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,Corpo da,Very Poor: 0-20,Very Poor: 0-20,1,889.0
+N4N5,Campo Alagado e Área Pantanosa,Formação Campestre,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,15,13338.0
+N4N5,Campo Alagado e Área Pantanosa,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+N4N5,Campo Alagado e Área Pantanosa,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+N4N5,Campo Alagado e Área Pantanosa,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,2,1778.0
+N4N5,Campo Alagado e Área Pantanosa,"Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,2,1778.4
+N4N5,Formação Campestre,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Poor: 20-40,8,7112.8
+N4N5,Formação Campestre,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,6,5335.2
+N4N5,Formação Campestre,Formação Campestre,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,15,13338.0
+N4N5,Formação Campestre,Formação Campestre,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,46,37340.5
+N4N5,Formação Campestre,Formação Campestre,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,117,82684.4
+N4N5,Formação Campestre,Formação Campestre,Corpo da,Very Poor: 0-20,Very Poor: 0-20,2,1778.0
+N4N5,Formação Campestre,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,6,5335.2
+N4N5,Formação Campestre,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,59,51562.2
+N4N5,Formação Campestre,Mineração,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,15,8890.1
+N4N5,Formação Campestre,Mineração,Corpo da,Very Poor: 0-20,Very Poor: 0-20,44,39116.0
+N4N5,Formação Campestre,"Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+N4N5,Pastagem,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,13,10670.4
+N4N5,Pastagem,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,6,5335.2
+N4N5,Pastagem,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,43,24892.0
+N4N5,Pastagem,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,7,0.0
+N4N5,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,657,306774.0
+N4N5,Pastagem,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,268,93366.0
+N4N5,Pastagem,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1277,714763.1
+N4N5,Pastagem,Pastagem,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,79,63122.2
+N4N5,Pastagem,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,56,48016.8
+N4N5,Pastagem,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,12,5335.2
+N4N5,Pastagem,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,188,151131.0
+N4N5,Pastagem,Mineração,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,115,91567.5
+N4N5,Pastagem,"Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+N4N5,Área Urbanizada,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,2,0.0
+N4N5,Área Urbanizada,Área Urbanizada,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1490,1324632.7
+N4N5,Área Urbanizada,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3556.1
+N4N5,Área Urbanizada,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,12,10669.0
+N4N5,Outras Áreas não Vegetadas,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Poor: 20-40,1,889.2
+N4N5,Outras Áreas não Vegetadas,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+N4N5,Outras Áreas não Vegetadas,Área Urbanizada,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,7,6223.0
+N4N5,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,10,8002.8
+N4N5,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,3,2667.6
+N4N5,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,150,133356.7
+N4N5,Outras Áreas não Vegetadas,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,13,11559.6
+N4N5,Outras Áreas não Vegetadas,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,118,104903.4
+N4N5,Outras Áreas não Vegetadas,Mineração,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,6,5334.0
+N4N5,Afloramento Rochoso,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,6,0.0
+N4N5,Afloramento Rochoso,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Poor: 20-40,5,0.0
+N4N5,Afloramento Rochoso,Pastagem,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,3,2667.0
+N4N5,Afloramento Rochoso,Afloramento Rochoso,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,106,0.0
+N4N5,Afloramento Rochoso,Afloramento Rochoso,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,412,16002.0
+N4N5,Afloramento Rochoso,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,37,2667.0
+N4N5,Afloramento Rochoso,Mineração,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,227,72900.5
+N4N5,Mineração,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,3,2667.5
+N4N5,Mineração,Afloramento Rochoso,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,1,0.0
+N4N5,Mineração,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,154,122709.6
+N4N5,Mineração,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,10544,9216244.4
+N4N5,Mineração,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,29821,25237989.9
+N4N5,Mineração,Mineração,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,40487,33768811.1
+N4N5,Mineração,Mineração,Corpo da,Very Poor: 0-20,Very Poor: 0-20,2172,1923184.6
+N4N5,"Rio, Lago e Oceano",Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,3,2667.6
+N4N5,"Rio, Lago e Oceano",Formação Florestal,3.0,Very Poor: 0-20,Good: 40-60,1,889.2
+N4N5,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Poor: 20-40,6,5335.2
+N4N5,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Good: 40-60,30,26675.9
+N4N5,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very good: 60-80,25,16005.6
+N4N5,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Excellent : 80-100,19,16894.8
+N4N5,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,4,3556.0
+N4N5,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very good: 60-80,2,1778.4
+N4N5,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Excellent : 80-100,4,3556.8
+N4N5,"Rio, Lago e Oceano",Formação Florestal,Corpo da,Very Poor: 0-20,Poor: 20-40,12,10670.4
+N4N5,"Rio, Lago e Oceano",Formação Florestal,Corpo da,Very Poor: 0-20,Good: 40-60,7,6224.4
+N4N5,"Rio, Lago e Oceano",Formação Florestal,Corpo da,Very Poor: 0-20,Very good: 60-80,1,889.2
+N4N5,"Rio, Lago e Oceano",Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,8,7113.6
+N4N5,"Rio, Lago e Oceano",Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,817,726475.3
+N4N5,"Rio, Lago e Oceano",Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1249,1110385.1
+N4N5,"Rio, Lago e Oceano",Mineração,Corpo da,Very Poor: 0-20,Very Poor: 0-20,1781,1583516.0
+N4N5,"Rio, Lago e Oceano","Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,101,89809.2
+N4N5,"Rio, Lago e Oceano","Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1488,1323124.6
+N4N5,"Rio, Lago e Oceano","Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,103,91582.8
+N4N5,"Rio, Lago e Oceano","Rio, Lago e Oceano",Corpo da,Very Poor: 0-20,Very Poor: 0-20,2411,2143861.2
+Niquel_do_Vermelho,0.0,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,15,13326.0
+Niquel_do_Vermelho,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,4505,4002290.4
+Niquel_do_Vermelho,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,53,47090.4
+Niquel_do_Vermelho,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Very Poor: 0-20,368,326929.5
+Niquel_do_Vermelho,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,4435,3940010.5
+Niquel_do_Vermelho,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,228,202556.8
+Niquel_do_Vermelho,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Good: 40-60,126,111948.1
+Niquel_do_Vermelho,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,12,10659.6
+Niquel_do_Vermelho,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Poor: 20-40,162,143904.6
+Niquel_do_Vermelho,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Good: 40-60,5,4441.5
+Niquel_do_Vermelho,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Good: 40-60,48,42638.4
+Niquel_do_Vermelho,Formação Florestal,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2665.2
+Niquel_do_Vermelho,Formação Florestal,Formação Campestre,3.0,Poor: 20-40,Very Poor: 0-20,13,11549.5
+Niquel_do_Vermelho,Formação Florestal,Formação Campestre,3.0,Good: 40-60,Very Poor: 0-20,5,4442.5
+Niquel_do_Vermelho,Formação Florestal,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,8264,7341854.4
+Niquel_do_Vermelho,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,2041,1813192.3
+Niquel_do_Vermelho,Formação Florestal,Pastagem,3.0,Good: 40-60,Very Poor: 0-20,118,104830.5
+Niquel_do_Vermelho,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,2,1776.6
+Niquel_do_Vermelho,Formação Florestal,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,1,888.3
+Niquel_do_Vermelho,Formação Florestal,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,1,888.4
+Niquel_do_Vermelho,Formação Florestal,Afloramento Rochoso,3.0,Poor: 20-40,Very Poor: 0-20,6,5329.9
+Niquel_do_Vermelho,Formação Florestal,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,199,176802.2
+Niquel_do_Vermelho,Formação Florestal,Mineração,3.0,Poor: 20-40,Very Poor: 0-20,36,31983.1
+Niquel_do_Vermelho,Formação Campestre,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,137,121714.5
+Niquel_do_Vermelho,Formação Campestre,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,60,53304.6
+Niquel_do_Vermelho,Pastagem,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,181,160807.9
+Niquel_do_Vermelho,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,56933,50578828.5
+Niquel_do_Vermelho,Pastagem,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,16,14212.8
+Niquel_do_Vermelho,Pastagem,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,109,96833.9
+Niquel_do_Vermelho,Pastagem,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,37,32869.0
+Niquel_do_Vermelho,Pastagem,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,404,358928.8
+Niquel_do_Vermelho,Área Urbanizada,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,395,350878.5
+Niquel_do_Vermelho,Outras Áreas não Vegetadas,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,1,888.3
+Niquel_do_Vermelho,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,15,13324.7
+Niquel_do_Vermelho,Afloramento Rochoso,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,5,4442.0
+Niquel_do_Vermelho,Afloramento Rochoso,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,65,57745.3
+Niquel_do_Vermelho,Mineração,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,80,71072.6
+Onca_Puma,0.0,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,1,888.2
+Onca_Puma,0.0,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,888.2
+Onca_Puma,0.0,Formação Campestre,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,888.2
+Onca_Puma,0.0,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,30,26646.0
+Onca_Puma,0.0,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,4,3552.8
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,845,750229.0
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Poor: 20-40,18,15981.2
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Poor: 20-40,Very Poor: 0-20,96,85231.4
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Poor: 20-40,Poor: 20-40,3293,2923866.4
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Poor: 20-40,Good: 40-60,2,1775.8
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Good: 40-60,Very Poor: 0-20,3,2663.7
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Good: 40-60,Poor: 20-40,1761,1563545.9
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Good: 40-60,Good: 40-60,3613,3207982.1
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Good: 40-60,Very good: 60-80,9,7991.1
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Very good: 60-80,Poor: 20-40,773,686326.0
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Very good: 60-80,Good: 40-60,1848,1640826.2
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Very good: 60-80,Very good: 60-80,2164,1921428.3
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Very good: 60-80,Excellent : 80-100,1,887.9
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Excellent : 80-100,Poor: 20-40,830,736957.0
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Excellent : 80-100,Good: 40-60,1722,1528963.8
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Excellent : 80-100,Very good: 60-80,1612,1431294.8
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Excellent : 80-100,Excellent : 80-100,844,749387.6
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,48298,42900499.4
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,2375,2109574.9
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Very Poor: 0-20,613,544501.7
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,6942,6165820.5
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Good: 40-60,445,395264.6
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Very good: 60-80,4,3552.8
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Very Poor: 0-20,8,7105.7
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,591,524826.5
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Good: 40-60,5694,5057477.5
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Very good: 60-80,146,129677.3
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Poor: 20-40,181,160742.5
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Good: 40-60,837,743402.3
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Very good: 60-80,696,618208.4
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Poor: 20-40,57,50619.6
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Good: 40-60,80,71041.8
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Very good: 60-80,138,122599.2
+Onca_Puma,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Excellent : 80-100,84,74620.7
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,11250,9993200.8
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Poor: 20-40,1528,1357310.3
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,444,394380.5
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Poor: 20-40,7465,6630650.1
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Good: 40-60,262,232737.9
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Poor: 20-40,1100,977049.2
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Good: 40-60,4276,3798113.1
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very good: 60-80,136,120818.1
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Poor: 20-40,135,119907.0
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Good: 40-60,510,452996.5
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very good: 60-80,1410,1252477.1
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Excellent : 80-100,6,5329.2
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Poor: 20-40,5,4441.0
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Good: 40-60,5,4441.6
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Very good: 60-80,182,161687.9
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Excellent : 80-100,872,774681.0
+Onca_Puma,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,17,15094.3
+Onca_Puma,Formação Florestal,Floresta Alagável,3.0,Very Poor: 0-20,Good: 40-60,2,1776.6
+Onca_Puma,Formação Florestal,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,2,1776.6
+Onca_Puma,Formação Florestal,Floresta Alagável,3.0,Poor: 20-40,Good: 40-60,1,888.3
+Onca_Puma,Formação Florestal,Formação Campestre,Floresta Ombrofila Aberta Aluvial,Good: 40-60,Very Poor: 0-20,1,887.8
+Onca_Puma,Formação Florestal,Formação Campestre,3.0,Good: 40-60,Very Poor: 0-20,3,2664.6
+Onca_Puma,Formação Florestal,Formação Campestre,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,5,4441.0
+Onca_Puma,Formação Florestal,Formação Campestre,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,9,7994.3
+Onca_Puma,Formação Florestal,Formação Campestre,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,2,1776.4
+Onca_Puma,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,394,349798.2
+Onca_Puma,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Aluvial,Poor: 20-40,Very Poor: 0-20,1356,1203969.4
+Onca_Puma,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Aluvial,Good: 40-60,Very Poor: 0-20,1304,1157760.0
+Onca_Puma,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Aluvial,Very good: 60-80,Very Poor: 0-20,486,431513.6
+Onca_Puma,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Aluvial,Excellent : 80-100,Very Poor: 0-20,458,406658.2
+Onca_Puma,Formação Florestal,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,1665,1478798.7
+Onca_Puma,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,278,246871.5
+Onca_Puma,Formação Florestal,Pastagem,3.0,Good: 40-60,Very Poor: 0-20,75,66597.8
+Onca_Puma,Formação Florestal,Pastagem,3.0,Very good: 60-80,Very Poor: 0-20,27,23979.1
+Onca_Puma,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,970,861568.3
+Onca_Puma,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,589,523150.7
+Onca_Puma,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,269,238929.0
+Onca_Puma,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very Poor: 0-20,21,18652.2
+Onca_Puma,Formação Florestal,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,12,10658.4
+Onca_Puma,Formação Florestal,Afloramento Rochoso,Floresta Ombrofila Aberta Aluvial,Good: 40-60,Very Poor: 0-20,2,1775.6
+Onca_Puma,Formação Florestal,Afloramento Rochoso,3.0,Poor: 20-40,Very Poor: 0-20,9,7990.2
+Onca_Puma,Formação Florestal,Afloramento Rochoso,3.0,Good: 40-60,Very Poor: 0-20,8,7102.4
+Onca_Puma,Formação Florestal,Afloramento Rochoso,3.0,Very good: 60-80,Very Poor: 0-20,6,5326.8
+Onca_Puma,Formação Florestal,Afloramento Rochoso,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,3,2664.6
+Onca_Puma,Formação Florestal,Afloramento Rochoso,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,7,6217.4
+Onca_Puma,Formação Florestal,Afloramento Rochoso,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,1,888.2
+Onca_Puma,Formação Florestal,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,770,684015.4
+Onca_Puma,Formação Florestal,Mineração,3.0,Poor: 20-40,Very Poor: 0-20,43,38195.0
+Onca_Puma,Formação Florestal,Mineração,3.0,Good: 40-60,Very Poor: 0-20,2,1776.8
+Onca_Puma,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,647,574788.0
+Onca_Puma,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,206,182986.0
+Onca_Puma,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,60,53301.2
+Onca_Puma,Formação Florestal,"Rio, Lago e Oceano",3.0,Poor: 20-40,Very Poor: 0-20,1,888.3
+Onca_Puma,Floresta Alagável,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,6,5329.8
+Onca_Puma,Floresta Alagável,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Poor: 20-40,7,6218.8
+Onca_Puma,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,425,377532.7
+Onca_Puma,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Good: 40-60,19,16877.7
+Onca_Puma,Floresta Alagável,Floresta Alagável,3.0,Good: 40-60,Poor: 20-40,8,7107.1
+Onca_Puma,Floresta Alagável,Floresta Alagável,3.0,Good: 40-60,Good: 40-60,60,53302.8
+Onca_Puma,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Poor: 20-40,84,74618.5
+Onca_Puma,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Aberta Submontana,Good: 40-60,Poor: 20-40,2,1776.8
+Onca_Puma,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Aberta Submontana,Good: 40-60,Good: 40-60,47,41750.1
+Onca_Puma,Floresta Alagável,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,14,12436.2
+Onca_Puma,Floresta Alagável,Pastagem,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,29,25763.6
+Onca_Puma,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,6,5330.0
+Onca_Puma,Campo Alagado e Área Pantanosa,Formação Campestre,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,2,1776.8
+Onca_Puma,Campo Alagado e Área Pantanosa,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,36,31982.4
+Onca_Puma,Formação Campestre,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Good: 40-60,1,887.8
+Onca_Puma,Formação Campestre,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,5,4440.8
+Onca_Puma,Formação Campestre,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,888.3
+Onca_Puma,Formação Campestre,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Poor: 20-40,21,18652.3
+Onca_Puma,Formação Campestre,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Good: 40-60,9,7993.8
+Onca_Puma,Formação Campestre,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very good: 60-80,2,1776.4
+Onca_Puma,Formação Campestre,Formação Campestre,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,12,10653.6
+Onca_Puma,Formação Campestre,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,592,525748.4
+Onca_Puma,Formação Campestre,Formação Campestre,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1233,1095167.4
+Onca_Puma,Formação Campestre,Pastagem,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,17,15093.8
+Onca_Puma,Formação Campestre,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,277,246037.0
+Onca_Puma,Formação Campestre,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,96,85267.4
+Onca_Puma,Formação Campestre,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1776.6
+Onca_Puma,Formação Campestre,Afloramento Rochoso,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,3,2663.7
+Onca_Puma,Formação Campestre,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,14,12430.4
+Onca_Puma,Formação Campestre,Afloramento Rochoso,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,30,26646.0
+Onca_Puma,Formação Campestre,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,64,56847.9
+Onca_Puma,Formação Campestre,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,56,49739.2
+Onca_Puma,Pastagem,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,123,109201.4
+Onca_Puma,Pastagem,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,7103,6309228.8
+Onca_Puma,Pastagem,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,3,2664.8
+Onca_Puma,Pastagem,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,787,699086.5
+Onca_Puma,Pastagem,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Poor: 20-40,2,1776.5
+Onca_Puma,Pastagem,Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,42,37308.6
+Onca_Puma,Pastagem,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,41,36418.4
+Onca_Puma,Pastagem,Formação Campestre,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,10,8882.3
+Onca_Puma,Pastagem,Pastagem,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,5513,4894890.9
+Onca_Puma,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,127001,112790175.5
+Onca_Puma,Pastagem,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,14337,12733469.2
+Onca_Puma,Pastagem,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,122,108370.6
+Onca_Puma,Pastagem,Área Urbanizada,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,76,67510.8
+Onca_Puma,Pastagem,Outras Áreas não Vegetadas,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,3,2663.7
+Onca_Puma,Pastagem,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,19,16870.7
+Onca_Puma,Pastagem,Afloramento Rochoso,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,888.2
+Onca_Puma,Pastagem,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,2025,1798826.4
+Onca_Puma,Pastagem,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1207,1072287.0
+Onca_Puma,Pastagem,"Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,1,888.2
+Onca_Puma,Área Urbanizada,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1776.6
+Onca_Puma,Área Urbanizada,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,888.3
+Onca_Puma,Área Urbanizada,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,580,515063.9
+Onca_Puma,Área Urbanizada,Área Urbanizada,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,38,33755.4
+Onca_Puma,Outras Áreas não Vegetadas,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,9,7991.4
+Onca_Puma,Outras Áreas não Vegetadas,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3552.8
+Onca_Puma,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,18,15983.2
+Onca_Puma,Outras Áreas não Vegetadas,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2664.6
+Onca_Puma,Afloramento Rochoso,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Poor: 20-40,11,9770.2
+Onca_Puma,Afloramento Rochoso,Formação Campestre,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3552.8
+Onca_Puma,Afloramento Rochoso,Pastagem,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,2,1775.6
+Onca_Puma,Afloramento Rochoso,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,1,887.8
+Onca_Puma,Afloramento Rochoso,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3552.8
+Onca_Puma,Afloramento Rochoso,Afloramento Rochoso,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,37,32848.6
+Onca_Puma,Afloramento Rochoso,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,487,432464.4
+Onca_Puma,Afloramento Rochoso,Afloramento Rochoso,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,810,719451.0
+Onca_Puma,Afloramento Rochoso,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,14,12434.8
+Onca_Puma,Afloramento Rochoso,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,40,35530.2
+Onca_Puma,Mineração,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,5,4442.0
+Onca_Puma,Mineração,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,1,888.2
+Onca_Puma,Mineração,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,11,9771.4
+Onca_Puma,Mineração,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,14933,13264504.0
+Onca_Puma,Mineração,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,2109,1873319.8
+Onca_Puma,"Rio, Lago e Oceano",Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,2,1776.5
+Onca_Puma,"Rio, Lago e Oceano",Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,374,332186.8
+Onca_Puma,"Rio, Lago e Oceano",Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,31,27534.2
+Onca_Puma,"Rio, Lago e Oceano","Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,204,181193.2
+Onca_Puma,Outras Lavouras Temporárias,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,1,888.3
+Onca_Puma,Outras Lavouras Temporárias,Outras Lavouras Temporárias,3.0,Very Poor: 0-20,Very Poor: 0-20,41,36410.1
+Projeto_Janus,Área Urbanizada,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1778.2
+S11D,0.0,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,33,29320.5
+S11D,0.0,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,28,24883.6
+S11D,0.0,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Poor: 20-40,3,2665.8
+S11D,0.0,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Poor: 20-40,1,888.6
+S11D,0.0,Formação Campestre,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,888.6
+S11D,0.0,Formação Campestre,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,4,3554.4
+S11D,0.0,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,20,17772.0
+S11D,0.0,Pastagem,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,19,16883.4
+S11D,0.0,Afloramento Rochoso,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,16,14217.6
+S11D,0.0,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,3,2665.5
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,1521,1351096.3
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Poor: 20-40,65,57742.8
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Poor: 20-40,Poor: 20-40,1105,981574.1
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Poor: 20-40,Good: 40-60,2,1776.8
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Good: 40-60,Poor: 20-40,136,120813.3
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Good: 40-60,Good: 40-60,1905,1692376.0
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Good: 40-60,Very good: 60-80,9,7995.6
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Very good: 60-80,Good: 40-60,45,39977.8
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Very good: 60-80,Very good: 60-80,827,734703.3
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Very good: 60-80,Excellent : 80-100,3,2665.2
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Excellent : 80-100,Very good: 60-80,24,21321.6
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Excellent : 80-100,Excellent : 80-100,125,111050.0
+S11D,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,50028,44449590.2
+S11D,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,5504,4890163.9
+S11D,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Good: 40-60,98,87065.1
+S11D,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Very Poor: 0-20,1780,1581574.4
+S11D,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,20404,18128267.5
+S11D,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Good: 40-60,2113,1877378.7
+S11D,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Very good: 60-80,162,143925.3
+S11D,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Excellent : 80-100,31,27540.4
+S11D,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Very Poor: 0-20,22,19547.9
+S11D,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,2302,2045318.5
+S11D,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Good: 40-60,9106,8090470.1
+S11D,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Very good: 60-80,715,635298.5
+S11D,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Excellent : 80-100,226,200788.7
+S11D,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Poor: 20-40,28,24878.1
+S11D,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Good: 40-60,840,746411.0
+S11D,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Very good: 60-80,2223,1975178.3
+S11D,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Excellent : 80-100,339,301201.0
+S11D,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Poor: 20-40,57,50650.2
+S11D,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Good: 40-60,256,227481.4
+S11D,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Very good: 60-80,218,193713.2
+S11D,Formação Florestal,Formação Florestal,3.0,Excellent : 80-100,Excellent : 80-100,3492,3102952.0
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,14044,12479293.0
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Poor: 20-40,1350,1199540.5
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,9275,8241502.5
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Poor: 20-40,22999,20436124.9
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Good: 40-60,1240,1101874.0
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very good: 60-80,215,191070.5
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,2,1777.2
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Poor: 20-40,11510,10227464.7
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Good: 40-60,33277,29563683.6
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very good: 60-80,1136,1009429.0
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Poor: 20-40,858,762393.0
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Good: 40-60,11992,10655871.8
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very good: 60-80,22114,19645369.2
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Excellent : 80-100,331,294107.9
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Poor: 20-40,236,209703.4
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Good: 40-60,1257,1116915.9
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Very good: 60-80,5181,4603555.1
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Excellent : 80-100,39216,34842899.7
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,979,869788.4
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,118,104839.7
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,55,48863.1
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Poor: 20-40,1900,1688079.2
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Good: 40-60,28,24876.5
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Excellent : 80-100,11,9773.5
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Poor: 20-40,335,297631.8
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Good: 40-60,1697,1507734.7
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Very good: 60-80,18,15992.7
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Excellent : 80-100,226,200801.0
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Poor: 20-40,4,3554.0
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Good: 40-60,177,157260.2
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very good: 60-80,550,488668.0
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Excellent : 80-100,127,112839.5
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Very good: 60-80,66,58638.0
+S11D,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Excellent : 80-100,1633,1450903.8
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,1861,1653781.3
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Poor: 20-40,22,19551.4
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Poor: 20-40,Very Poor: 0-20,438,389211.9
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Poor: 20-40,Poor: 20-40,1636,1453733.6
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Poor: 20-40,Good: 40-60,4,3554.4
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Good: 40-60,Very Poor: 0-20,16,14219.2
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Good: 40-60,Poor: 20-40,269,239045.3
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Good: 40-60,Good: 40-60,726,645140.1
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Good: 40-60,Very good: 60-80,23,20440.1
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Very good: 60-80,Poor: 20-40,77,68427.6
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Very good: 60-80,Good: 40-60,149,132412.2
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Very good: 60-80,Very good: 60-80,482,428335.8
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Very good: 60-80,Excellent : 80-100,20,17774.0
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Excellent : 80-100,Poor: 20-40,41,36432.6
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Excellent : 80-100,Good: 40-60,55,48873.0
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Excellent : 80-100,Very good: 60-80,121,107520.6
+S11D,Formação Florestal,Formação Florestal,Refrgio Vegetacional Montano,Excellent : 80-100,Excellent : 80-100,122,108413.5
+S11D,Formação Florestal,Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,1,887.9
+S11D,Formação Florestal,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,7,6215.5
+S11D,Formação Florestal,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,5,4443.0
+S11D,Formação Florestal,Formação Campestre,3.0,Poor: 20-40,Very Poor: 0-20,4,3553.2
+S11D,Formação Florestal,Formação Campestre,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,3,2665.8
+S11D,Formação Florestal,Formação Campestre,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Very Poor: 0-20,3,2665.8
+S11D,Formação Florestal,Formação Campestre,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,1,888.7
+S11D,Formação Florestal,Formação Campestre,Refrgio Vegetacional Montano,Poor: 20-40,Very Poor: 0-20,10,8886.0
+S11D,Formação Florestal,Formação Campestre,Refrgio Vegetacional Montano,Very good: 60-80,Very Poor: 0-20,1,888.6
+S11D,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,138,122547.6
+S11D,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Aluvial,Poor: 20-40,Very Poor: 0-20,102,90586.8
+S11D,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Aluvial,Good: 40-60,Very Poor: 0-20,1,888.2
+S11D,Formação Florestal,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,7621,6771355.7
+S11D,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,2290,2034330.4
+S11D,Formação Florestal,Pastagem,3.0,Good: 40-60,Very Poor: 0-20,126,111949.3
+S11D,Formação Florestal,Pastagem,3.0,Very good: 60-80,Very Poor: 0-20,18,15991.2
+S11D,Formação Florestal,Pastagem,3.0,Excellent : 80-100,Very Poor: 0-20,4,3554.4
+S11D,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,921,818325.4
+S11D,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,1233,1095489.9
+S11D,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,187,166153.8
+S11D,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very Poor: 0-20,12,10661.8
+S11D,Formação Florestal,Pastagem,Floresta Ombrofila Aberta Submontana,Excellent : 80-100,Very Poor: 0-20,5,4443.0
+S11D,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,9,7995.6
+S11D,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,29,25764.1
+S11D,Formação Florestal,Pastagem,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,237,210605.5
+S11D,Formação Florestal,Pastagem,Refrgio Vegetacional Montano,Poor: 20-40,Very Poor: 0-20,208,184827.6
+S11D,Formação Florestal,Pastagem,Refrgio Vegetacional Montano,Good: 40-60,Very Poor: 0-20,2,1777.2
+S11D,Formação Florestal,Pastagem,Refrgio Vegetacional Montano,Excellent : 80-100,Very Poor: 0-20,5,4443.0
+S11D,Formação Florestal,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,30,26652.0
+S11D,Formação Florestal,Outras Áreas não Vegetadas,3.0,Poor: 20-40,Very Poor: 0-20,12,10660.8
+S11D,Formação Florestal,Outras Áreas não Vegetadas,3.0,Very good: 60-80,Very Poor: 0-20,9,7995.6
+S11D,Formação Florestal,Outras Áreas não Vegetadas,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,12,10660.8
+S11D,Formação Florestal,Outras Áreas não Vegetadas,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,63,55969.2
+S11D,Formação Florestal,Outras Áreas não Vegetadas,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very Poor: 0-20,1,888.4
+S11D,Formação Florestal,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2666.1
+S11D,Formação Florestal,Afloramento Rochoso,3.0,Poor: 20-40,Very Poor: 0-20,10,8883.0
+S11D,Formação Florestal,Afloramento Rochoso,3.0,Good: 40-60,Very Poor: 0-20,15,13324.5
+S11D,Formação Florestal,Afloramento Rochoso,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3554.8
+S11D,Formação Florestal,Afloramento Rochoso,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,25,22214.5
+S11D,Formação Florestal,Afloramento Rochoso,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,19,16883.4
+S11D,Formação Florestal,Afloramento Rochoso,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very Poor: 0-20,2,1777.2
+S11D,Formação Florestal,Afloramento Rochoso,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,18,15996.4
+S11D,Formação Florestal,Afloramento Rochoso,Refrgio Vegetacional Montano,Poor: 20-40,Very Poor: 0-20,49,43542.0
+S11D,Formação Florestal,Afloramento Rochoso,Refrgio Vegetacional Montano,Good: 40-60,Very Poor: 0-20,22,19549.5
+S11D,Formação Florestal,Afloramento Rochoso,Refrgio Vegetacional Montano,Very good: 60-80,Very Poor: 0-20,4,3554.4
+S11D,Formação Florestal,Mineração,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,34,30205.6
+S11D,Formação Florestal,Mineração,Floresta Ombrofila Aberta Aluvial,Poor: 20-40,Very Poor: 0-20,45,39978.0
+S11D,Formação Florestal,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,808,717834.4
+S11D,Formação Florestal,Mineração,3.0,Poor: 20-40,Very Poor: 0-20,424,376686.2
+S11D,Formação Florestal,Mineração,3.0,Good: 40-60,Very Poor: 0-20,96,85286.9
+S11D,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,88,78179.2
+S11D,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,907,805779.2
+S11D,Formação Florestal,Mineração,Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,559,496615.6
+S11D,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,240,213231.8
+S11D,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,724,643246.6
+S11D,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Good: 40-60,Very Poor: 0-20,31,27541.3
+S11D,Formação Florestal,Mineração,Refrgio Vegetacional Montano,Poor: 20-40,Very Poor: 0-20,46,40871.0
+S11D,Formação Florestal,"Rio, Lago e Oceano",3.0,Good: 40-60,Very Poor: 0-20,1,888.6
+S11D,Formação Florestal,"Rio, Lago e Oceano",3.0,Very good: 60-80,Very Poor: 0-20,1,888.6
+S11D,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,16,14217.3
+S11D,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Good: 40-60,Very Poor: 0-20,4,3554.2
+S11D,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very Poor: 0-20,2,1777.2
+S11D,Floresta Alagável,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,12,10654.9
+S11D,Floresta Alagável,Floresta Alagável,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1776.0
+S11D,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Very Poor: 0-20,2,1776.0
+S11D,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,516,458185.0
+S11D,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Good: 40-60,7,6215.9
+S11D,Floresta Alagável,Floresta Alagável,3.0,Good: 40-60,Poor: 20-40,15,13319.2
+S11D,Floresta Alagável,Floresta Alagável,3.0,Good: 40-60,Good: 40-60,108,95902.9
+S11D,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Poor: 20-40,3,2665.5
+S11D,Floresta Alagável,Campo Alagado e Área Pantanosa,3.0,Poor: 20-40,Very Poor: 0-20,71,63042.1
+S11D,Floresta Alagável,Campo Alagado e Área Pantanosa,3.0,Good: 40-60,Very Poor: 0-20,1,887.9
+S11D,Floresta Alagável,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,5,4440.0
+S11D,Floresta Alagável,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,87,77252.1
+S11D,Floresta Alagável,"Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Very good: 60-80,Very Poor: 0-20,1,888.5
+S11D,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,13,11544.0
+S11D,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,65,57759.0
+S11D,Campo Alagado e Área Pantanosa,Formação Campestre,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,18,15994.8
+S11D,Campo Alagado e Área Pantanosa,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,25,22200.0
+S11D,Formação Campestre,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,9,7998.3
+S11D,Formação Campestre,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,41,36427.8
+S11D,Formação Campestre,Formação Florestal,3.0,Very Poor: 0-20,Good: 40-60,6,5330.2
+S11D,Formação Campestre,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Poor: 20-40,3,2665.7
+S11D,Formação Campestre,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,1,888.7
+S11D,Formação Campestre,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Poor: 20-40,2,1777.2
+S11D,Formação Campestre,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Good: 40-60,1,888.6
+S11D,Formação Campestre,Formação Campestre,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,1,888.3
+S11D,Formação Campestre,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,2007,1783190.4
+S11D,Formação Campestre,Formação Campestre,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,177,157276.6
+S11D,Formação Campestre,Formação Campestre,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,2040,1812773.3
+S11D,Formação Campestre,Formação Campestre,Corpo da,Very Poor: 0-20,Very Poor: 0-20,1,888.5
+S11D,Formação Campestre,Pastagem,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,9,7993.8
+S11D,Formação Campestre,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,163,144820.4
+S11D,Formação Campestre,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,35,31092.0
+S11D,Formação Campestre,Pastagem,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,477,423872.2
+S11D,Formação Campestre,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,73,64848.4
+S11D,Formação Campestre,Afloramento Rochoso,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3553.2
+S11D,Formação Campestre,Afloramento Rochoso,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,165,146623.5
+S11D,Formação Campestre,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,57,50638.8
+S11D,Formação Campestre,Outras Lavouras Temporárias,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,5,4443.0
+S11D,Pastagem,Formação Florestal,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,94,83485.8
+S11D,Pastagem,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,4618,4103091.9
+S11D,Pastagem,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,8,7107.6
+S11D,Pastagem,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,721,640660.3
+S11D,Pastagem,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,53,47088.1
+S11D,Pastagem,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,15,13329.0
+S11D,Pastagem,Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,3,2664.0
+S11D,Pastagem,Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1775.8
+S11D,Pastagem,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,7,6219.3
+S11D,Pastagem,Formação Campestre,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,9,7997.4
+S11D,Pastagem,Pastagem,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,9800,8702277.3
+S11D,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,101134,89844774.3
+S11D,Pastagem,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,18983,16865425.5
+S11D,Pastagem,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,359,318950.1
+S11D,Pastagem,Pastagem,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,6532,5804490.9
+S11D,Pastagem,Pastagem,Corpo da,Very Poor: 0-20,Very Poor: 0-20,46,40871.0
+S11D,Pastagem,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,52,46204.7
+S11D,Pastagem,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,20,17768.2
+S11D,Pastagem,Outras Áreas não Vegetadas,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,30,26655.6
+S11D,Pastagem,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,10,8885.0
+S11D,Pastagem,Afloramento Rochoso,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,1,888.6
+S11D,Pastagem,Mineração,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,156,138590.4
+S11D,Pastagem,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,2667,2369387.7
+S11D,Pastagem,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,351,311828.4
+S11D,Pastagem,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,176,156363.7
+S11D,Pastagem,Mineração,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,4,3554.0
+S11D,Pastagem,Mineração,Corpo da,Very Poor: 0-20,Very Poor: 0-20,5,4442.5
+S11D,Pastagem,"Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,36,31983.3
+S11D,Pastagem,"Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,888.6
+S11D,Área Urbanizada,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,559,496702.3
+S11D,Outras Áreas não Vegetadas,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,8,7107.2
+S11D,Outras Áreas não Vegetadas,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1776.8
+S11D,Outras Áreas não Vegetadas,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,29,25768.6
+S11D,Outras Áreas não Vegetadas,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,6,5331.6
+S11D,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,7,6219.6
+S11D,Outras Áreas não Vegetadas,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,20,17769.6
+S11D,Afloramento Rochoso,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,4,3553.2
+S11D,Afloramento Rochoso,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,7,6218.1
+S11D,Afloramento Rochoso,Formação Florestal,3.0,Very Poor: 0-20,Good: 40-60,1,888.4
+S11D,Afloramento Rochoso,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,2,1777.4
+S11D,Afloramento Rochoso,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Good: 40-60,1,888.6
+S11D,Afloramento Rochoso,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very good: 60-80,6,5331.6
+S11D,Afloramento Rochoso,Formação Florestal,Refrgio Vegetacional Montano,Very Poor: 0-20,Poor: 20-40,1,888.6
+S11D,Afloramento Rochoso,Formação Campestre,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,2,1777.2
+S11D,Afloramento Rochoso,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,31,27544.9
+S11D,Afloramento Rochoso,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,17,15103.0
+S11D,Afloramento Rochoso,Pastagem,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,111,98636.3
+S11D,Afloramento Rochoso,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,1284,1140699.5
+S11D,Afloramento Rochoso,Afloramento Rochoso,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,876,778396.2
+S11D,Afloramento Rochoso,Afloramento Rochoso,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,12,10662.0
+S11D,Afloramento Rochoso,Afloramento Rochoso,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,5353,4756739.2
+S11D,Afloramento Rochoso,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,13,11549.2
+S11D,Afloramento Rochoso,Mineração,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,85,75522.5
+S11D,Mineração,Afloramento Rochoso,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,1,888.5
+S11D,Mineração,Mineração,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,823,731153.2
+S11D,Mineração,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,11376,10106487.2
+S11D,Mineração,Mineração,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,2368,2103731.3
+S11D,Mineração,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,2324,2064818.8
+S11D,Mineração,Mineração,Refrgio Vegetacional Montano,Very Poor: 0-20,Very Poor: 0-20,11474,10194649.0
+S11D,Mineração,Mineração,Corpo da,Very Poor: 0-20,Very Poor: 0-20,55,48867.5
+S11D,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Poor: 20-40,2,1777.0
+S11D,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very good: 60-80,1,888.6
+S11D,"Rio, Lago e Oceano",Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1775.8
+S11D,"Rio, Lago e Oceano",Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2665.6
+S11D,"Rio, Lago e Oceano",Mineração,Floresta Ombrofila Aberta Aluvial,Very Poor: 0-20,Very Poor: 0-20,6,5330.4
+S11D,"Rio, Lago e Oceano",Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,88,78179.2
+S11D,"Rio, Lago e Oceano","Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,30,26654.0
+S11D,"Rio, Lago e Oceano","Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,9,7996.5
+Salobo,0.0,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,2,1778.8
+Salobo,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,200,177860.0
+Salobo,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,11,9782.3
+Salobo,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,152,135173.6
+Salobo,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,21,18675.3
+Salobo,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Good: 40-60,131,116498.3
+Salobo,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Good: 40-60,8,7114.4
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,262,232996.6
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Poor: 20-40,5,4446.5
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Poor: 20-40,34,30236.2
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Good: 40-60,Good: 40-60,96,85372.8
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Aberta Submontana,Very good: 60-80,Good: 40-60,2,1778.6
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,56,49800.9
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,2,1779.0
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Poor: 20-40,10620,9446081.2
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Good: 40-60,83,73803.7
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Poor: 20-40,3806,3385323.4
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Good: 40-60,13628,12121566.9
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Very good: 60-80,154,136937.1
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Poor: 20-40,509,452739.3
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Good: 40-60,2494,2218319.1
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very good: 60-80,4939,4393054.5
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Excellent : 80-100,157,139604.4
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Poor: 20-40,130,115622.0
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Good: 40-60,910,809367.5
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Very good: 60-80,1940,1725494.6
+Salobo,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Excellent : 80-100,25382,22572800.1
+Salobo,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3556.8
+Salobo,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,169,150329.5
+Salobo,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Good: 40-60,Very Poor: 0-20,179,159220.8
+Salobo,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very Poor: 0-20,15,13342.5
+Salobo,Formação Florestal,Área Urbanizada,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,2,1778.6
+Salobo,Formação Florestal,Outras Áreas não Vegetadas,Floresta Ombrofila Aberta Submontana,Poor: 20-40,Very Poor: 0-20,4,3557.2
+Salobo,Formação Florestal,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,15,13342.5
+Salobo,Formação Florestal,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Good: 40-60,Very Poor: 0-20,38,33801.1
+Salobo,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,19,16900.5
+Salobo,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,3973,3533944.3
+Salobo,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Good: 40-60,Very Poor: 0-20,1555,1383141.9
+Salobo,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very Poor: 0-20,167,148534.5
+Salobo,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Very Poor: 0-20,10,8894.0
+Salobo,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.5
+Salobo,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,13,11563.1
+Salobo,Formação Florestal,"Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Excellent : 80-100,Very Poor: 0-20,4,3557.6
+Salobo,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Submontana,Poor: 20-40,Poor: 20-40,1,889.4
+Salobo,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Excellent : 80-100,15,13341.0
+Salobo,Floresta Alagável,"Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Excellent : 80-100,Very Poor: 0-20,1,889.4
+Salobo,Campo Alagado e Área Pantanosa,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,19,16900.5
+Salobo,Campo Alagado e Área Pantanosa,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,27,24016.5
+Salobo,Pastagem,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,20,17785.5
+Salobo,Pastagem,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,4,3556.8
+Salobo,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,239,212542.7
+Salobo,Pastagem,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,206,183195.8
+Salobo,Pastagem,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,406,361139.1
+Salobo,Pastagem,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,5,4446.0
+Salobo,Pastagem,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,766,681358.1
+Salobo,Pastagem,"Rio, Lago e Oceano",Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,6,5335.8
+Salobo,Pastagem,"Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,47,41805.8
+Salobo,Área Urbanizada,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,1,889.3
+Salobo,Área Urbanizada,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.3
+Salobo,Área Urbanizada,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,239,212539.1
+Salobo,Área Urbanizada,Área Urbanizada,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,116,103158.8
+Salobo,Área Urbanizada,Outras Áreas não Vegetadas,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.3
+Salobo,Outras Áreas não Vegetadas,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,55,48911.5
+Salobo,Outras Áreas não Vegetadas,Pastagem,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,5,4446.5
+Salobo,Outras Áreas não Vegetadas,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,8,7114.4
+Salobo,Outras Áreas não Vegetadas,Área Urbanizada,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,3,2667.9
+Salobo,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,25,22232.5
+Salobo,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,Floresta Ombrofila Aberta Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3557.2
+Salobo,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,3,2667.6
+Salobo,Outras Áreas não Vegetadas,"Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,6,5335.2
+Salobo,Mineração,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.5
+Salobo,Mineração,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,26313,23405281.0
+Salobo,Mineração,"Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3558.0
+Salobo,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,9,8004.9
+Salobo,"Rio, Lago e Oceano",Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Excellent : 80-100,4,3557.6
+Salobo,"Rio, Lago e Oceano",Floresta Alagável,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Excellent : 80-100,1,889.4
+Salobo,"Rio, Lago e Oceano",Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,2501,2224554.9
+Salobo,"Rio, Lago e Oceano","Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,3316,2949520.5
+Serra_Leste,0.0,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,14,12448.8
+Serra_Leste,0.0,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,1,892.9
+Serra_Leste,0.0,Campo Alagado e Área Pantanosa,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,27,24108.3
+Serra_Leste,0.0,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,3,2667.6
+Serra_Leste,0.0,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,8,7113.6
+Serra_Leste,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,9275,8200359.0
+Serra_Leste,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,559,497065.1
+Serra_Leste,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Very Poor: 0-20,560,495305.0
+Serra_Leste,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,5178,4586559.0
+Serra_Leste,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Good: 40-60,43,38234.0
+Serra_Leste,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,414,367240.0
+Serra_Leste,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Good: 40-60,669,594878.0
+Serra_Leste,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Poor: 20-40,6,5335.2
+Serra_Leste,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Good: 40-60,56,49795.2
+Serra_Leste,Formação Florestal,Formação Florestal,3.0,Very good: 60-80,Very good: 60-80,101,89809.2
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,7175,6406565.2
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,380,339302.0
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Very Poor: 0-20,1540,1375066.0
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Poor: 20-40,8232,7350353.6
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Good: 40-60,172,153578.8
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very Poor: 0-20,402,358945.8
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Poor: 20-40,8260,7375356.2
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Good: 40-60,9325,8326310.2
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very good: 60-80,123,109827.1
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very Poor: 0-20,214,191080.6
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Poor: 20-40,3376,3014430.4
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Good: 40-60,5078,4534147.2
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very good: 60-80,5189,4633277.3
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Excellent : 80-100,4,3572.0
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Poor: 20-40,1032,921472.8
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Good: 40-60,2276,2032240.4
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Very good: 60-80,3263,2913551.7
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Excellent : 80-100,3503,3127858.0
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,3375,3001148.0
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,329,292527.9
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,536,476626.9
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Poor: 20-40,2704,2403542.1
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Good: 40-60,105,93364.1
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very good: 60-80,7,6223.7
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Very Poor: 0-20,9,8002.8
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Poor: 20-40,1536,1365820.5
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Good: 40-60,2958,2630250.6
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Good: 40-60,Very good: 60-80,21,18672.9
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Poor: 20-40,553,491727.6
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Good: 40-60,1125,1000350.0
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very good: 60-80,2228,1981139.8
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Poor: 20-40,8,7113.6
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Good: 40-60,952,846518.4
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Very good: 60-80,1339,1190638.8
+Serra_Leste,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Excellent : 80-100,Excellent : 80-100,2045,1818414.0
+Serra_Leste,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,27,24108.3
+Serra_Leste,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Good: 40-60,16,14286.4
+Serra_Leste,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Poor: 20-40,50,44645.0
+Serra_Leste,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Good: 40-60,3,2678.7
+Serra_Leste,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very Poor: 0-20,1,892.9
+Serra_Leste,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Poor: 20-40,13,11607.7
+Serra_Leste,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Good: 40-60,15,13393.5
+Serra_Leste,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very good: 60-80,5,4464.5
+Serra_Leste,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Poor: 20-40,15,13393.5
+Serra_Leste,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Good: 40-60,3,2678.7
+Serra_Leste,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very good: 60-80,1,892.9
+Serra_Leste,Formação Florestal,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Poor: 20-40,5,4464.5
+Serra_Leste,Formação Florestal,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1778.5
+Serra_Leste,Formação Florestal,Formação Campestre,3.0,Poor: 20-40,Very Poor: 0-20,5,4446.3
+Serra_Leste,Formação Florestal,Formação Campestre,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Serra_Leste,Formação Florestal,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,1087,945253.9
+Serra_Leste,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,442,390364.5
+Serra_Leste,Formação Florestal,Pastagem,3.0,Good: 40-60,Very Poor: 0-20,54,48016.8
+Serra_Leste,Formação Florestal,Pastagem,3.0,Very good: 60-80,Very Poor: 0-20,1,889.2
+Serra_Leste,Formação Florestal,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,2895,2584945.5
+Serra_Leste,Formação Florestal,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Very Poor: 0-20,4934,4405568.6
+Serra_Leste,Formação Florestal,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very Poor: 0-20,2803,2502798.7
+Serra_Leste,Formação Florestal,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very Poor: 0-20,2153,1922413.7
+Serra_Leste,Formação Florestal,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Very Poor: 0-20,1422,1269703.8
+Serra_Leste,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,279,248108.6
+Serra_Leste,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,160,142272.5
+Serra_Leste,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Good: 40-60,Very Poor: 0-20,331,294325.2
+Serra_Leste,Formação Florestal,Pastagem,Floresta Ombrofila Densa Submontana,Very good: 60-80,Very Poor: 0-20,93,82695.6
+Serra_Leste,Formação Florestal,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,10,8892.6
+Serra_Leste,Formação Florestal,Afloramento Rochoso,3.0,Poor: 20-40,Very Poor: 0-20,37,32904.1
+Serra_Leste,Formação Florestal,Afloramento Rochoso,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Serra_Leste,Formação Florestal,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,309,274763.0
+Serra_Leste,Formação Florestal,Mineração,3.0,Poor: 20-40,Very Poor: 0-20,75,66690.4
+Serra_Leste,Formação Florestal,Mineração,3.0,Good: 40-60,Very Poor: 0-20,11,9781.2
+Serra_Leste,Formação Florestal,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Serra_Leste,Formação Florestal,Outras Lavouras Temporárias,3.0,Very Poor: 0-20,Very Poor: 0-20,7,6225.0
+Serra_Leste,Formação Florestal,Outras Lavouras Temporárias,3.0,Poor: 20-40,Very Poor: 0-20,1,889.3
+Serra_Leste,Formação Florestal,Outras Lavouras Temporárias,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,18,16005.6
+Serra_Leste,Formação Florestal,Outras Lavouras Temporárias,Floresta Ombrofila Densa Submontana,Poor: 20-40,Very Poor: 0-20,26,23119.2
+Serra_Leste,Floresta Alagável,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Poor: 20-40,29,25894.1
+Serra_Leste,Floresta Alagável,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Good: 40-60,1,892.9
+Serra_Leste,Floresta Alagável,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Poor: 20-40,3,2678.7
+Serra_Leste,Floresta Alagável,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Good: 40-60,3,2678.7
+Serra_Leste,Floresta Alagável,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very good: 60-80,4,3571.6
+Serra_Leste,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,255,227689.5
+Serra_Leste,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Good: 40-60,24,21429.6
+Serra_Leste,Floresta Alagável,Floresta Alagável,3.0,Good: 40-60,Poor: 20-40,88,78575.2
+Serra_Leste,Floresta Alagável,Floresta Alagável,3.0,Good: 40-60,Good: 40-60,753,672353.7
+Serra_Leste,Floresta Alagável,Floresta Alagável,3.0,Good: 40-60,Very good: 60-80,1,892.9
+Serra_Leste,Floresta Alagável,Floresta Alagável,3.0,Very good: 60-80,Good: 40-60,13,11607.7
+Serra_Leste,Floresta Alagável,Floresta Alagável,3.0,Very good: 60-80,Very good: 60-80,29,25894.1
+Serra_Leste,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Very Poor: 0-20,49,43752.1
+Serra_Leste,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Poor: 20-40,1928,1721511.2
+Serra_Leste,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Good: 40-60,46,41073.4
+Serra_Leste,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very Poor: 0-20,42,37501.8
+Serra_Leste,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Poor: 20-40,1610,1437569.3
+Serra_Leste,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Good: 40-60,3906,3487675.5
+Serra_Leste,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very good: 60-80,73,65185.0
+Serra_Leste,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Poor: 20-40,370,330373.0
+Serra_Leste,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Good: 40-60,593,529491.2
+Serra_Leste,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very good: 60-80,1728,1542961.0
+Serra_Leste,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Poor: 20-40,74,66074.6
+Serra_Leste,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Good: 40-60,2,1785.8
+Serra_Leste,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Very good: 60-80,150,133941.1
+Serra_Leste,Floresta Alagável,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Excellent : 80-100,208,185723.4
+Serra_Leste,Floresta Alagável,Campo Alagado e Área Pantanosa,3.0,Poor: 20-40,Very Poor: 0-20,26,23215.4
+Serra_Leste,Floresta Alagável,Campo Alagado e Área Pantanosa,3.0,Good: 40-60,Very Poor: 0-20,35,31251.5
+Serra_Leste,Floresta Alagável,Campo Alagado e Área Pantanosa,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Very Poor: 0-20,12,10714.8
+Serra_Leste,Floresta Alagável,Campo Alagado e Área Pantanosa,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very Poor: 0-20,21,18750.9
+Serra_Leste,Floresta Alagável,Campo Alagado e Área Pantanosa,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very Poor: 0-20,93,83039.7
+Serra_Leste,Floresta Alagável,Campo Alagado e Área Pantanosa,Floresta Ombrofila Densa das Terras Baixas,Excellent : 80-100,Very Poor: 0-20,14,12500.6
+Serra_Leste,Floresta Alagável,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,14,12500.6
+Serra_Leste,Floresta Alagável,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Poor: 20-40,Very Poor: 0-20,52,46430.8
+Serra_Leste,Floresta Alagável,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Good: 40-60,Very Poor: 0-20,367,327694.3
+Serra_Leste,Floresta Alagável,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very good: 60-80,Very Poor: 0-20,101,90182.9
+Serra_Leste,Floresta Alagável,"Rio, Lago e Oceano",3.0,Good: 40-60,Very Poor: 0-20,2,1785.8
+Serra_Leste,Campo Alagado e Área Pantanosa,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,4,3571.6
+Serra_Leste,Campo Alagado e Área Pantanosa,Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,13,11607.7
+Serra_Leste,Campo Alagado e Área Pantanosa,Floresta Alagável,3.0,Very Poor: 0-20,Good: 40-60,1,892.9
+Serra_Leste,Campo Alagado e Área Pantanosa,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,16,14286.4
+Serra_Leste,Campo Alagado e Área Pantanosa,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Good: 40-60,30,26787.0
+Serra_Leste,Campo Alagado e Área Pantanosa,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very good: 60-80,4,3571.6
+Serra_Leste,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,3.0,Very Poor: 0-20,Very Poor: 0-20,109,97326.1
+Serra_Leste,Campo Alagado e Área Pantanosa,Campo Alagado e Área Pantanosa,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,851,759857.9
+Serra_Leste,Campo Alagado e Área Pantanosa,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,11,9821.9
+Serra_Leste,Campo Alagado e Área Pantanosa,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,20,17858.0
+Serra_Leste,Campo Alagado e Área Pantanosa,"Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,5,4464.5
+Serra_Leste,Formação Campestre,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1778.4
+Serra_Leste,Formação Campestre,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,1,889.2
+Serra_Leste,Formação Campestre,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Poor: 20-40,4,3556.8
+Serra_Leste,Formação Campestre,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,332,295219.6
+Serra_Leste,Formação Campestre,Formação Campestre,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,217,192956.4
+Serra_Leste,Formação Campestre,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,123,100482.0
+Serra_Leste,Formação Campestre,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.3
+Serra_Leste,Formação Campestre,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,4,3557.2
+Serra_Leste,Formação Campestre,Afloramento Rochoso,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,12,10670.4
+Serra_Leste,Formação Campestre,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,65,57798.2
+Serra_Leste,Pastagem,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,828,736246.6
+Serra_Leste,Pastagem,Formação Florestal,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,735,656281.9
+Serra_Leste,Pastagem,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,385,342333.8
+Serra_Leste,Pastagem,Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,21,18750.9
+Serra_Leste,Pastagem,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,4,3571.6
+Serra_Leste,Pastagem,Floresta Alagável,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Poor: 20-40,79,70539.2
+Serra_Leste,Pastagem,Campo Alagado e Área Pantanosa,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,4,3571.6
+Serra_Leste,Pastagem,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Serra_Leste,Pastagem,Formação Campestre,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Serra_Leste,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,12517,10926774.3
+Serra_Leste,Pastagem,Pastagem,Floresta Ombrofila Densa das Terras Baixas,Very Poor: 0-20,Very Poor: 0-20,8414,7512860.8
+Serra_Leste,Pastagem,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,2952,2624014.2
+Serra_Leste,Pastagem,Afloramento Rochoso,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,2,1778.4
+Serra_Leste,Pastagem,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,895,795839.6
+Serra_Leste,Pastagem,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,110,97812.0
+Serra_Leste,Pastagem,Outras Lavouras Temporárias,3.0,Very Poor: 0-20,Very Poor: 0-20,330,293444.4
+Serra_Leste,Pastagem,Outras Lavouras Temporárias,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,276,245419.2
+Serra_Leste,Área Urbanizada,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,17,13341.0
+Serra_Leste,Área Urbanizada,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Serra_Leste,Outras Áreas não Vegetadas,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,1,889.2
+Serra_Leste,Outras Áreas não Vegetadas,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,6,1778.4
+Serra_Leste,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,4,0.0
+Serra_Leste,Afloramento Rochoso,Formação Campestre,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Serra_Leste,Afloramento Rochoso,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,14,12449.9
+Serra_Leste,Afloramento Rochoso,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Serra_Leste,Afloramento Rochoso,Afloramento Rochoso,3.0,Very Poor: 0-20,Very Poor: 0-20,589,523793.8
+Serra_Leste,Afloramento Rochoso,Afloramento Rochoso,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,619,550414.3
+Serra_Leste,Afloramento Rochoso,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,114,101370.4
+Serra_Leste,Mineração,Formação Florestal,3.0,Very Poor: 0-20,Poor: 20-40,1,889.2
+Serra_Leste,Mineração,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Serra_Leste,Mineração,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,4452,3958784.6
+Serra_Leste,Mineração,Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,460,409032.0
+Serra_Leste,"Rio, Lago e Oceano",Floresta Alagável,3.0,Very Poor: 0-20,Poor: 20-40,2,1785.8
+Serra_Leste,"Rio, Lago e Oceano",Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,36,32012.0
+Serra_Leste,"Rio, Lago e Oceano",Mineração,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,20,17784.0
+Serra_Leste,"Rio, Lago e Oceano","Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,57,50684.4
+Serra_Leste,"Rio, Lago e Oceano","Rio, Lago e Oceano",Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,6,5335.2
+Serra_Leste,Outras Lavouras Temporárias,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,4,3556.8
+Serra_Leste,Outras Lavouras Temporárias,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1778.4
+Serra_Leste,Outras Lavouras Temporárias,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Serra_Leste,Outras Lavouras Temporárias,Outras Lavouras Temporárias,3.0,Very Poor: 0-20,Very Poor: 0-20,7,6224.4
+Serra_Leste,Outras Lavouras Temporárias,Outras Lavouras Temporárias,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,63,56019.6
+Sossego_1,Formação Florestal,Formação Florestal,3.0,Very Poor: 0-20,Very Poor: 0-20,221,194635.1
+Sossego_1,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Very Poor: 0-20,37,32874.5
+Sossego_1,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,388,344752.6
+Sossego_1,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Poor: 20-40,228,202578.0
+Sossego_1,Formação Florestal,Formação Florestal,3.0,Good: 40-60,Good: 40-60,43,38205.5
+Sossego_1,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,1,889.1
+Sossego_1,Formação Florestal,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,66,55979.2
+Sossego_1,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,119,105737.0
+Sossego_1,Formação Florestal,Pastagem,3.0,Good: 40-60,Very Poor: 0-20,57,50644.5
+Sossego_1,Formação Florestal,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,1,889.2
+Sossego_1,Formação Florestal,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,68,60457.9
+Sossego_1,Formação Florestal,Mineração,3.0,Poor: 20-40,Very Poor: 0-20,69,61339.3
+Sossego_1,Formação Florestal,Mineração,3.0,Good: 40-60,Very Poor: 0-20,33,29320.5
+Sossego_1,Floresta Alagável,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,1,889.2
+Sossego_1,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,2,1777.0
+Sossego_1,Floresta Alagável,Campo Alagado e Área Pantanosa,3.0,Poor: 20-40,Very Poor: 0-20,1,888.4
+Sossego_1,Floresta Alagável,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,1,888.5
+Sossego_1,Floresta Alagável,Mineração,3.0,Poor: 20-40,Very Poor: 0-20,9,8002.5
+Sossego_1,Campo Alagado e Área Pantanosa,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,6,5330.4
+Sossego_1,Campo Alagado e Área Pantanosa,"Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,13,11549.2
+Sossego_1,Formação Campestre,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,8,7108.3
+Sossego_1,Formação Campestre,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,4,3554.0
+Sossego_1,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,1685,1408304.4
+Sossego_1,Pastagem,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,45,29340.3
+Sossego_1,Pastagem,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,15,13328.6
+Sossego_1,Pastagem,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,7,6224.4
+Sossego_1,Pastagem,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,73,64906.5
+Sossego_1,Pastagem,"Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,1,888.4
+Sossego_1,Área Urbanizada,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,230,198109.7
+Sossego_1,Área Urbanizada,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,34,28454.0
+Sossego_1,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,1,888.5
+Sossego_1,Outras Áreas não Vegetadas,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,8,7113.6
+Sossego_1,Mineração,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,432,384134.3
+Sossego_1,"Rio, Lago e Oceano",Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,1,888.8
+Sossego_1,"Rio, Lago e Oceano",Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,2,1778.4
+Sossego_1,"Rio, Lago e Oceano","Rio, Lago e Oceano",3.0,Very Poor: 0-20,Very Poor: 0-20,3,2666.4
+Sossego_2,Formação Florestal,Formação Florestal,3.0,Poor: 20-40,Poor: 20-40,7,0.0
+Sossego_2,Formação Florestal,Formação Florestal,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,10,889.2
+Sossego_2,Formação Florestal,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,6,2667.0
+Sossego_2,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,4,0.0
+Sossego_2,Floresta Alagável,Floresta Alagável,3.0,Poor: 20-40,Poor: 20-40,3,0.0
+Sossego_2,Floresta Alagável,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,39,0.0
+Sossego_2,Floresta Alagável,Mineração,3.0,Poor: 20-40,Very Poor: 0-20,1,0.0
+Sossego_2,Formação Campestre,Formação Campestre,3.0,Very Poor: 0-20,Very Poor: 0-20,4,0.0
+Sossego_2,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,420,24891.4
+Sossego_2,Pastagem,Pastagem,Floresta Ombrofila Densa Submontana,Very Poor: 0-20,Very Poor: 0-20,23,0.0
+Sossego_2,Pastagem,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,10,0.0
+Sossego_2,Pastagem,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,1,0.0
+Sossego_2,Pastagem,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,87,0.0
+Sossego_2,Área Urbanizada,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,26,3556.2
+Sossego_2,Área Urbanizada,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,1,0.0
+Sossego_2,Área Urbanizada,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,1,0.0
+Sossego_2,Outras Áreas não Vegetadas,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,1,0.0
+Sossego_2,Outras Áreas não Vegetadas,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,9,0.0
+Sossego_2,Outras Áreas não Vegetadas,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,1,0.0
+Sossego_2,Mineração,Mineração,3.0,Very Poor: 0-20,Very Poor: 0-20,51,1778.4
+Sustentabilidade,Formação Florestal,Pastagem,3.0,Poor: 20-40,Very Poor: 0-20,3,2667.0
+Sustentabilidade,Pastagem,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,229,203581.0
+Sustentabilidade,Pastagem,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,5,4445.0
+Sustentabilidade,Pastagem,Outras Áreas não Vegetadas,3.0,Very Poor: 0-20,Very Poor: 0-20,1,889.0
+Sustentabilidade,Área Urbanizada,Área Urbanizada,3.0,Very Poor: 0-20,Very Poor: 0-20,110,97790.0
+Sustentabilidade,Outras Áreas não Vegetadas,Pastagem,3.0,Very Poor: 0-20,Very Poor: 0-20,7,6223.0

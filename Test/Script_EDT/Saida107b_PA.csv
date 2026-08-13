@@ -1,0 +1,524 @@
+OpUnit;ReIBGE;ReCond2020;ReCond2024;GroupCount;sum_Area_ha
+Bioenergia;FOA;Excellent : 80-100;Excellent : 80-100;3;129,00696
+Bioenergia;FOA;Excellent : 80-100;Good: 40-60;2;56,01538
+Bioenergia;FOA;Excellent : 80-100;Poor: 20-40;3;28,31887
+Bioenergia;FOA;Excellent : 80-100;Very Poor: 0-20;1;1,16137
+Bioenergia;FOA;Excellent : 80-100;Very good: 60-80;2;58,78571
+Bioenergia;FOA;Excellent : 80-100;Zero;2;13,66756
+Bioenergia;FOA;Good: 40-60;Good: 40-60;4;189,65609
+Bioenergia;FOA;Good: 40-60;Poor: 20-40;5;89,69313
+Bioenergia;FOA;Good: 40-60;Very Poor: 0-20;3;2,41208
+Bioenergia;FOA;Good: 40-60;Very good: 60-80;1;0,53604
+Bioenergia;FOA;Good: 40-60;Zero;3;38,14771
+Bioenergia;FOA;Poor: 20-40;Good: 40-60;2;0,80388
+Bioenergia;FOA;Poor: 20-40;Poor: 20-40;4;123,09932
+Bioenergia;FOA;Poor: 20-40;Very Poor: 0-20;5;11,34468
+Bioenergia;FOA;Poor: 20-40;Zero;3;36,26896
+Bioenergia;FOA;Very Poor: 0-20;Excellent : 80-100;1;1,51878
+Bioenergia;FOA;Very Poor: 0-20;Good: 40-60;3;3,57326
+Bioenergia;FOA;Very Poor: 0-20;Poor: 20-40;5;24,65330
+Bioenergia;FOA;Very Poor: 0-20;Very Poor: 0-20;12;267,79327
+Bioenergia;FOA;Very Poor: 0-20;Very good: 60-80;2;0,35732
+Bioenergia;FOA;Very Poor: 0-20;Zero;4;247,53194
+Bioenergia;FOA;Very good: 60-80;Good: 40-60;3;35,73465
+Bioenergia;FOA;Very good: 60-80;Poor: 20-40;3;41,18507
+Bioenergia;FOA;Very good: 60-80;Very Poor: 0-20;1;1,96542
+Bioenergia;FOA;Very good: 60-80;Very good: 60-80;3;105,50950
+Bioenergia;FOA;Very good: 60-80;Zero;3;22,24418
+Bioenergia;FOA;Zero;Very Poor: 0-20;1;6,16308
+Bioenergia;FOA;Zero;Zero;3;437,51129
+Bioenergia;FOD;Excellent : 80-100;Excellent : 80-100;4;316,96018
+Bioenergia;FOD;Excellent : 80-100;Good: 40-60;3;38,94886
+Bioenergia;FOD;Excellent : 80-100;Poor: 20-40;3;1,42930
+Bioenergia;FOD;Excellent : 80-100;Very good: 60-80;4;142,21783
+Bioenergia;FOD;Excellent : 80-100;Zero;1;1,16129
+Bioenergia;FOD;Good: 40-60;Good: 40-60;3;665,08318
+Bioenergia;FOD;Good: 40-60;Poor: 20-40;4;232,50018
+Bioenergia;FOD;Good: 40-60;Very Poor: 0-20;1;0,26799
+Bioenergia;FOD;Good: 40-60;Very good: 60-80;2;3,66238
+Bioenergia;FOD;Good: 40-60;Zero;3;93,69121
+Bioenergia;FOD;Poor: 20-40;Good: 40-60;1;10,00384
+Bioenergia;FOD;Poor: 20-40;Poor: 20-40;4;559,40260
+Bioenergia;FOD;Poor: 20-40;Very Poor: 0-20;5;25,45544
+Bioenergia;FOD;Poor: 20-40;Zero;2;220,69987
+Bioenergia;FOD;Very Poor: 0-20;Good: 40-60;4;2,23318
+Bioenergia;FOD;Very Poor: 0-20;Poor: 20-40;7;2,94749
+Bioenergia;FOD;Very Poor: 0-20;Very Poor: 0-20;11;127,10946
+Bioenergia;FOD;Very Poor: 0-20;Very good: 60-80;1;4,55481
+Bioenergia;FOD;Very Poor: 0-20;Zero;7;63,85996
+Bioenergia;FOD;Very good: 60-80;Excellent : 80-100;1;0,53604
+Bioenergia;FOD;Very good: 60-80;Good: 40-60;3;192,84620
+Bioenergia;FOD;Very good: 60-80;Poor: 20-40;5;56,72211
+Bioenergia;FOD;Very good: 60-80;Very Poor: 0-20;4;2,14389
+Bioenergia;FOD;Very good: 60-80;Very good: 60-80;4;302,71385
+Bioenergia;FOD;Very good: 60-80;Zero;3;20,99077
+Bioenergia;FOD;Zero;Poor: 20-40;2;0,44655
+Bioenergia;FOD;Zero;Very Poor: 0-20;2;7,94927
+Bioenergia;FOD;Zero;Zero;2;702,55661
+Cristalino;FOA;Good: 40-60;Good: 40-60;1;1,33264
+Cristalino;FOA;Good: 40-60;Poor: 20-40;2;21,58970
+Cristalino;FOA;Good: 40-60;Zero;3;9,86230
+Cristalino;FOA;Poor: 20-40;Poor: 20-40;1;159,74267
+Cristalino;FOA;Poor: 20-40;Very Poor: 0-20;3;69,92132
+Cristalino;FOA;Poor: 20-40;Zero;3;104,21461
+Cristalino;FOA;Very Poor: 0-20;Poor: 20-40;1;3,37626
+Cristalino;FOA;Very Poor: 0-20;Very Poor: 0-20;5;313,89619
+Cristalino;FOA;Very Poor: 0-20;Zero;7;309,09400
+Cristalino;FOA;Zero;Very Poor: 0-20;1;7,99644
+Cristalino;FOA;Zero;Zero;8;2795,82222
+Cristalino;FOD;Excellent : 80-100;Good: 40-60;1;0,88840
+Cristalino;FOD;Excellent : 80-100;Poor: 20-40;1;1,24376
+Cristalino;FOD;Good: 40-60;Good: 40-60;1;135,21449
+Cristalino;FOD;Good: 40-60;Poor: 20-40;1;198,91351
+Cristalino;FOD;Good: 40-60;Very Poor: 0-20;2;3,90896
+Cristalino;FOD;Good: 40-60;Very good: 60-80;1;1,42144
+Cristalino;FOD;Good: 40-60;Zero;1;3,90910
+Cristalino;FOD;Poor: 20-40;Good: 40-60;1;2,48752
+Cristalino;FOD;Poor: 20-40;Poor: 20-40;1;348,26134
+Cristalino;FOD;Poor: 20-40;Very Poor: 0-20;1;95,68237
+Cristalino;FOD;Poor: 20-40;Zero;2;53,12914
+Cristalino;FOD;Very Poor: 0-20;Good: 40-60;1;0,44420
+Cristalino;FOD;Very Poor: 0-20;Poor: 20-40;1;9,86146
+Cristalino;FOD;Very Poor: 0-20;Very Poor: 0-20;5;347,55110
+Cristalino;FOD;Very Poor: 0-20;Zero;2;49,04115
+Cristalino;FOD;Very good: 60-80;Good: 40-60;1;36,06904
+Cristalino;FOD;Very good: 60-80;Poor: 20-40;1;18,65640
+Cristalino;FOD;Very good: 60-80;Very good: 60-80;1;44,77536
+Cristalino;FOD;Very good: 60-80;Zero;1;3,55360
+Cristalino;FOD;Zero;Very Poor: 0-20;2;24,52077
+Cristalino;FOD;Zero;Zero;4;1524,05105
+Cristalino;Refúgio Vegetacional Montano;Excellent : 80-100;Good: 40-60;1;1,42144
+Cristalino;Refúgio Vegetacional Montano;Excellent : 80-100;Poor: 20-40;1;1,68796
+Cristalino;Refúgio Vegetacional Montano;Good: 40-60;Good: 40-60;1;2,57636
+Cristalino;Refúgio Vegetacional Montano;Good: 40-60;Poor: 20-40;1;8,70632
+Cristalino;Refúgio Vegetacional Montano;Good: 40-60;Very Poor: 0-20;1;0,35536
+Cristalino;Refúgio Vegetacional Montano;Poor: 20-40;Poor: 20-40;1;2,93172
+Cristalino;Refúgio Vegetacional Montano;Poor: 20-40;Very Poor: 0-20;1;1,86564
+Cristalino;Refúgio Vegetacional Montano;Poor: 20-40;Zero;1;0,17768
+Cristalino;Refúgio Vegetacional Montano;Very Poor: 0-20;Poor: 20-40;1;0,08884
+Cristalino;Refúgio Vegetacional Montano;Very Poor: 0-20;Very Poor: 0-20;4;97,63516
+Cristalino;Refúgio Vegetacional Montano;Very Poor: 0-20;Zero;2;8,52864
+Cristalino;Refúgio Vegetacional Montano;Very good: 60-80;Good: 40-60;1;1,68796
+Cristalino;Refúgio Vegetacional Montano;Very good: 60-80;Poor: 20-40;1;4,53084
+Cristalino;Refúgio Vegetacional Montano;Zero;Poor: 20-40;1;0,35536
+Cristalino;Refúgio Vegetacional Montano;Zero;Very Poor: 0-20;1;0,35536
+Cristalino;Refúgio Vegetacional Montano;Zero;Zero;1;6,57416
+Estrada_de_Ferro_Carajas_1;FOA;Excellent : 80-100;Excellent : 80-100;2;221,26232
+Estrada_de_Ferro_Carajas_1;FOA;Excellent : 80-100;Good: 40-60;2;79,96752
+Estrada_de_Ferro_Carajas_1;FOA;Excellent : 80-100;Poor: 20-40;2;17,23759
+Estrada_de_Ferro_Carajas_1;FOA;Excellent : 80-100;Very Poor: 0-20;1;0,53304
+Estrada_de_Ferro_Carajas_1;FOA;Excellent : 80-100;Very good: 60-80;2;100,85078
+Estrada_de_Ferro_Carajas_1;FOA;Excellent : 80-100;Zero;3;5,15306
+Estrada_de_Ferro_Carajas_1;FOA;Good: 40-60;Good: 40-60;5;1214,37792
+Estrada_de_Ferro_Carajas_1;FOA;Good: 40-60;Poor: 20-40;4;181,62908
+Estrada_de_Ferro_Carajas_1;FOA;Good: 40-60;Very Poor: 0-20;3;2,66598
+Estrada_de_Ferro_Carajas_1;FOA;Good: 40-60;Very good: 60-80;3;25,23430
+Estrada_de_Ferro_Carajas_1;FOA;Good: 40-60;Zero;7;62,28631
+Estrada_de_Ferro_Carajas_1;FOA;Poor: 20-40;Good: 40-60;2;41,23025
+Estrada_de_Ferro_Carajas_1;FOA;Poor: 20-40;Poor: 20-40;6;1475,94955
+Estrada_de_Ferro_Carajas_1;FOA;Poor: 20-40;Very Poor: 0-20;5;52,88144
+Estrada_de_Ferro_Carajas_1;FOA;Poor: 20-40;Zero;13;333,44763
+Estrada_de_Ferro_Carajas_1;FOA;Very Poor: 0-20;Poor: 20-40;7;161,79930
+Estrada_de_Ferro_Carajas_1;FOA;Very Poor: 0-20;Very Poor: 0-20;9;1630,75239
+Estrada_de_Ferro_Carajas_1;FOA;Very Poor: 0-20;Very good: 60-80;1;0,17768
+Estrada_de_Ferro_Carajas_1;FOA;Very Poor: 0-20;Zero;20;585,42977
+Estrada_de_Ferro_Carajas_1;FOA;Very good: 60-80;Excellent : 80-100;2;20,97026
+Estrada_de_Ferro_Carajas_1;FOA;Very good: 60-80;Good: 40-60;4;44,42744
+Estrada_de_Ferro_Carajas_1;FOA;Very good: 60-80;Poor: 20-40;2;15,46232
+Estrada_de_Ferro_Carajas_1;FOA;Very good: 60-80;Very good: 60-80;4;520,23729
+Estrada_de_Ferro_Carajas_1;FOA;Very good: 60-80;Zero;4;10,92976
+Estrada_de_Ferro_Carajas_1;FOA;Zero;Excellent : 80-100;1;0,08887
+Estrada_de_Ferro_Carajas_1;FOA;Zero;Good: 40-60;2;0,71081
+Estrada_de_Ferro_Carajas_1;FOA;Zero;Poor: 20-40;3;2,22151
+Estrada_de_Ferro_Carajas_1;FOA;Zero;Very Poor: 0-20;4;118,63219
+Estrada_de_Ferro_Carajas_1;FOA;Zero;Very good: 60-80;1;0,18000
+Estrada_de_Ferro_Carajas_1;FOA;Zero;Zero;36;9225,89870
+Estrada_de_Ferro_Carajas_1;FOD;Excellent : 80-100;Excellent : 80-100;2;50,82717
+Estrada_de_Ferro_Carajas_1;FOD;Excellent : 80-100;Good: 40-60;1;0,97933
+Estrada_de_Ferro_Carajas_1;FOD;Excellent : 80-100;Poor: 20-40;1;0,71224
+Estrada_de_Ferro_Carajas_1;FOD;Excellent : 80-100;Very good: 60-80;2;1,86963
+Estrada_de_Ferro_Carajas_1;FOD;Excellent : 80-100;Zero;1;0,08903
+Estrada_de_Ferro_Carajas_1;FOD;Good: 40-60;Good: 40-60;6;165,63321
+Estrada_de_Ferro_Carajas_1;FOD;Good: 40-60;Poor: 20-40;1;31,77207
+Estrada_de_Ferro_Carajas_1;FOD;Good: 40-60;Very good: 60-80;1;5,51800
+Estrada_de_Ferro_Carajas_1;FOD;Good: 40-60;Zero;2;1,86885
+Estrada_de_Ferro_Carajas_1;FOD;Poor: 20-40;Good: 40-60;1;4,71745
+Estrada_de_Ferro_Carajas_1;FOD;Poor: 20-40;Poor: 20-40;6;103,15117
+Estrada_de_Ferro_Carajas_1;FOD;Poor: 20-40;Very Poor: 0-20;2;0,97808
+Estrada_de_Ferro_Carajas_1;FOD;Poor: 20-40;Very good: 60-80;1;0,35609
+Estrada_de_Ferro_Carajas_1;FOD;Poor: 20-40;Zero;8;38,26316
+Estrada_de_Ferro_Carajas_1;FOD;Very Poor: 0-20;Poor: 20-40;2;2,13654
+Estrada_de_Ferro_Carajas_1;FOD;Very Poor: 0-20;Very Poor: 0-20;9;121,92902
+Estrada_de_Ferro_Carajas_1;FOD;Very Poor: 0-20;Zero;12;44,04766
+Estrada_de_Ferro_Carajas_1;FOD;Very good: 60-80;Good: 40-60;2;5,60679
+Estrada_de_Ferro_Carajas_1;FOD;Very good: 60-80;Poor: 20-40;1;0,71224
+Estrada_de_Ferro_Carajas_1;FOD;Very good: 60-80;Very good: 60-80;2;33,46607
+Estrada_de_Ferro_Carajas_1;FOD;Very good: 60-80;Zero;1;0,53418
+Estrada_de_Ferro_Carajas_1;FOD;Zero;Good: 40-60;1;0,35600
+Estrada_de_Ferro_Carajas_1;FOD;Zero;Poor: 20-40;1;0,26700
+Estrada_de_Ferro_Carajas_1;FOD;Zero;Very Poor: 0-20;4;3,02681
+Estrada_de_Ferro_Carajas_1;FOD;Zero;Zero;16;269,07279
+Estrada_de_Ferro_Carajas_1;Refúgio Vegetacional Montano;Poor: 20-40;Poor: 20-40;1;0,35564
+Estrada_de_Ferro_Carajas_1;Refúgio Vegetacional Montano;Zero;Zero;1;1,06692
+Estrada_de_Ferro_Carajas_2;FOA;Good: 40-60;Good: 40-60;1;4,05000
+Estrada_de_Ferro_Carajas_2;FOA;Good: 40-60;Poor: 20-40;1;0,45000
+Estrada_de_Ferro_Carajas_2;FOA;Poor: 20-40;Poor: 20-40;1;5,76000
+Estrada_de_Ferro_Carajas_2;FOA;Poor: 20-40;Zero;1;0,45000
+Estrada_de_Ferro_Carajas_2;FOA;Very Poor: 0-20;Very Poor: 0-20;1;0,09000
+Estrada_de_Ferro_Carajas_2;FOA;Zero;Zero;4;16,20000
+Estrada_de_Ferro_Carajas_3;FOA;Good: 40-60;Good: 40-60;2;31,40489
+Estrada_de_Ferro_Carajas_3;FOA;Good: 40-60;Poor: 20-40;3;17,40687
+Estrada_de_Ferro_Carajas_3;FOA;Good: 40-60;Zero;1;0,53574
+Estrada_de_Ferro_Carajas_3;FOA;Poor: 20-40;Good: 40-60;1;0,17786
+Estrada_de_Ferro_Carajas_3;FOA;Poor: 20-40;Poor: 20-40;3;88,75609
+Estrada_de_Ferro_Carajas_3;FOA;Poor: 20-40;Very Poor: 0-20;1;5,52302
+Estrada_de_Ferro_Carajas_3;FOA;Poor: 20-40;Zero;3;7,48596
+Estrada_de_Ferro_Carajas_3;FOA;Very Poor: 0-20;Poor: 20-40;3;12,12508
+Estrada_de_Ferro_Carajas_3;FOA;Very Poor: 0-20;Very Poor: 0-20;7;458,52988
+Estrada_de_Ferro_Carajas_3;FOA;Very Poor: 0-20;Zero;6;251,84677
+Estrada_de_Ferro_Carajas_3;FOA;Very good: 60-80;Good: 40-60;1;0,17786
+Estrada_de_Ferro_Carajas_3;FOA;Very good: 60-80;Very good: 60-80;1;0,71144
+Estrada_de_Ferro_Carajas_3;FOA;Zero;Poor: 20-40;2;0,98219
+Estrada_de_Ferro_Carajas_3;FOA;Zero;Very Poor: 0-20;3;55,96937
+Estrada_de_Ferro_Carajas_3;FOA;Zero;Zero;6;2359,45397
+Estrada_de_Ferro_Carajas_3;FOD;Excellent : 80-100;Excellent : 80-100;1;97,64514
+Estrada_de_Ferro_Carajas_3;FOD;Excellent : 80-100;Very good: 60-80;1;20,63176
+Estrada_de_Ferro_Carajas_3;FOD;Good: 40-60;Good: 40-60;3;192,62200
+Estrada_de_Ferro_Carajas_3;FOD;Good: 40-60;Poor: 20-40;4;35,86903
+Estrada_de_Ferro_Carajas_3;FOD;Good: 40-60;Very good: 60-80;1;0,88930
+Estrada_de_Ferro_Carajas_3;FOD;Poor: 20-40;Good: 40-60;1;3,02362
+Estrada_de_Ferro_Carajas_3;FOD;Poor: 20-40;Poor: 20-40;4;243,79817
+Estrada_de_Ferro_Carajas_3;FOD;Poor: 20-40;Very Poor: 0-20;1;2,40111
+Estrada_de_Ferro_Carajas_3;FOD;Poor: 20-40;Zero;2;3,64721
+Estrada_de_Ferro_Carajas_3;FOD;Very Poor: 0-20;Poor: 20-40;2;2,66862
+Estrada_de_Ferro_Carajas_3;FOD;Very Poor: 0-20;Very Poor: 0-20;2;176,99266
+Estrada_de_Ferro_Carajas_3;FOD;Very Poor: 0-20;Zero;4;30,01585
+Estrada_de_Ferro_Carajas_3;FOD;Very good: 60-80;Excellent : 80-100;1;0,08893
+Estrada_de_Ferro_Carajas_3;FOD;Very good: 60-80;Good: 40-60;2;18,33110
+Estrada_de_Ferro_Carajas_3;FOD;Very good: 60-80;Very good: 60-80;2;122,10593
+Estrada_de_Ferro_Carajas_3;FOD;Zero;Very Poor: 0-20;1;2,93469
+Estrada_de_Ferro_Carajas_3;FOD;Zero;Zero;4;78,75885
+Estrada_de_Ferro_Carajas_5;FOA;Good: 40-60;Good: 40-60;2;10,75228
+Estrada_de_Ferro_Carajas_5;FOA;Good: 40-60;Poor: 20-40;1;0,62209
+Estrada_de_Ferro_Carajas_5;FOA;Poor: 20-40;Poor: 20-40;2;22,12248
+Estrada_de_Ferro_Carajas_5;FOA;Poor: 20-40;Very Poor: 0-20;2;20,17122
+Estrada_de_Ferro_Carajas_5;FOA;Poor: 20-40;Zero;1;1,86564
+Estrada_de_Ferro_Carajas_5;FOA;Very Poor: 0-20;Poor: 20-40;1;0,35548
+Estrada_de_Ferro_Carajas_5;FOA;Very Poor: 0-20;Very Poor: 0-20;4;75,79827
+Estrada_de_Ferro_Carajas_5;FOA;Very Poor: 0-20;Zero;3;2,57691
+Estrada_de_Ferro_Carajas_5;FOA;Zero;Zero;2;28,07477
+Estrada_de_Ferro_Carajas_6;FOA;Good: 40-60;Poor: 20-40;2;2,22110
+Estrada_de_Ferro_Carajas_6;FOA;Good: 40-60;Zero;1;2,30984
+Estrada_de_Ferro_Carajas_6;FOA;Poor: 20-40;Poor: 20-40;2;15,37024
+Estrada_de_Ferro_Carajas_6;FOA;Poor: 20-40;Very Poor: 0-20;1;0,08884
+Estrada_de_Ferro_Carajas_6;FOA;Poor: 20-40;Zero;2;12,97123
+Estrada_de_Ferro_Carajas_6;FOA;Very Poor: 0-20;Very Poor: 0-20;1;1,42160
+Estrada_de_Ferro_Carajas_6;FOA;Very Poor: 0-20;Zero;3;5,41981
+Estrada_de_Ferro_Carajas_6;FOA;Zero;Zero;2;169,42148
+N4N5;FOA;Excellent : 80-100;Excellent : 80-100;1;62,06616
+N4N5;FOA;Excellent : 80-100;Good: 40-60;2;28,00980
+N4N5;FOA;Excellent : 80-100;Poor: 20-40;2;6,75789
+N4N5;FOA;Excellent : 80-100;Very good: 60-80;2;25,16436
+N4N5;FOA;Excellent : 80-100;Zero;2;4,80168
+N4N5;FOA;Good: 40-60;Good: 40-60;3;459,78442
+N4N5;FOA;Good: 40-60;Poor: 20-40;3;73,17785
+N4N5;FOA;Good: 40-60;Very Poor: 0-20;2;20,60892
+N4N5;FOA;Good: 40-60;Very good: 60-80;1;1,35000
+N4N5;FOA;Good: 40-60;Zero;3;7,55811
+N4N5;FOA;Poor: 20-40;Good: 40-60;2;1,42272
+N4N5;FOA;Poor: 20-40;Poor: 20-40;4;478,54837
+N4N5;FOA;Poor: 20-40;Very Poor: 0-20;3;10,31438
+N4N5;FOA;Poor: 20-40;Zero;6;85,89565
+N4N5;FOA;Very Poor: 0-20;Poor: 20-40;2;1,60056
+N4N5;FOA;Very Poor: 0-20;Very Poor: 0-20;15;78,60522
+N4N5;FOA;Very Poor: 0-20;Zero;11;11,02520
+N4N5;FOA;Very good: 60-80;Good: 40-60;2;52,37307
+N4N5;FOA;Very good: 60-80;Poor: 20-40;2;12,27055
+N4N5;FOA;Very good: 60-80;Very Poor: 0-20;1;1,17000
+N4N5;FOA;Very good: 60-80;Very good: 60-80;1;57,26418
+N4N5;FOA;Very good: 60-80;Zero;2;1,86732
+N4N5;FOA;Zero;Excellent : 80-100;1;1,68948
+N4N5;FOA;Zero;Good: 40-60;3;3,37895
+N4N5;FOA;Zero;Poor: 20-40;4;1,95624
+N4N5;FOA;Zero;Very Poor: 0-20;3;1,06703
+N4N5;FOA;Zero;Very good: 60-80;2;1,68948
+N4N5;FOA;Zero;Zero;13;1715,38440
+N4N5;FOD;Excellent : 80-100;Excellent : 80-100;1;42,23686
+N4N5;FOD;Excellent : 80-100;Good: 40-60;1;0,62237
+N4N5;FOD;Excellent : 80-100;Poor: 20-40;1;15,21000
+N4N5;FOD;Excellent : 80-100;Very good: 60-80;1;16,27163
+N4N5;FOD;Excellent : 80-100;Zero;2;3,48624
+N4N5;FOD;Good: 40-60;Good: 40-60;1;678,00780
+N4N5;FOD;Good: 40-60;Poor: 20-40;1;186,70543
+N4N5;FOD;Good: 40-60;Very Poor: 0-20;1;5,42290
+N4N5;FOD;Good: 40-60;Zero;2;27,38314
+N4N5;FOD;Poor: 20-40;Poor: 20-40;1;717,21184
+N4N5;FOD;Poor: 20-40;Very Poor: 0-20;2;12,89115
+N4N5;FOD;Poor: 20-40;Zero;3;231,68601
+N4N5;FOD;Very Poor: 0-20;Poor: 20-40;3;4,54126
+N4N5;FOD;Very Poor: 0-20;Very Poor: 0-20;8;150,80538
+N4N5;FOD;Very Poor: 0-20;Zero;5;36,00529
+N4N5;FOD;Very good: 60-80;Good: 40-60;1;83,39760
+N4N5;FOD;Very good: 60-80;Poor: 20-40;1;10,93593
+N4N5;FOD;Very good: 60-80;Very Poor: 0-20;1;0,18000
+N4N5;FOD;Very good: 60-80;Very good: 60-80;1;136,29984
+N4N5;FOD;Very good: 60-80;Zero;2;1,60048
+N4N5;FOD;Zero;Excellent : 80-100;1;0,35568
+N4N5;FOD;Zero;Poor: 20-40;2;1,51130
+N4N5;FOD;Zero;Very good: 60-80;1;0,17784
+N4N5;FOD;Zero;Zero;11;2802,59657
+N4N5;Refúgio Vegetacional Montano;Good: 40-60;Good: 40-60;1;2,31163
+N4N5;Refúgio Vegetacional Montano;Good: 40-60;Poor: 20-40;1;1,86691
+N4N5;Refúgio Vegetacional Montano;Good: 40-60;Zero;1;0,62230
+N4N5;Refúgio Vegetacional Montano;Poor: 20-40;Poor: 20-40;1;53,25478
+N4N5;Refúgio Vegetacional Montano;Poor: 20-40;Very Poor: 0-20;2;2,87450
+N4N5;Refúgio Vegetacional Montano;Poor: 20-40;Zero;1;26,67097
+N4N5;Refúgio Vegetacional Montano;Very Poor: 0-20;Poor: 20-40;2;1,16128
+N4N5;Refúgio Vegetacional Montano;Very Poor: 0-20;Very Poor: 0-20;6;21,96707
+N4N5;Refúgio Vegetacional Montano;Very Poor: 0-20;Zero;4;19,02494
+N4N5;Refúgio Vegetacional Montano;Very good: 60-80;Very good: 60-80;1;4,95000
+N4N5;Refúgio Vegetacional Montano;Zero;Very Poor: 0-20;1;0,09000
+N4N5;Refúgio Vegetacional Montano;Zero;Zero;3;3377,77015
+Niquel_do_Vermelho;FOA;Good: 40-60;Good: 40-60;2;15,45865
+Niquel_do_Vermelho;FOA;Good: 40-60;Poor: 20-40;1;20,25568
+Niquel_do_Vermelho;FOA;Good: 40-60;Very Poor: 0-20;1;0,44425
+Niquel_do_Vermelho;FOA;Good: 40-60;Zero;1;10,48305
+Niquel_do_Vermelho;FOA;Poor: 20-40;Good: 40-60;1;0,44415
+Niquel_do_Vermelho;FOA;Poor: 20-40;Poor: 20-40;2;408,39151
+Niquel_do_Vermelho;FOA;Poor: 20-40;Very Poor: 0-20;3;34,38089
+Niquel_do_Vermelho;FOA;Poor: 20-40;Zero;2;184,51754
+Niquel_do_Vermelho;FOA;Very Poor: 0-20;Poor: 20-40;1;4,70904
+Niquel_do_Vermelho;FOA;Very Poor: 0-20;Very Poor: 0-20;6;419,59634
+Niquel_do_Vermelho;FOA;Very Poor: 0-20;Zero;6;757,90681
+Niquel_do_Vermelho;FOA;Zero;Very Poor: 0-20;1;16,08079
+Niquel_do_Vermelho;FOA;Zero;Zero;10;5153,11631
+Onca_Puma;FOA;Excellent : 80-100;Excellent : 80-100;3;159,86893
+Onca_Puma;FOA;Excellent : 80-100;Good: 40-60;3;160,44472
+Onca_Puma;FOA;Excellent : 80-100;Poor: 20-40;3;79,20176
+Onca_Puma;FOA;Excellent : 80-100;Very good: 60-80;3;171,55819
+Onca_Puma;FOA;Excellent : 80-100;Zero;1;40,66582
+Onca_Puma;FOA;Good: 40-60;Good: 40-60;5;1215,86256
+Onca_Puma;FOA;Good: 40-60;Poor: 20-40;5;307,43055
+Onca_Puma;FOA;Good: 40-60;Very Poor: 0-20;8;2,48644
+Onca_Puma;FOA;Good: 40-60;Very good: 60-80;3;25,84865
+Onca_Puma;FOA;Good: 40-60;Zero;5;151,83648
+Onca_Puma;FOA;Poor: 20-40;Good: 40-60;5;64,75443
+Onca_Puma;FOA;Poor: 20-40;Poor: 20-40;8;1618,58134
+Onca_Puma;FOA;Poor: 20-40;Very Poor: 0-20;6;104,63155
+Onca_Puma;FOA;Poor: 20-40;Very good: 60-80;1;0,35528
+Onca_Puma;FOA;Poor: 20-40;Zero;8;223,42607
+Onca_Puma;FOA;Very Poor: 0-20;Good: 40-60;3;1,06582
+Onca_Puma;FOA;Very Poor: 0-20;Poor: 20-40;6;351,57297
+Onca_Puma;FOA;Very Poor: 0-20;Very Poor: 0-20;18;5652,06562
+Onca_Puma;FOA;Very Poor: 0-20;Very good: 60-80;1;0,17764
+Onca_Puma;FOA;Very Poor: 0-20;Zero;18;450,05525
+Onca_Puma;FOA;Very good: 60-80;Excellent : 80-100;2;0,62171
+Onca_Puma;FOA;Very good: 60-80;Good: 40-60;3;283,72250
+Onca_Puma;FOA;Very good: 60-80;Poor: 20-40;3;96,69755
+Onca_Puma;FOA;Very good: 60-80;Very Poor: 0-20;1;0,53268
+Onca_Puma;FOA;Very good: 60-80;Very good: 60-80;3;379,21138
+Onca_Puma;FOA;Very good: 60-80;Zero;3;47,41449
+Onca_Puma;FOA;Zero;Poor: 20-40;6;4,88566
+Onca_Puma;FOA;Zero;Very Poor: 0-20;9;716,63702
+Onca_Puma;FOA;Zero;Zero;28;14982,36358
+Onca_Puma;FOD;Very Poor: 0-20;Very Poor: 0-20;1;1,50943
+Opunit1;FOA;Good: 40-60;Good: 40-60;2;0,27000
+Opunit1;FOA;Poor: 20-40;Poor: 20-40;2;2,61000
+Opunit1;FOA;Poor: 20-40;Very Poor: 0-20;1;0,27000
+Opunit1;FOA;Poor: 20-40;Zero;2;0,99000
+Opunit1;FOA;Very Poor: 0-20;Poor: 20-40;1;0,72000
+Opunit1;FOA;Very Poor: 0-20;Very Poor: 0-20;1;2,25000
+Opunit1;FOA;Very Poor: 0-20;Zero;1;1,53000
+Opunit1;FOA;Zero;Zero;1;12,24000
+Opunit4;FOA;Poor: 20-40;Poor: 20-40;1;0,45000
+Opunit4;FOA;Poor: 20-40;Zero;1;0,09000
+Opunit4;FOA;Zero;Zero;1;9,36000
+Opunit4;FOD;Excellent : 80-100;Excellent : 80-100;1;16,02000
+Opunit4;FOD;Good: 40-60;Good: 40-60;1;2,88000
+Opunit4;FOD;Poor: 20-40;Zero;1;0,27000
+Opunit4;FOD;Very good: 60-80;Very good: 60-80;1;1,17000
+Opunit4;FOD;Zero;Zero;1;6,21000
+Projeto_Janus;FOA;Zero;Zero;1;0,17782
+S11D;FOA;Excellent : 80-100;Excellent : 80-100;3;3805,69017
+S11D;FOA;Excellent : 80-100;Good: 40-60;2;134,43973
+S11D;FOA;Excellent : 80-100;Poor: 20-40;2;26,03536
+S11D;FOA;Excellent : 80-100;Very Poor: 0-20;1;0,26658
+S11D;FOA;Excellent : 80-100;Very good: 60-80;3;481,85899
+S11D;FOA;Excellent : 80-100;Zero;2;0,79974
+S11D;FOA;Good: 40-60;Excellent : 80-100;1;20,07887
+S11D;FOA;Good: 40-60;Good: 40-60;4;3944,24326
+S11D;FOA;Good: 40-60;Poor: 20-40;4;1240,69157
+S11D;FOA;Good: 40-60;Very Poor: 0-20;5;5,24209
+S11D;FOA;Good: 40-60;Very good: 60-80;3;165,27231
+S11D;FOA;Good: 40-60;Zero;7;86,53366
+S11D;FOA;Poor: 20-40;Excellent : 80-100;1;2,75404
+S11D;FOA;Poor: 20-40;Good: 40-60;4;298,72454
+S11D;FOA;Poor: 20-40;Poor: 20-40;6;4002,10219
+S11D;FOA;Poor: 20-40;Very Poor: 0-20;8;992,52115
+S11D;FOA;Poor: 20-40;Very good: 60-80;2;33,49958
+S11D;FOA;Poor: 20-40;Zero;10;460,09499
+S11D;FOA;Very Poor: 0-20;Good: 40-60;4;9,41723
+S11D;FOA;Very Poor: 0-20;Poor: 20-40;7;619,36467
+S11D;FOA;Very Poor: 0-20;Very Poor: 0-20;19;6224,70334
+S11D;FOA;Very Poor: 0-20;Very good: 60-80;1;0,53316
+S11D;FOA;Very Poor: 0-20;Zero;17;889,11428
+S11D;FOA;Very good: 60-80;Excellent : 80-100;3;59,79741
+S11D;FOA;Very good: 60-80;Good: 40-60;3;1144,22606
+S11D;FOA;Very good: 60-80;Poor: 20-40;3;78,99366
+S11D;FOA;Very good: 60-80;Very Poor: 0-20;1;0,17772
+S11D;FOA;Very good: 60-80;Very good: 60-80;3;2235,52508
+S11D;FOA;Very good: 60-80;Zero;7;3,90913
+S11D;FOA;Zero;Poor: 20-40;6;5,06421
+S11D;FOA;Zero;Very Poor: 0-20;10;487,34429
+S11D;FOA;Zero;Very good: 60-80;1;0,08886
+S11D;FOA;Zero;Zero;28;13208,17261
+S11D;FOD;Excellent : 80-100;Excellent : 80-100;1;145,09038
+S11D;FOD;Excellent : 80-100;Very good: 60-80;1;5,86380
+S11D;FOD;Good: 40-60;Excellent : 80-100;1;20,08010
+S11D;FOD;Good: 40-60;Good: 40-60;1;150,77347
+S11D;FOD;Good: 40-60;Poor: 20-40;1;29,76318
+S11D;FOD;Good: 40-60;Very good: 60-80;1;1,59927
+S11D;FOD;Good: 40-60;Zero;1;2,75413
+S11D;FOD;Poor: 20-40;Excellent : 80-100;1;0,97735
+S11D;FOD;Poor: 20-40;Good: 40-60;1;2,48765
+S11D;FOD;Poor: 20-40;Poor: 20-40;1;168,80792
+S11D;FOD;Poor: 20-40;Very Poor: 0-20;1;4,88631
+S11D;FOD;Poor: 20-40;Zero;2;66,90107
+S11D;FOD;Very Poor: 0-20;Poor: 20-40;1;10,48397
+S11D;FOD;Very Poor: 0-20;Very Poor: 0-20;2;88,04504
+S11D;FOD;Very Poor: 0-20;Zero;2;22,12274
+S11D;FOD;Very good: 60-80;Excellent : 80-100;1;11,28395
+S11D;FOD;Very good: 60-80;Good: 40-60;1;15,72602
+S11D;FOD;Very good: 60-80;Poor: 20-40;1;0,35540
+S11D;FOD;Very good: 60-80;Very good: 60-80;1;48,86680
+S11D;FOD;Zero;Very Poor: 0-20;1;4,70881
+S11D;FOD;Zero;Zero;4;254,27981
+S11D;Refúgio Vegetacional Montano;Excellent : 80-100;Excellent : 80-100;1;10,84135
+S11D;Refúgio Vegetacional Montano;Excellent : 80-100;Good: 40-60;1;4,88730
+S11D;Refúgio Vegetacional Montano;Excellent : 80-100;Poor: 20-40;1;3,64326
+S11D;Refúgio Vegetacional Montano;Excellent : 80-100;Very good: 60-80;1;10,75206
+S11D;Refúgio Vegetacional Montano;Excellent : 80-100;Zero;1;0,44430
+S11D;Refúgio Vegetacional Montano;Good: 40-60;Good: 40-60;1;64,51401
+S11D;Refúgio Vegetacional Montano;Good: 40-60;Poor: 20-40;1;23,90453
+S11D;Refúgio Vegetacional Montano;Good: 40-60;Very Poor: 0-20;2;3,37687
+S11D;Refúgio Vegetacional Montano;Good: 40-60;Very good: 60-80;1;2,04401
+S11D;Refúgio Vegetacional Montano;Good: 40-60;Zero;1;0,17772
+S11D;Refúgio Vegetacional Montano;Poor: 20-40;Good: 40-60;1;0,35544
+S11D;Refúgio Vegetacional Montano;Poor: 20-40;Poor: 20-40;1;145,37336
+S11D;Refúgio Vegetacional Montano;Poor: 20-40;Very Poor: 0-20;3;44,16399
+S11D;Refúgio Vegetacional Montano;Poor: 20-40;Zero;2;22,56986
+S11D;Refúgio Vegetacional Montano;Very Poor: 0-20;Good: 40-60;1;0,08886
+S11D;Refúgio Vegetacional Montano;Very Poor: 0-20;Poor: 20-40;3;2,22172
+S11D;Refúgio Vegetacional Montano;Very Poor: 0-20;Very Poor: 0-20;10;846,32221
+S11D;Refúgio Vegetacional Montano;Very Poor: 0-20;Zero;5;81,30795
+S11D;Refúgio Vegetacional Montano;Very good: 60-80;Excellent : 80-100;1;1,77740
+S11D;Refúgio Vegetacional Montano;Very good: 60-80;Good: 40-60;1;13,24122
+S11D;Refúgio Vegetacional Montano;Very good: 60-80;Poor: 20-40;1;6,84276
+S11D;Refúgio Vegetacional Montano;Very good: 60-80;Very Poor: 0-20;2;0,44430
+S11D;Refúgio Vegetacional Montano;Very good: 60-80;Very good: 60-80;1;42,83358
+S11D;Refúgio Vegetacional Montano;Zero;Poor: 20-40;1;0,08886
+S11D;Refúgio Vegetacional Montano;Zero;Very Poor: 0-20;6;4,08755
+S11D;Refúgio Vegetacional Montano;Zero;Zero;4;1601,95773
+Salobo;FOA;Good: 40-60;Good: 40-60;2;20,18711
+Salobo;FOA;Good: 40-60;Poor: 20-40;1;1,86753
+Salobo;FOA;Poor: 20-40;Poor: 20-40;2;16,54098
+Salobo;FOA;Poor: 20-40;Zero;2;0,53358
+Salobo;FOA;Very Poor: 0-20;Poor: 20-40;2;1,42288
+Salobo;FOA;Very Poor: 0-20;Very Poor: 0-20;2;41,08566
+Salobo;FOA;Very good: 60-80;Good: 40-60;2;0,88930
+Salobo;FOA;Zero;Zero;14;80,83701
+Salobo;FOD;Excellent : 80-100;Excellent : 80-100;2;2258,61411
+Salobo;FOD;Excellent : 80-100;Good: 40-60;1;80,93675
+Salobo;FOD;Excellent : 80-100;Poor: 20-40;1;11,56220
+Salobo;FOD;Excellent : 80-100;Very good: 60-80;1;172,54946
+Salobo;FOD;Excellent : 80-100;Zero;3;1,33410
+Salobo;FOD;Good: 40-60;Good: 40-60;1;1212,15669
+Salobo;FOD;Good: 40-60;Poor: 20-40;1;338,53234
+Salobo;FOD;Good: 40-60;Very good: 60-80;1;13,69371
+Salobo;FOD;Good: 40-60;Zero;3;157,61638
+Salobo;FOD;Poor: 20-40;Good: 40-60;1;7,38037
+Salobo;FOD;Poor: 20-40;Poor: 20-40;2;944,69706
+Salobo;FOD;Poor: 20-40;Very Poor: 0-20;1;0,17790
+Salobo;FOD;Poor: 20-40;Zero;4;370,91794
+Salobo;FOD;Very Poor: 0-20;Poor: 20-40;1;1,69005
+Salobo;FOD;Very Poor: 0-20;Very Poor: 0-20;1;4,98009
+Salobo;FOD;Very Poor: 0-20;Zero;4;4,53633
+Salobo;FOD;Very good: 60-80;Excellent : 80-100;1;13,96044
+Salobo;FOD;Very good: 60-80;Good: 40-60;1;221,83191
+Salobo;FOD;Very good: 60-80;Poor: 20-40;1;45,27393
+Salobo;FOD;Very good: 60-80;Very good: 60-80;1;439,30545
+Salobo;FOD;Very good: 60-80;Zero;2;16,18770
+Salobo;FOD;Zero;Excellent : 80-100;2;0,44470
+Salobo;FOD;Zero;Poor: 20-40;2;1,15617
+Salobo;FOD;Zero;Very Poor: 0-20;1;1,77855
+Salobo;FOD;Zero;Zero;12;2968,23345
+Serra_Leste;FOA;Good: 40-60;Good: 40-60;2;126,72317
+Serra_Leste;FOA;Good: 40-60;Poor: 20-40;2;44,58152
+Serra_Leste;FOA;Good: 40-60;Very Poor: 0-20;1;3,12515
+Serra_Leste;FOA;Good: 40-60;Very good: 60-80;1;0,08929
+Serra_Leste;FOA;Good: 40-60;Zero;3;5,95838
+Serra_Leste;FOA;Poor: 20-40;Good: 40-60;2;5,96636
+Serra_Leste;FOA;Poor: 20-40;Poor: 20-40;2;481,42485
+Serra_Leste;FOA;Poor: 20-40;Very Poor: 0-20;4;55,58708
+Serra_Leste;FOA;Poor: 20-40;Zero;4;47,04448
+Serra_Leste;FOA;Very Poor: 0-20;Good: 40-60;1;0,08929
+Serra_Leste;FOA;Very Poor: 0-20;Poor: 20-40;3;50,95620
+Serra_Leste;FOA;Very Poor: 0-20;Very Poor: 0-20;8;913,27052
+Serra_Leste;FOA;Very Poor: 0-20;Zero;9;151,26288
+Serra_Leste;FOA;Very good: 60-80;Good: 40-60;2;6,14029
+Serra_Leste;FOA;Very good: 60-80;Poor: 20-40;1;0,53352
+Serra_Leste;FOA;Very good: 60-80;Very good: 60-80;2;11,57033
+Serra_Leste;FOA;Very good: 60-80;Zero;1;0,08892
+Serra_Leste;FOA;Zero;Poor: 20-40;4;2,23151
+Serra_Leste;FOA;Zero;Very Poor: 0-20;3;74,95846
+Serra_Leste;FOA;Zero;Zero;16;1609,67103
+Serra_Leste;FOD;Excellent : 80-100;Excellent : 80-100;3;513,19954
+Serra_Leste;FOD;Excellent : 80-100;Good: 40-60;3;288,05446
+Serra_Leste;FOD;Excellent : 80-100;Poor: 20-40;4;99,91255
+Serra_Leste;FOD;Excellent : 80-100;Very Poor: 0-20;1;1,25006
+Serra_Leste;FOD;Excellent : 80-100;Very good: 60-80;3;423,81316
+Serra_Leste;FOD;Excellent : 80-100;Zero;1;126,97038
+Serra_Leste;FOD;Good: 40-60;Good: 40-60;5;1446,03085
+Serra_Leste;FOD;Good: 40-60;Poor: 20-40;5;1019,30324
+Serra_Leste;FOD;Good: 40-60;Very Poor: 0-20;5;42,40942
+Serra_Leste;FOD;Good: 40-60;Very good: 60-80;4;19,81495
+Serra_Leste;FOD;Good: 40-60;Zero;3;312,48182
+Serra_Leste;FOD;Poor: 20-40;Good: 40-60;5;29,15879
+Serra_Leste;FOD;Poor: 20-40;Poor: 20-40;5;1154,59460
+Serra_Leste;FOD;Poor: 20-40;Very Poor: 0-20;4;190,61598
+Serra_Leste;FOD;Poor: 20-40;Very good: 60-80;1;0,62237
+Serra_Leste;FOD;Poor: 20-40;Zero;4;461,73911
+Serra_Leste;FOD;Very Poor: 0-20;Good: 40-60;2;4,10734
+Serra_Leste;FOD;Very Poor: 0-20;Poor: 20-40;6;67,73530
+Serra_Leste;FOD;Very Poor: 0-20;Very Poor: 0-20;9;1092,42798
+Serra_Leste;FOD;Very Poor: 0-20;Very good: 60-80;1;0,35716
+Serra_Leste;FOD;Very Poor: 0-20;Zero;7;286,95854
+Serra_Leste;FOD;Very good: 60-80;Excellent : 80-100;1;0,35720
+Serra_Leste;FOD;Very good: 60-80;Good: 40-60;4;606,66671
+Serra_Leste;FOD;Very good: 60-80;Poor: 20-40;4;384,99245
+Serra_Leste;FOD;Very good: 60-80;Very Poor: 0-20;2;27,41203
+Serra_Leste;FOD;Very good: 60-80;Very good: 60-80;5;816,18426
+Serra_Leste;FOD;Very good: 60-80;Zero;3;209,52922
+Serra_Leste;FOD;Zero;Poor: 20-40;2;7,14321
+Serra_Leste;FOD;Zero;Very Poor: 0-20;8;103,60916
+Serra_Leste;FOD;Zero;Zero;8;1096,82770
+Sossego_1;FOA;Good: 40-60;Good: 40-60;1;3,82055
+Sossego_1;FOA;Good: 40-60;Poor: 20-40;1;20,25780
+Sossego_1;FOA;Good: 40-60;Zero;2;7,99650
+Sossego_1;FOA;Poor: 20-40;Poor: 20-40;3;34,74188
+Sossego_1;FOA;Poor: 20-40;Very Poor: 0-20;2;3,37629
+Sossego_1;FOA;Poor: 20-40;Zero;4;17,59673
+Sossego_1;FOA;Very Poor: 0-20;Very Poor: 0-20;2;20,17434
+Sossego_1;FOA;Very Poor: 0-20;Zero;6;13,77599
+Sossego_1;FOA;Zero;Zero;13;211,76860
+Sossego_1;FOD;Very Poor: 0-20;Very Poor: 0-20;1;0,08891
+Sossego_1;FOD;Zero;Zero;1;2,93403
+Sossego_2;FOA;Poor: 20-40;Poor: 20-40;2;0,90000
+Sossego_2;FOA;Poor: 20-40;Zero;3;3,96000
+Sossego_2;FOA;Very Poor: 0-20;Very Poor: 0-20;1;0,36000
+Sossego_2;FOA;Very Poor: 0-20;Zero;1;0,26670
+Sossego_2;FOA;Zero;Zero;11;13,01260
+Sossego_2;FOD;Very Poor: 0-20;Very Poor: 0-20;1;0,08892
+Sossego_2;FOD;Zero;Zero;1;2,07000
+Sustentabilidade;FOA;Poor: 20-40;Zero;1;0,26670
+Sustentabilidade;FOA;Zero;Zero;5;31,29280

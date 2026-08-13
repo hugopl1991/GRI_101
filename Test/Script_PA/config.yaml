@@ -1,0 +1,17 @@
+Paths:
+  file_table_comparison: "Tabelas/lulc_condicao_legenda_{AREA}.xlsx"
+  file_reclass_path: "Tabelas/Reclass_{AREA}.xlsx"
+  output_g106: "Saida106_{AREA}.csv"
+  output_g106b: "Saida106b_{AREA}.csv"
+  output_g107: "Saida107b_{AREA}.csv"
+  output_lulc_cond: "lulc_condicao_reclass_{AREA}.csv"
+  output_balance: "Saida_balanco_natural_{AREA}.csv"
+
+Data:
+  area: "PA"
+  size_pixel: 30
+  base_year_compare: 2020
+  end_year: 2024
+  separator: ";"
+  decimal_separator: ","
+  float_format: "%.5f"

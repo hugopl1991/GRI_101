@@ -1,0 +1,88 @@
+OpUnit;ReIBGE;ReLULC2020;ReLULC2024;GroupCount;sum_Area_ha
+Bioenergia;FOA;Floresta;Antrópico;13;126,76378
+Bioenergia;FOA;Floresta;Vegetação Herbácea Arbustiva;9;8,30804
+Bioenergia;FOA;Vegetação Herbácea Arbustiva;Antrópico;2;231,09657
+Bioenergia;FOA;Vegetação Herbácea Arbustiva;Floresta;12;10,45179
+Bioenergia;FOD;Floresta;Antrópico;11;388,34340
+Bioenergia;FOD;Floresta;Vegetação Herbácea Arbustiva;7;3,12652
+Bioenergia;FOD;Vegetação Herbácea Arbustiva;Antrópico;5;12,05970
+Bioenergia;FOD;Vegetação Herbácea Arbustiva;Floresta;10;8,75303
+Cristalino;FOA;Floresta;Antrópico;10;399,71475
+Cristalino;FOA;Floresta;Vegetação Herbácea Arbustiva;2;0,44424
+Cristalino;FOA;Vegetação Herbácea Arbustiva;Antrópico;3;23,45616
+Cristalino;FOD;Floresta;Antrópico;5;109,09995
+Cristalino;FOD;Floresta;Vegetação Herbácea Arbustiva;1;0,88840
+Cristalino;FOD;Vegetação Herbácea Arbustiva;Antrópico;1;0,53304
+Cristalino;FOD;Vegetação Herbácea Arbustiva;Floresta;1;0,44420
+Cristalino;Refúgio Vegetacional Montano;Floresta;Antrópico;2;0,71072
+Cristalino;Refúgio Vegetacional Montano;Floresta;Vegetação Herbácea Arbustiva;1;0,35536
+Cristalino;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Antrópico;1;7,99560
+Cristalino;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Floresta;1;0,08884
+Estrada_de_Ferro_Carajas_1;FOA;Floresta;Antrópico;34;946,89758
+Estrada_de_Ferro_Carajas_1;FOA;Floresta;Vegetação Herbácea Arbustiva;3;0,97725
+Estrada_de_Ferro_Carajas_1;FOA;Vegetação Herbácea Arbustiva;Antrópico;13;50,34895
+Estrada_de_Ferro_Carajas_1;FOA;Vegetação Herbácea Arbustiva;Floresta;5;0,88911
+Estrada_de_Ferro_Carajas_1;FOD;Floresta;Antrópico;15;50,44860
+Estrada_de_Ferro_Carajas_1;FOD;Floresta;Vegetação Herbácea Arbustiva;3;0,26691
+Estrada_de_Ferro_Carajas_1;FOD;Vegetação Herbácea Arbustiva;Antrópico;9;34,35428
+Estrada_de_Ferro_Carajas_1;FOD;Vegetação Herbácea Arbustiva;Floresta;1;0,26700
+Estrada_de_Ferro_Carajas_2;FOA;Floresta;Antrópico;1;0,45000
+Estrada_de_Ferro_Carajas_3;FOA;Floresta;Antrópico;6;239,77822
+Estrada_de_Ferro_Carajas_3;FOA;Floresta;Vegetação Herbácea Arbustiva;2;1,07148
+Estrada_de_Ferro_Carajas_3;FOA;Vegetação Herbácea Arbustiva;Antrópico;4;20,09025
+Estrada_de_Ferro_Carajas_3;FOA;Vegetação Herbácea Arbustiva;Floresta;2;4,01805
+Estrada_de_Ferro_Carajas_3;FOD;Floresta;Antrópico;5;33,39519
+Estrada_de_Ferro_Carajas_3;FOD;Vegetação Herbácea Arbustiva;Antrópico;1;0,26787
+Estrada_de_Ferro_Carajas_5;FOA;Floresta;Antrópico;3;3,99821
+Estrada_de_Ferro_Carajas_5;FOA;Floresta;Vegetação Herbácea Arbustiva;1;0,08886
+Estrada_de_Ferro_Carajas_5;FOA;Vegetação Herbácea Arbustiva;Antrópico;1;0,44434
+Estrada_de_Ferro_Carajas_6;FOA;Floresta;Antrópico;5;20,43436
+Estrada_de_Ferro_Carajas_6;FOA;Floresta;Vegetação Herbácea Arbustiva;1;0,08884
+Estrada_de_Ferro_Carajas_6;FOA;Vegetação Herbácea Arbustiva;Antrópico;1;0,26652
+N4N5;FOA;Floresta;Antrópico;19;106,34716
+N4N5;FOA;Vegetação Herbácea Arbustiva;Antrópico;5;4,80080
+N4N5;FOA;Vegetação Herbácea Arbustiva;Floresta;2;1,15596
+N4N5;FOD;Floresta;Antrópico;11;294,56044
+N4N5;FOD;Floresta;Vegetação Herbácea Arbustiva;1;0,35564
+N4N5;FOD;Vegetação Herbácea Arbustiva;Antrópico;3;5,60072
+N4N5;FOD;Vegetação Herbácea Arbustiva;Floresta;2;3,91896
+N4N5;Refúgio Vegetacional Montano;Floresta;Antrópico;4;38,13915
+N4N5;Refúgio Vegetacional Montano;Floresta;Vegetação Herbácea Arbustiva;1;2,43000
+N4N5;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Antrópico;2;8,17906
+N4N5;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Floresta;3;1,42798
+Niquel_do_Vermelho;FOA;Floresta;Antrópico;7;947,13274
+Niquel_do_Vermelho;FOA;Floresta;Vegetação Herbácea Arbustiva;5;2,48755
+Niquel_do_Vermelho;FOA;Vegetação Herbácea Arbustiva;Antrópico;2;5,77466
+Onca_Puma;FOA;Floresta;Antrópico;23;859,30556
+Onca_Puma;FOA;Floresta;Vegetação Herbácea Arbustiva;12;4,97293
+Onca_Puma;FOA;Vegetação Herbácea Arbustiva;Antrópico;12;54,09255
+Onca_Puma;FOA;Vegetação Herbácea Arbustiva;Floresta;7;4,44096
+Opunit1;FOA;Floresta;Antrópico;3;2,52000
+Opunit4;FOA;Floresta;Antrópico;1;0,09000
+Opunit4;FOD;Floresta;Antrópico;1;0,27000
+S11D;FOA;Floresta;Antrópico;35;1409,35759
+S11D;FOA;Floresta;Vegetação Herbácea Arbustiva;13;14,65613
+S11D;FOA;Vegetação Herbácea Arbustiva;Antrópico;8;31,09421
+S11D;FOA;Vegetação Herbácea Arbustiva;Floresta;10;7,10793
+S11D;FOD;Floresta;Antrópico;5;91,77794
+S11D;Refúgio Vegetacional Montano;Floresta;Antrópico;5;44,25243
+S11D;Refúgio Vegetacional Montano;Floresta;Vegetação Herbácea Arbustiva;7;9,33056
+S11D;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Antrópico;4;60,24740
+S11D;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Floresta;4;0,44431
+Salobo;FOA;Floresta;Antrópico;2;0,53358
+Salobo;FOD;Floresta;Antrópico;15;548,19080
+Salobo;FOD;Vegetação Herbácea Arbustiva;Antrópico;1;2,40165
+Salobo;FOD;Vegetação Herbácea Arbustiva;Floresta;1;1,69005
+Serra_Leste;FOA;Floresta;Antrópico;11;175,71597
+Serra_Leste;FOA;Floresta;Vegetação Herbácea Arbustiva;6;10,24884
+Serra_Leste;FOA;Vegetação Herbácea Arbustiva;Antrópico;6;28,63869
+Serra_Leste;FOA;Vegetação Herbácea Arbustiva;Floresta;4;1,51682
+Serra_Leste;FOD;Floresta;Antrópico;15;1395,71542
+Serra_Leste;FOD;Floresta;Vegetação Herbácea Arbustiva;6;12,67844
+Serra_Leste;FOD;Vegetação Herbácea Arbustiva;Antrópico;3;1,96365
+Serra_Leste;FOD;Vegetação Herbácea Arbustiva;Floresta;5;5,17734
+Sossego_1;FOA;Floresta;Antrópico;9;37,32586
+Sossego_1;FOA;Floresta;Vegetação Herbácea Arbustiva;1;0,08884
+Sossego_1;FOA;Vegetação Herbácea Arbustiva;Antrópico;3;2,04336
+Sossego_2;FOA;Floresta;Antrópico;4;4,22670
+Sustentabilidade;FOA;Floresta;Antrópico;1;0,26670

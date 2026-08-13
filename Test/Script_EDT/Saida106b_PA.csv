@@ -1,0 +1,171 @@
+OpUnit;ReIBGE;ReLULC2020;LULC_2024;GroupCount;sum_Area_ha
+Bioenergia;FOA;Floresta;Campo Alagado e Área Pantanosa;7;8,12938
+Bioenergia;FOA;Floresta;Formação Campestre;1;0,08933
+Bioenergia;FOA;Floresta;Formação Savânica;1;0,08933
+Bioenergia;FOA;Floresta;Outras Áreas não Vegetadas;3;9,64872
+Bioenergia;FOA;Floresta;Pastagem;10;117,11506
+Bioenergia;FOA;Vegetação Herbácea Arbustiva;Floresta Alagável;9;9,20117
+Bioenergia;FOA;Vegetação Herbácea Arbustiva;Formação Florestal;3;1,25062
+Bioenergia;FOA;Vegetação Herbácea Arbustiva;Pastagem;2;231,09657
+Bioenergia;FOD;Floresta;Campo Alagado e Área Pantanosa;2;1,96523
+Bioenergia;FOD;Floresta;Formação Campestre;2;0,62531
+Bioenergia;FOD;Floresta;Formação Savânica;3;0,53598
+Bioenergia;FOD;Floresta;Outras Áreas não Vegetadas;1;1,42944
+Bioenergia;FOD;Floresta;Pastagem;10;386,91396
+Bioenergia;FOD;Vegetação Herbácea Arbustiva;Floresta Alagável;5;7,68107
+Bioenergia;FOD;Vegetação Herbácea Arbustiva;Formação Florestal;5;1,07196
+Bioenergia;FOD;Vegetação Herbácea Arbustiva;Outras Áreas não Vegetadas;1;0,35736
+Bioenergia;FOD;Vegetação Herbácea Arbustiva;Pastagem;4;11,70234
+Cristalino;FOA;Floresta;Formação Campestre;2;0,44424
+Cristalino;FOA;Floresta;Mineração;4;32,51910
+Cristalino;FOA;Floresta;Outras Lavouras Temporárias;1;0,08884
+Cristalino;FOA;Floresta;Pastagem;5;367,10681
+Cristalino;FOA;Vegetação Herbácea Arbustiva;Pastagem;3;23,45616
+Cristalino;FOD;Floresta;Afloramento Rochoso;1;0,88840
+Cristalino;FOD;Floresta;Mineração;1;2,13240
+Cristalino;FOD;Floresta;Pastagem;4;106,96755
+Cristalino;FOD;Vegetação Herbácea Arbustiva;Formação Florestal;1;0,44420
+Cristalino;FOD;Vegetação Herbácea Arbustiva;Pastagem;1;0,53304
+Cristalino;Refúgio Vegetacional Montano;Floresta;Afloramento Rochoso;1;0,35536
+Cristalino;Refúgio Vegetacional Montano;Floresta;Pastagem;2;0,71072
+Cristalino;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Formação Florestal;1;0,08884
+Cristalino;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Pastagem;1;7,99560
+Estrada_de_Ferro_Carajas_1;FOA;Floresta;Afloramento Rochoso;1;0,53304
+Estrada_de_Ferro_Carajas_1;FOA;Floresta;Formação Campestre;2;0,44421
+Estrada_de_Ferro_Carajas_1;FOA;Floresta;Mineração;10;206,80429
+Estrada_de_Ferro_Carajas_1;FOA;Floresta;Outras Áreas não Vegetadas;3;3,64656
+Estrada_de_Ferro_Carajas_1;FOA;Floresta;Pastagem;13;732,88952
+Estrada_de_Ferro_Carajas_1;FOA;Floresta;Rio, Lago e Oceano;5;1,42173
+Estrada_de_Ferro_Carajas_1;FOA;Floresta;Área Urbanizada;3;2,13548
+Estrada_de_Ferro_Carajas_1;FOA;Vegetação Herbácea Arbustiva;Floresta Alagável;1;0,26703
+Estrada_de_Ferro_Carajas_1;FOA;Vegetação Herbácea Arbustiva;Formação Florestal;4;0,62208
+Estrada_de_Ferro_Carajas_1;FOA;Vegetação Herbácea Arbustiva;Mineração;2;19,02596
+Estrada_de_Ferro_Carajas_1;FOA;Vegetação Herbácea Arbustiva;Outras Áreas não Vegetadas;3;1,51319
+Estrada_de_Ferro_Carajas_1;FOA;Vegetação Herbácea Arbustiva;Pastagem;5;28,74180
+Estrada_de_Ferro_Carajas_1;FOA;Vegetação Herbácea Arbustiva;Área Urbanizada;3;1,06800
+Estrada_de_Ferro_Carajas_1;FOD;Floresta;Afloramento Rochoso;1;0,08891
+Estrada_de_Ferro_Carajas_1;FOD;Floresta;Formação Campestre;1;0,08900
+Estrada_de_Ferro_Carajas_1;FOD;Floresta;Formação Savânica;1;0,08900
+Estrada_de_Ferro_Carajas_1;FOD;Floresta;Mineração;2;2,31344
+Estrada_de_Ferro_Carajas_1;FOD;Floresta;Outras Áreas não Vegetadas;5;1,95808
+Estrada_de_Ferro_Carajas_1;FOD;Floresta;Pastagem;5;45,19805
+Estrada_de_Ferro_Carajas_1;FOD;Floresta;Rio, Lago e Oceano;2;0,62300
+Estrada_de_Ferro_Carajas_1;FOD;Floresta;Área Urbanizada;1;0,35603
+Estrada_de_Ferro_Carajas_1;FOD;Vegetação Herbácea Arbustiva;Formação Florestal;1;0,26700
+Estrada_de_Ferro_Carajas_1;FOD;Vegetação Herbácea Arbustiva;Mineração;3;14,24004
+Estrada_de_Ferro_Carajas_1;FOD;Vegetação Herbácea Arbustiva;Outras Áreas não Vegetadas;2;7,47600
+Estrada_de_Ferro_Carajas_1;FOD;Vegetação Herbácea Arbustiva;Pastagem;3;12,28224
+Estrada_de_Ferro_Carajas_1;FOD;Vegetação Herbácea Arbustiva;Rio, Lago e Oceano;1;0,35600
+Estrada_de_Ferro_Carajas_2;FOA;Floresta;Pastagem;1;0,45000
+Estrada_de_Ferro_Carajas_3;FOA;Floresta;Campo Alagado e Área Pantanosa;1;0,89290
+Estrada_de_Ferro_Carajas_3;FOA;Floresta;Formação Campestre;1;0,17858
+Estrada_de_Ferro_Carajas_3;FOA;Floresta;Mineração;2;5,15794
+Estrada_de_Ferro_Carajas_3;FOA;Floresta;Pastagem;4;234,62028
+Estrada_de_Ferro_Carajas_3;FOA;Vegetação Herbácea Arbustiva;Floresta Alagável;1;3,75018
+Estrada_de_Ferro_Carajas_3;FOA;Vegetação Herbácea Arbustiva;Formação Florestal;1;0,26787
+Estrada_de_Ferro_Carajas_3;FOA;Vegetação Herbácea Arbustiva;Pastagem;2;19,28664
+Estrada_de_Ferro_Carajas_3;FOA;Vegetação Herbácea Arbustiva;Rio, Lago e Oceano;2;0,80361
+Estrada_de_Ferro_Carajas_3;FOD;Floresta;Mineração;1;1,68967
+Estrada_de_Ferro_Carajas_3;FOD;Floresta;Pastagem;4;31,70552
+Estrada_de_Ferro_Carajas_3;FOD;Vegetação Herbácea Arbustiva;Pastagem;1;0,26787
+Estrada_de_Ferro_Carajas_5;FOA;Floresta;Formação Campestre;1;0,08886
+Estrada_de_Ferro_Carajas_5;FOA;Floresta;Pastagem;3;3,99821
+Estrada_de_Ferro_Carajas_5;FOA;Vegetação Herbácea Arbustiva;Pastagem;1;0,44434
+Estrada_de_Ferro_Carajas_6;FOA;Floresta;Formação Campestre;1;0,08884
+Estrada_de_Ferro_Carajas_6;FOA;Floresta;Pastagem;5;20,43436
+Estrada_de_Ferro_Carajas_6;FOA;Vegetação Herbácea Arbustiva;Pastagem;1;0,26652
+N4N5;FOA;Floresta;Mineração;9;96,47493
+N4N5;FOA;Floresta;Rio, Lago e Oceano;10;9,87223
+N4N5;FOA;Vegetação Herbácea Arbustiva;Formação Florestal;1;1,06704
+N4N5;FOA;Vegetação Herbácea Arbustiva;Mineração;3;4,53404
+N4N5;FOA;Vegetação Herbácea Arbustiva;Pastagem;1;0,08892
+N4N5;FOA;Vegetação Herbácea Arbustiva;Rio, Lago e Oceano;2;0,26676
+N4N5;FOD;Floresta;Afloramento Rochoso;1;0,35564
+N4N5;FOD;Floresta;Mineração;6;287,80305
+N4N5;FOD;Floresta;Outras Áreas não Vegetadas;1;3,02294
+N4N5;FOD;Floresta;Rio, Lago e Oceano;3;3,11214
+N4N5;FOD;Floresta;Área Urbanizada;1;0,62231
+N4N5;FOD;Vegetação Herbácea Arbustiva;Formação Florestal;2;3,91896
+N4N5;FOD;Vegetação Herbácea Arbustiva;Mineração;3;5,60072
+N4N5;Refúgio Vegetacional Montano;Floresta;Afloramento Rochoso;1;2,43000
+N4N5;Refúgio Vegetacional Montano;Floresta;Mineração;4;38,13915
+N4N5;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Formação Florestal;2;1,16128
+N4N5;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Mineração;2;8,17906
+N4N5;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Pastagem;1;0,26670
+Niquel_do_Vermelho;FOA;Floresta;Afloramento Rochoso;2;0,62183
+Niquel_do_Vermelho;FOA;Floresta;Formação Campestre;3;1,86572
+Niquel_do_Vermelho;FOA;Floresta;Mineração;2;20,87853
+Niquel_do_Vermelho;FOA;Floresta;Outras Áreas não Vegetadas;1;0,08883
+Niquel_do_Vermelho;FOA;Floresta;Pastagem;4;926,16538
+Niquel_do_Vermelho;FOA;Vegetação Herbácea Arbustiva;Pastagem;2;5,77466
+Onca_Puma;FOA;Floresta;Afloramento Rochoso;7;3,19652
+Onca_Puma;FOA;Floresta;Formação Campestre;5;1,77641
+Onca_Puma;FOA;Floresta;Mineração;6;153,50624
+Onca_Puma;FOA;Floresta;Outras Áreas não Vegetadas;1;1,06584
+Onca_Puma;FOA;Floresta;Pastagem;15;704,64465
+Onca_Puma;FOA;Floresta;Rio, Lago e Oceano;1;0,08883
+Onca_Puma;FOA;Vegetação Herbácea Arbustiva;Formação Florestal;7;4,44096
+Onca_Puma;FOA;Vegetação Herbácea Arbustiva;Mineração;4;15,45521
+Onca_Puma;FOA;Vegetação Herbácea Arbustiva;Pastagem;7;38,45968
+Onca_Puma;FOA;Vegetação Herbácea Arbustiva;Área Urbanizada;1;0,17766
+Opunit1;FOA;Floresta;Pastagem;3;2,52000
+Opunit4;FOA;Floresta;Mineração;1;0,09000
+Opunit4;FOD;Floresta;Mineração;1;0,27000
+S11D;FOA;Floresta;Afloramento Rochoso;7;6,93035
+S11D;FOA;Floresta;Campo Alagado e Área Pantanosa;2;6,39300
+S11D;FOA;Floresta;Formação Campestre;4;1,33278
+S11D;FOA;Floresta;Mineração;8;263,05651
+S11D;FOA;Floresta;Outras Áreas não Vegetadas;6;11,28268
+S11D;FOA;Floresta;Pastagem;15;1132,79696
+S11D;FOA;Floresta;Rio, Lago e Oceano;6;2,22144
+S11D;FOA;Vegetação Herbácea Arbustiva;Formação Florestal;10;7,10793
+S11D;FOA;Vegetação Herbácea Arbustiva;Mineração;2;6,21880
+S11D;FOA;Vegetação Herbácea Arbustiva;Pastagem;6;24,87541
+S11D;FOD;Floresta;Mineração;3;88,40197
+S11D;FOD;Floresta;Pastagem;2;3,37597
+S11D;Refúgio Vegetacional Montano;Floresta;Afloramento Rochoso;4;8,26423
+S11D;Refúgio Vegetacional Montano;Floresta;Formação Campestre;3;1,06633
+S11D;Refúgio Vegetacional Montano;Floresta;Mineração;1;4,08710
+S11D;Refúgio Vegetacional Montano;Floresta;Pastagem;4;40,16533
+S11D;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Formação Florestal;4;0,44431
+S11D;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Mineração;1;7,55225
+S11D;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Outras Lavouras Temporárias;1;0,44430
+S11D;Refúgio Vegetacional Montano;Vegetação Herbácea Arbustiva;Pastagem;2;52,25085
+Salobo;FOA;Floresta;Outras Áreas não Vegetadas;1;0,35572
+Salobo;FOA;Floresta;Área Urbanizada;1;0,17786
+Salobo;FOD;Floresta;Mineração;5;509,14152
+Salobo;FOD;Floresta;Outras Áreas não Vegetadas;2;4,71436
+Salobo;FOD;Floresta;Pastagem;4;32,64496
+Salobo;FOD;Floresta;Rio, Lago e Oceano;4;1,68996
+Salobo;FOD;Vegetação Herbácea Arbustiva;Formação Florestal;1;1,69005
+Salobo;FOD;Vegetação Herbácea Arbustiva;Mineração;1;2,40165
+Serra_Leste;FOA;Floresta;Afloramento Rochoso;2;4,17967
+Serra_Leste;FOA;Floresta;Campo Alagado e Área Pantanosa;2;5,44669
+Serra_Leste;FOA;Floresta;Formação Campestre;2;0,62248
+Serra_Leste;FOA;Floresta;Mineração;3;35,12346
+Serra_Leste;FOA;Floresta;Outras Lavouras Temporárias;2;0,71143
+Serra_Leste;FOA;Floresta;Pastagem;5;139,70250
+Serra_Leste;FOA;Floresta;Rio, Lago e Oceano;1;0,17858
+Serra_Leste;FOA;Vegetação Herbácea Arbustiva;Floresta Alagável;2;1,25006
+Serra_Leste;FOA;Vegetação Herbácea Arbustiva;Formação Florestal;2;0,26676
+Serra_Leste;FOA;Vegetação Herbácea Arbustiva;Mineração;2;15,91686
+Serra_Leste;FOA;Vegetação Herbácea Arbustiva;Pastagem;3;12,27538
+Serra_Leste;FOA;Vegetação Herbácea Arbustiva;Rio, Lago e Oceano;1;0,44645
+Serra_Leste;FOD;Floresta;Afloramento Rochoso;1;0,08892
+Serra_Leste;FOD;Floresta;Campo Alagado e Área Pantanosa;4;12,50060
+Serra_Leste;FOD;Floresta;Formação Campestre;1;0,08892
+Serra_Leste;FOD;Floresta;Mineração;1;0,08892
+Serra_Leste;FOD;Floresta;Outras Lavouras Temporárias;2;3,91248
+Serra_Leste;FOD;Floresta;Pastagem;12;1391,71402
+Serra_Leste;FOD;Vegetação Herbácea Arbustiva;Floresta Alagável;3;4,46450
+Serra_Leste;FOD;Vegetação Herbácea Arbustiva;Formação Florestal;2;0,71284
+Serra_Leste;FOD;Vegetação Herbácea Arbustiva;Pastagem;3;1,96365
+Sossego_1;FOA;Floresta;Campo Alagado e Área Pantanosa;1;0,08884
+Sossego_1;FOA;Floresta;Mineração;4;15,91202
+Sossego_1;FOA;Floresta;Outras Áreas não Vegetadas;1;0,08892
+Sossego_1;FOA;Floresta;Pastagem;4;21,32492
+Sossego_1;FOA;Vegetação Herbácea Arbustiva;Pastagem;2;0,88844
+Sossego_1;FOA;Vegetação Herbácea Arbustiva;Rio, Lago e Oceano;1;1,15492
+Sossego_2;FOA;Floresta;Mineração;1;0,09000
+Sossego_2;FOA;Floresta;Pastagem;3;4,13670
+Sustentabilidade;FOA;Floresta;Pastagem;1;0,26670
