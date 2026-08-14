@@ -29,7 +29,7 @@ def parse_args():
                          help=f"Ano base para a comparação (default: {DEFAULT_BASE_YEAR})")
     parser.add_argument("--end-year", type=int, default=DEFAULT_END_YEAR,
                          help=f"Ano final para a comparação (default: {DEFAULT_END_YEAR})")
-    parser.add_argument("--area", type=str, default="PA",
+    parser.add_argument("--area", type=str, default=DEFAULT_AREA,
                          help="Estado de interesse (default: {DEFAULT_AREA})")
     parser.add_argument("--rebuild", action="store_true",
                          help="Força a reconstrução da imagem mesmo sem mudanças no Dockerfile/requirements.txt")
