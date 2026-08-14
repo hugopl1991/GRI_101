@@ -265,7 +265,7 @@ geom = read_dissolve_shp(shp_file)
 # band_perc = fractional_pixel_weights(raster_lulc_end, geom, list_indices)
 band_perc = fractional_pixel_weights_optimized(raster_lulc_end, geom)
 
-band_perc_area = (band_perc * band_area_raster).astype(np.float32)
+band_perc_area = band_perc * band_area_raster.astype(np.float64, copy=False)
 
 # Mascara com os pixels validos (LULC final != 0) -- usada para filtrar
 # TUDO antes de montar o DataFrame, em vez de processar o raster inteiro.

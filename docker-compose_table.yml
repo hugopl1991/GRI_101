@@ -16,7 +16,7 @@ services:
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
-    command: ["python3", "compare_maps_condicao.py"]
+    command: ["python3", "compare_maps_condicao_edt.py"]
     restart: "no"
 
   npi_GRI:
