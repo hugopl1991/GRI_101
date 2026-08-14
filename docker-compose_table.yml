@@ -13,10 +13,11 @@ services:
     container_name: npi_tables
     volumes:
       - ./:/app:delegated
+      - ${HOST_CONFIG_PATH:-./config.yaml}:/app/config.yaml:delegated
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
-    command: ["python3", "compare_maps_condicao.py"]
+    command: ["python3", "compare_maps_condicao_edt.py"]
     restart: "no"
 
   npi_GRI:
@@ -24,6 +25,7 @@ services:
     container_name: npi_GRI
     volumes:
       - ./:/app:delegated
+      - ${HOST_CONFIG_PATH:-./config.yaml}:/app/config.yaml:delegated
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1

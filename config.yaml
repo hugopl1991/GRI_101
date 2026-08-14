@@ -36,6 +36,14 @@ Paths:
   opunit_id_map_file: "inputs/Mapas_OpUnit_2025/ADAimo_{AREA}_2025.tif" # Diretorio do mapa de IDs de cada unidade operacional
   opunit_metadata_file: "inputs/Planilhas/OpUnit_Lista_2025.csv"        # Arquivo csv contendo os metadados de cada unidade operacional
   legendas_file: "inputs/Planilhas/Dicionario.xlsx"                     # Arquivo xlsx com as legendas de LULC, Fitofisionomia, Queimadas Pixels de Borda
+  # script de GRI_106_107
+  file_table_comparison: "output/lulc_condicao_legenda_{AREA}.xlsx"
+  file_reclass_path: "inputs/Planilhas/Reclass_{AREA}.xlsx"
+  output_g106: "output/Saida1016_{AREA}.csv"
+  output_g107: "output/Saida1017b_{AREA}.csv"
+  output_lulc_cond: "output/lulc_condicao_reclass_{AREA}.csv"
+  output_balance: "output/Saida_balanco_natural_{AREA}.csv"
+
 # =============================================================================
 # - VARIÁVEIS
 # =============================================================================
@@ -43,7 +51,7 @@ Data:
   # Variaveis globais
   area: "PA"       # Estado de interesse - Ex: PA
   start_year: 2000 # Ano inicial para o cálculo da frequência de queimadas
-  end_year: 2024   # Ano final para o processamento, usado em todos os scripts
+  end_year: 2020   # Ano final para o processamento, usado em todos os scripts
   base_year_veg: 1985  # Ano base usado no script de vegetacao segundaria.
   base_year_compare: 2020 # Ano final para o processamento, usado em comparacao de condicoes
   # Variaveis usadas pelos script burn frq, queimadas e bordas
@@ -77,3 +85,7 @@ Data:
   n_condition_classes: 5     # numero de classes de condicao
   id_class_compare: 3        # Classes selecionadas
   all_touched_compare: false # Opção all_touched do rasterio para script de comparacao de condicoes
+  # script de GRI_106_107
+  decimal_separator: "," # Separador decimal para os arquivos CSV de saída ("," ou ".")
+  separator: ";"         # Separador de campo para os arquivos CSV de saída (";" ou ",")
+  float_format: "%.5f"   # Formato de ponto flutuante para os arquivos CSV de saída (ex: "%.2f" para duas casas decimais)

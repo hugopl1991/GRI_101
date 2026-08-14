@@ -1,4 +1,5 @@
 import sys
+import os
 import yaml
 import pandas as pd
 import numpy as np
@@ -111,7 +112,6 @@ def fractional_pixel_weights_optimized(raster_path: str, geom: Any) -> np.ndarra
         
     return weights
 
-import os
 CONFIG_FILE = os.environ.get('CONFIG_FILE', 'config.yaml')
 with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
     cfg = yaml.safe_load(f)
@@ -267,7 +267,7 @@ geom = read_dissolve_shp(shp_file)
 # band_perc = fractional_pixel_weights(raster_lulc_end, geom, list_indices)
 band_perc = fractional_pixel_weights_optimized(raster_lulc_end, geom)
 
-band_perc_area = (band_perc * band_area_raster).astype(np.float32)
+band_perc_area = band_perc * band_area_raster.astype(np.float64, copy=False)
 
 # Mascara com os pixels validos (LULC final != 0) -- usada para filtrar
 # TUDO antes de montar o DataFrame, em vez de processar o raster inteiro.

@@ -13,6 +13,7 @@ services:
     container_name: veg-sec-weight
     volumes:
       - ./:/app:delegated
+      - ${HOST_CONFIG_PATH:-./config.yaml}:/app/config.yaml:delegated
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
@@ -24,6 +25,7 @@ services:
     container_name: npi_burn
     volumes:
       - ./:/app:delegated
+      - ${HOST_CONFIG_PATH:-./config.yaml}:/app/config.yaml:delegated
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
@@ -38,6 +40,7 @@ services:
     container_name: npi_queimadas
     volumes:
       - ./:/app:delegated
+      - ${HOST_CONFIG_PATH:-./config.yaml}:/app/config.yaml:delegated
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
@@ -52,6 +55,7 @@ services:
     container_name: npi_borda
     volumes:
       - ./:/app:delegated
+      - ${HOST_CONFIG_PATH:-./config.yaml}:/app/config.yaml:delegated
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
@@ -66,6 +70,7 @@ services:
     container_name: npi_weights
     volumes:
       - ./:/app:delegated
+      - ${HOST_CONFIG_PATH:-./config.yaml}:/app/config.yaml:delegated
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1

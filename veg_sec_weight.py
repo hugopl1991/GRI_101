@@ -3,6 +3,7 @@ import yaml
 import pandas as pd
 import numpy as np
 import warnings
+import os
 
 # Suprimir todos os warnings
 warnings.filterwarnings("ignore")
@@ -51,7 +52,6 @@ def make_raster_from_matrix(band: np.ndarray, raster_std: str,
 
   return final_name
 
-import os
 CONFIG_FILE = os.environ.get('CONFIG_FILE', 'config.yaml')
 with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
     cfg = yaml.safe_load(f)

@@ -15,16 +15,37 @@ RUNTIME_CONFIG_PATH = os.environ.get('RUNTIME_CONFIG_PATH', '/tmp/config.yaml')
 AZURE_MODE = os.environ.get('AZURE_MODE', '0') == '1'
 DEFAULT_BASE_YEAR = int(os.environ.get('DEFAULT_BASE_YEAR', '2020'))     # Ano base do processamento
 DEFAULT_END_YEAR = int(os.environ.get('DEFAULT_END_YEAR', '2024'))      # Ano final do processamento
+DEFAULT_AREA = os.environ.get('DEFAULT_AREA', 'PA')          # Estado de interesse - Ex: PA
 
-BUILD_INPUT_FILES = ['Dockerfile', 'requirements.txt']
 BUILD_HASH_FILE = '.build_hash'
+
+def _discover_build_input_files():
+    """
+    Lista os arquivos que efetivamente entram na imagem e devem contar
+    para o hash de build: Dockerfile, requirements.txt e todo o código
+    Python do projeto (tipicamente copiado via `COPY . /app` no Dockerfile).
+
+    Propositalmente NÃO inclui config.yaml, pois ele é reescrito a cada
+    execução do pipeline (mudança de ano/área) e isso forçaria rebuild
+    o tempo todo.
+    """
+    files = ['Dockerfile', 'requirements.txt']
+    project_root = Path(__file__).resolve().parent
+    py_files = sorted(
+        p for p in project_root.rglob('*.py')
+        if '.venv' not in p.parts and 'venv' not in p.parts and '__pycache__' not in p.parts
+    )
+    files.extend(str(p.relative_to(project_root)) for p in py_files)
+    return files
+
+BUILD_INPUT_FILES = _discover_build_input_files()
 
 yaml = YAML()
 yaml.preserve_quotes = True
 yaml.indent(mapping=2, sequence=4, offset=2)
 
 def parse_args():
-    """Permite escolher os anos via linha de comando, sem precisar editar o código."""
+    """Permite escolher os anos e a área via linha de comando, sem precisar editar o código."""
     parser = argparse.ArgumentParser(
         description="Orquestra o pipeline Veg_sec -> Down -> Burn -> Queimadas -> Borda -> Comparação."
     )
@@ -32,6 +53,8 @@ def parse_args():
                          help=f"Ano base para a comparação (default: {DEFAULT_BASE_YEAR})")
     parser.add_argument("--end-year", type=int, default=DEFAULT_END_YEAR,
                          help=f"Ano final para a comparação (default: {DEFAULT_END_YEAR})")
+    parser.add_argument("--area", type=str, default=DEFAULT_AREA,
+                         help=f"Estado de interesse (default: {DEFAULT_AREA})")
     parser.add_argument("--rebuild", action="store_true",
                          help="Força a reconstrução da imagem mesmo sem mudanças no Dockerfile/requirements.txt")
     return parser.parse_args()
@@ -59,8 +82,8 @@ def restore_backup():
         shutil.copy(backup_path, CONFIG_FILE)
         print(f"[*] {CONFIG_FILE} restaurado a partir do backup após falha.")
 
-def update_config_year(end_year, base_year_compare=None):
-    """Lê, altera o end_year e opcionalmente o base_year_compare no config.yaml, preservando formatação."""
+def update_config_year(end_year, base_year_compare=None, area=None):
+    """Lê, altera o end_year, opcionalmente o base_year_compare e a area no config.yaml, preservando formatação."""
     try:
         with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
             config = yaml.load(f)
@@ -75,22 +98,23 @@ def update_config_year(end_year, base_year_compare=None):
 
         if base_year_compare is not None:
             config['Data']['base_year_compare'] = base_year_compare
+            
+        if area is not None:
+            config['Data']['area'] = area
 
         with open(CONFIG_FILE, 'w', encoding='utf-8') as f:
             yaml.dump(config, f)
 
-        if base_year_compare is not None:
-            print(f"[*] config.yaml atualizado: end_year={end_year}, base_year_compare={base_year_compare}")
-        else:
-            print(f"[*] config.yaml atualizado: end_year={end_year}")
+        print(f"[*] config.yaml atualizado: end_year={end_year}, base_year_compare={base_year_compare}, area={area}")
 
     except Exception as e:
         print(f"[!] Erro ao atualizar {CONFIG_FILE}: {e}")
-        restore_backup()
+        if not AZURE_MODE:
+            restore_backup()
         sys.exit(1)
 
 def _compute_build_hash():
-    """Calcula um hash combinado do Dockerfile + requirements.txt."""
+    """Calcula um hash combinado do Dockerfile + requirements.txt + código Python do projeto."""
     hasher = hashlib.sha256()
     for filename in BUILD_INPUT_FILES:
         path = Path(filename)
@@ -149,7 +173,8 @@ def run_docker_compose(compose_file, build=False):
         print(f"[*] Processamento do {compose_file} concluído com sucesso.\n")
     except subprocess.CalledProcessError as e:
         print(f"[!] Erro ao executar {compose_file}: {e}")
-        restore_backup()
+        if not AZURE_MODE:
+            restore_backup()
         sys.exit(1)
 
 def cleanup_environment(compose_files):
@@ -163,12 +188,14 @@ def cleanup_environment(compose_files):
 if __name__ == "__main__":
     args = parse_args()
 
+    # Cleanup de containers/órfãos de execução anterior roda sempre,
+    # independente do modo, pois evita conflito de nomes em reexecuções.
+    cleanup_environment(["docker-compose_raster.yml", "docker-compose_table.yml"])
+
     # Em AZURE_MODE não alteramos o repo; geramos config de runtime
     if not AZURE_MODE:
         backup_config()
-        cleanup_environment(["docker-compose_raster.yml", "docker-compose_table.yml"])
     else:
-        # Carrega config do repo se existir para preservar seções estáticas
         base_cfg = {}
         repo_cfg_path = Path('config.yaml')
         try:
@@ -183,26 +210,46 @@ if __name__ == "__main__":
         if 'Data' not in base_cfg:
             base_cfg['Data'] = {}
 
-        # Prioriza valores vindos das variáveis/args
+        # Prioriza valores vindos das variáveis/args.
+        # Precedência de area: --area explícito na CLI > env AREA > area já
+        # existente no config.yaml > DEFAULT_AREA.
+        # (args.area nunca é None/vazio por causa do default do argparse,
+        # então usamos sys.argv para saber se foi passado explicitamente.)
+        area_explicit = any(a == "--area" or a.startswith("--area=") for a in sys.argv[1:])
+        if area_explicit:
+            resolved_area = args.area
+        else:
+            resolved_area = os.environ.get(
+                'AREA', base_cfg['Data'].get('area', DEFAULT_AREA)
+            )
+
+        args.area = resolved_area  # propaga a área resolvida para o resto do pipeline
+
         base_cfg['Data']['base_year_compare'] = args.base_year
         base_cfg['Data']['end_year'] = args.end_year
-        base_cfg['Data']['area'] = os.environ.get('AREA', base_cfg['Data'].get('area', 'PA'))
+        base_cfg['Data']['area'] = resolved_area
 
         # Escreve config de runtime e aponta CONFIG_FILE para ele
         try:
-            # 1) arquivo temporário (opcional)
+            # 1) arquivo temporário
             with open(RUNTIME_CONFIG_PATH, 'w', encoding='utf-8') as f:
                 yaml.dump(base_cfg, f)
-            # 2) também sobrescreve o config.yaml no diretório de trabalho
-            with open(repo_cfg_path, 'w', encoding='utf-8') as f:
-                yaml.dump(base_cfg, f)
 
-            CONFIG_FILE = str(repo_cfg_path)
-            print(f"[*] AZURE_MODE ativo: config de runtime escrito em {RUNTIME_CONFIG_PATH} e em {repo_cfg_path}")
+            # 2) No Azure NÃO sobrescreve o config.yaml do repositório
+            CONFIG_FILE = RUNTIME_CONFIG_PATH
+
+            print(f"[*] AZURE_MODE ativo: config de runtime escrito em {RUNTIME_CONFIG_PATH}")
         except Exception as e:
             print(f"[!] Falha ao escrever config runtime: {e}")
             sys.exit(1)
 
+
+    # Define HOST_CONFIG_PATH (usado pelos docker-compose_*.yml para montar
+    # /app/config.yaml corretamente, sobrepondo o bind mount do diretório
+    # inteiro). Precisa ser um caminho absoluto: um caminho relativo "bare"
+    # (ex: "config.yaml") seria interpretado pelo Docker Compose como um
+    # named volume, não como bind mount de arquivo.
+    os.environ['HOST_CONFIG_PATH'] = str(Path(CONFIG_FILE).resolve())
 
     # Decide UMA vez, no início, se a imagem precisa ser reconstruída.
     # Se sim, o build acontece apenas na primeira chamada abaixo — as
@@ -210,18 +257,18 @@ if __name__ == "__main__":
     build_needed = needs_rebuild(force=args.rebuild)
 
     # 1. Rodar a sequência do ano base
-    update_config_year(args.base_year)
+    update_config_year(args.base_year, area=args.area)
     run_docker_compose("docker-compose_raster.yml", build=build_needed)
     if build_needed:
         _save_build_hash()
         build_needed = False  # já reconstruída; próximas chamadas reaproveitam
 
     # 2. Rodar a sequência do ano final
-    update_config_year(args.end_year)
+    update_config_year(args.end_year, area=args.area)
     run_docker_compose("docker-compose_raster.yml", build=build_needed)
 
     # 3. Rodar o script de comparação (base vs final)
     # docker-compose_table.yml usa a mesma imagem (npi-geo:latest) já
     # construída acima, então nunca precisa de --build aqui.
-    update_config_year(args.end_year, base_year_compare=args.base_year)
+    update_config_year(args.end_year, base_year_compare=args.base_year, area=args.area)
     run_docker_compose("docker-compose_table.yml")
