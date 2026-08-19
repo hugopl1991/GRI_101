@@ -151,8 +151,27 @@ def run_docker_compose(compose_file, build=False):
         restore_backup()
         sys.exit(1)
 
+def _extract_container_names(compose_files):
+    """Lê os container_name de cada compose file, para não depender de lista manual."""
+    names = []
+    for compose_file in compose_files:
+        path = Path(compose_file)
+        if not path.exists():
+            continue
+        with open(path, 'r', encoding='utf-8') as f:
+            compose = yaml.load(f)
+        services = (compose or {}).get('services', {})
+        for service_name, service_def in services.items():
+            container_name = (service_def or {}).get('container_name')
+            if container_name:
+                names.append(container_name)
+    return names
+
 def cleanup_environment(compose_files):
     """Remove containers/órfãos de uma execução anterior antes de começar o pipeline."""
+    for name in _extract_container_names(compose_files):
+        subprocess.run(["docker", "rm", "-f", name], check=False, capture_output=True)
+
     for compose_file in compose_files:
         subprocess.run(
             ["docker", "compose", "-f", compose_file, "down", "--remove-orphans"],
