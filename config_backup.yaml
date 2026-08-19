@@ -3,49 +3,58 @@
 # =============================================================================
 Paths:
   # pastas
-  out_dir: "output" # Diretório de saída para os arquivos processados.
-  tmp_path: tmp     # Diretório de saída para os arquivos temporarios.
+  out_dir: "output" # Diretório de saída para os arquivos processados-(OBRIGATORIO).
+  tmp_path: tmp     # Diretório de saída para os arquivos temporarios-(OBRIGATORIO).
   # mapbiomas e shapefiles
-  lulc_path: "inputs/mapbiomas_col10/mapbiomas_col10_{AREA}_{YEAR}.tif" # Caminho para o arquivo raster de uso e cobertura da terra (LULC)
-  shp_path: "inputs/Shape_estados/{AREA}_Mapbiomas.shp" # Caminho para o arquivo shapefile do estado 
-  shp_file: inputs/Shapes_ADAIMO_2025/ADAIMO_2025_{AREA}.shp # Caminho para o arquivo shapefile de area operacional (AOI)
+  lulc_path: "inputs/mapbiomas_col10/mapbiomas_col10_{AREA}_{YEAR}.tif" # Caminho para o arquivo raster de uso e cobertura da terra (LULC)-(OBRIGATORIO).
+  shp_path: "inputs/Shape_estados/{AREA}_Mapbiomas.shp" # Caminho para o arquivo shapefile do estado-(OBRIGATORIO).
+  shp_file: inputs/Shapes_ADAIMO_2025/ADAIMO_2025_{AREA}.shp # Caminho para o arquivo shapefile de area operacional (AOI)-(OBRIGATORIO).
   # script burn frequencia
-  in_dir: "inputs/MODIS_BurnDate_RAW"                   # Diretório de entrada contendo os arquivos raster MODIS BurnDate_*.tif
-  out_burn: "burn_frequency_para_{SYERAR}_{EYERAR}.tif" # Nome do arquivo raster de saida com a frequencia das queimadas.
-  raster_modis: "BurnDate_*.tif"                        # Nome do arquivo raster MODIS (padrão: BurnDate_*.tif)
+  in_dir: "inputs/MODIS_BurnDate_RAW"                   # Diretório de entrada contendo os arquivos raster MODIS BurnDate_*.tif-(OBRIGATORIO).
+  out_burn: "burn_frequency_para_{SYERAR}_{EYERAR}.tif" # Nome do arquivo raster de saida com a frequencia das queimadas-(OBRIGATORIO).
+  raster_modis: "BurnDate_*.tif"                        # Nome do arquivo raster MODIS (padrão: BurnDate_*.tif)-(OBRIGATORIO).
   # script condicoes de queimadas
-  out_reproj: "tmp/burn_reproj_temp.tif"                # Caminho para o arquivo raster reprojetado (temporário)
-  out_cond_burn: "map_cond_burn_{AREA}_{YEAR}.tif"      # Caminho para o arquivo raster de condição de queimadas (Estado)
+  out_reproj: "tmp/burn_reproj_temp.tif"                # Caminho para o arquivo raster reprojetado (temporário)-(OBRIGATORIO).
+  out_cond_burn: "map_cond_burn_{AREA}_{YEAR}.tif"      # Caminho para o arquivo raster de condição de queimadas (Estado)-(OBRIGATORIO).
   out_clip_burn: "map_cond_burn_{AREA}_{YEAR}_clip.tif" # Caminho para o arquivo raster de condição de queimadas recortado pelo shapefile (AIO) -- Desativado no script
-  tabela_csv: "inputs/Planilhas/tabela_queimadas.csv"      # Caminho para o arquivo CSV contendo a tabela de classes de condição de queimadas 
+  tabela_csv: "inputs/Planilhas/tabela_queimadas.csv"      # Caminho para o arquivo CSV contendo a tabela de classes de condição de queimadas-(OBRIGATORIO).
   # script condicoes de borda
-  out_cond_edge: "map_cond_edge_{AREA}_{YEAR}.tif"      # Caminho para o arquivo raster de condição de borda (Estado)
+  out_cond_edge: "map_cond_edge_{AREA}_{YEAR}.tif"      # Caminho para o arquivo raster de condição de borda (Estado)-(OBRIGATORIO).
   out_clip_edge: "map_cond_edge_{AREA}_{YEAR}_clip.tif" # Caminho para o arquivo raster de condição de borda recortado pelo shapefile (AIO) -- Desativado no script
-  mask_temp: "tmp/temp_shape_mask.tif"                  # Caminho para o arquivo raster temporário de máscara do shapefile (temporário)
+  mask_temp: "tmp/temp_shape_mask.tif"                  # Caminho para o arquivo raster temporário de máscara do shapefile (temporário)-(OBRIGATORIO).
   # script condicoes de vegetacao segundaria
-  sec_veg_map_file: "inputs/Flor_Sec_col10/raster_Sec_Veg_col10_{AREA}_{YEAR}.tif"  # Caminho para o arquivo raster da vegetação segundaria
-  sec_veg_weight_map_file: "output/veg_sec_weight_{AREA}_{YEAR}.tif"                # Caminho para o arquivo raster de condição da vegetação segundaria (AIO)
+  sec_veg_map_file: "inputs/Flor_Sec_col10/raster_Sec_Veg_col10_{AREA}_{YEAR}.tif"  # Caminho para o arquivo raster da vegetação segundaria-(OBRIGATORIO).
+  sec_veg_weight_map_file: "output/veg_sec_weight_{AREA}_{YEAR}.tif"                # Caminho para o arquivo raster de condição da vegetação segundaria (AIO)-(OBRIGATORIO).
+  # script condicao dos ecossistemas
+  ## UTILIZA OS ARQUIVOS DE SAIDA DOS SCRIPTS DE CONDICAO DE QUEIMADAS, BORDA E VEGETACAO SECUNDARIA
   # script de condicoes do ecossistema
-  fito_map_file: "inputs/Fitofisionomia/Brasil_vege_areaWGS84.shp" # Caminho para o arquivo shapefile das fitofisionomias 
-  # script de comparacao de condicoes
-  bioma_map_file: "inputs_indicadores/inputs/Biomas/{BIOMA}.shp"      # Caminho para o shape de biomas
-  condition_map_file_base: output/map_weights_100_{BASE_YEAR}.tif     # Caminho para o mapa de condicao ano base
-  condition_map_file_end: output/map_weights_100_{END_YEAR}.tif       # Caminho para o mapa de condicao ano final
-  area_map_file: "inputs/Mapa_Area/pxA_x10m2_sembuffer.tif"           # Caminho para o mapa de area
-  opunit_id_csv_file: "inputs/Planilhas/OpUnit_ID_2025.csv"             # Arquivo csv contendo os IDs de cada unidade operacional
-  opunit_id_map_file: "inputs/Mapas_OpUnit_2025/ADAimo_{AREA}_2025.tif" # Diretorio do mapa de IDs de cada unidade operacional
-  opunit_metadata_file: "inputs/Planilhas/OpUnit_Lista_2025.csv"        # Arquivo csv contendo os metadados de cada unidade operacional
-  legendas_file: "inputs/Planilhas/Dicionario.xlsx"                     # Arquivo xlsx com as legendas de LULC, Fitofisionomia, Queimadas Pixels de Borda
+  fito_map_file: "inputs/Fitofisionomia/Brasil_vege_areaWGS84.shp"    # Caminho para o arquivo shapefile das fitofisionomias-(OBRIGATORIO).
+  bioma_map_file: "inputs_indicadores/inputs/Biomas/{BIOMA}.shp"      # Caminho para o shape de biomas-(OBRIGATORIO).
+  condition_map_file_base: output/map_weights_100_{BASE_YEAR}.tif     # Caminho para o mapa de condicao ano base-(OBRIGATORIO).
+  condition_map_file_end: output/map_weights_100_{END_YEAR}.tif       # Caminho para o mapa de condicao ano final-(OBRIGATORIO).
+  area_map_file: "inputs/Mapa_Area/pxA_x10m2_sembuffer.tif"           # Caminho para o mapa de area-(OBRIGATORIO).
+  opunit_id_csv_file: "inputs/Planilhas/OpUnit_ID_2025.csv"             # Arquivo csv contendo os IDs de cada unidade operacional-(OBRIGATORIO).
+  opunit_id_map_file: "inputs/Mapas_OpUnit_2025/ADAimo_{AREA}_2025.tif" # Diretorio do mapa de IDs de cada unidade operacional-(OBRIGATORIO).
+  opunit_metadata_file: "inputs/Planilhas/OpUnit_Lista_2025.csv"        # Arquivo csv contendo os metadados de cada unidade operacional-(OBRIGATORIO).
+  legendas_file: "inputs/Planilhas/Dicionario.xlsx"                     # Arquivo xlsx com as legendas de LULC, Fitofisionomia, Queimadas Pixels de Borda-(OBRIGATORIO).
+  # script de GRI_106_107
+  file_table_comparison: "output/lulc_condicao_legenda_{AREA}.xlsx"    # Tabela de comparação de LULC e Condição-(OBRIGATORIO).
+  file_reclass_path: "inputs/Planilhas/Reclass_{AREA}.xlsx"            # Tabela de reclassificação de LULC e Condição-(OBRIGATORIO).
+  output_g106: "output/Saida1016_{AREA}.csv"                           # Caminho para o arquivo CSV de saída do GRI 106-(OBRIGATORIO).
+  output_g107: "output/Saida1017b_{AREA}.csv"                          # Caminho para o arquivo CSV de saída do GRI 107-(OBRIGATORIO).
+  output_lulc_cond: "output/lulc_condicao_reclass_{AREA}.csv"          # Caminho para o arquivo CSV de saída da tabela de LULC e Condição reclassificada-(OBRIGATORIO).
+  output_balance: "output/Saida_balanco_natural_{AREA}.csv"            # Caminho para o arquivo CSV de saída do balanço natural-(OBRIGATORIO).
+
 # =============================================================================
 # - VARIÁVEIS
 # =============================================================================
 Data:
   # Variaveis globais
-  area: "PA"       # Estado de interesse - Ex: PA
-  start_year: 2000 # Ano inicial para o cálculo da frequência de queimadas
-  end_year: 2024   # Ano final para o processamento, usado em todos os scripts
-  base_year_veg: 1985  # Ano base usado no script de vegetacao segundaria.
-  base_year_compare: 2020 # Ano final para o processamento, usado em comparacao de condicoes
+  area: "PA"       # Estado de interesse - Ex: PA -(OBRIGATORIO).
+  start_year: 2000 # Ano inicial para o cálculo da frequência de queimadas -(OBRIGATORIO).
+  end_year: 2024   # Ano final para o processamento, usado em todos os scripts -(OBRIGATORIO).
+  base_year_veg: 1985  # Ano base usado no script de vegetacao segundaria -(OBRIGATORIO).
+  base_year_compare: 2020 # Ano final para o processamento, usado em comparacao de condicoes -(OBRIGATORIO).
   # Variaveis usadas pelos script burn frq, queimadas e bordas
   max_ram_usage: 0.6  # Porcentagem máxima de uso de RAM (0.6 = 60%)
   nodata: -9999       # Nodata (Alterado para valores negativo). NÃO USAR ZERO AQUI - Condicao de borda apresenta valores negativos no raster.
@@ -59,21 +68,25 @@ Data:
   tolerance: 0.0001     # Tolerância para simplificação da geometria do shapefile (em graus)
   crs_corr: "EPSG:4326" # Sistema de referência de coordenadas (CRS)
   # Variaveis usadas pelo script borda
-  classes_naturais: [0, 3, 4, 5, 6, 11, 12, 23, 29, 32, 33] # Classes de uso e cobertura da terra (LULC) consideradas naturais (sem efeito de borda), ZERO - area classificadas sem dados pelo Mapbiomas
+  classes_naturais: [0, 3, 4, 5, 6, 11, 12, 23, 29, 32, 33] # Classes de uso e cobertura da terra (LULC) consideradas naturais (sem efeito de borda), ZERO - area classificadas sem dados pelo Mapbiomas -(OBRIGATORIO).
   overlap: 100          # Sobreposição em pixels para o recorte do shapefile (usado para evitar bordas vazias)
   cond_borda: 30        # Condicao de borda inicial (para cálculo da condição)
   size_pixel: 30        # Tamanho do pixel em metros (para cálculo da condição)
   dist_max_pixel: 100   # Valor máximo da condição de borda (para cálculo da condição)
   dist_max_metros: 1000 # Distância máxima do efeito de borda em metros (para cálculo da condição)
-  funcao: "linear"      # "linear"  ou "exponencial" ---  VERSAO BETA (EXPONENCIAL) - não troque
+  funcao: "linear"      # "linear"  ou "exponencial" --- VERSAO BETA (EXPONENCIAL) - não troque
   # Variaveis usadas pelo script vegetação segundaria
-  id_class_veg: 3         # Id da classe vegetal
+  id_class_veg: 3         # Id da classe vegetal.
   all_touched_veg: false  # Opção all_touched do rasterio para script de vegetação segundaria
   # Variaveis usadas pelo script condicao dos ecossistemas
-  id_class_cond: [3, 6]   # Classes selecionadas
+  id_class_cond: [3, 6]   # Classes selecionadas do LULC -(OBRIGATORIO).
   all_touched_cond: false # Opção all_touched do rasterio para script de condicao dos ecossistemas
   nodata_cond: 0          # Nodata - após a algebra de raster que modifica os valores de pixel, pode ser usar o valor Zero para pixel sem dados.
   # script de comparacao de condicoes
-  n_condition_classes: 5     # numero de classes de condicao
-  id_class_compare: 3        # Classes selecionadas
+  n_condition_classes: 5     # numero de classes de condicao -(OBRIGATORIO).
+  id_class_compare: 3        # Classes selecionadas -(OBRIGATORIO).
   all_touched_compare: false # Opção all_touched do rasterio para script de comparacao de condicoes
+  # script de GRI_106_107
+  decimal_separator: "," # Separador decimal para os arquivos CSV de saída ("," ou ".")
+  separator: ";"         # Separador de campo para os arquivos CSV de saída (";" ou ",")
+  float_format: "%.5f"   # Formato de ponto flutuante para os arquivos CSV de saída (ex: "%.2f" para duas casas decimais)
