@@ -1,0 +1,118 @@
+---
+config:
+  layout: elk
+---
+flowchart TB
+    Start(("Início"))
+    Backup["Fazer backup do config.yaml"]
+    Cleanup["Executar docker compose down --remove-orphans"]
+    CheckBuildInicial{"A pipeline deu algum erro?"}
+    CheckBuild{"A imagem precisa ser reconstruída?"}
+    RecuvereBackup["Recuperar o backup do config.yaml"]
+    Build["Reconstruir imagem"]
+    Reuse["Reutilizar imagem npi-geo:latest"]
+    BaseConfig["Configurar ano base"]
+    FinalConfig["Atualizar config.yaml: end_year"]
+    CompareConfig["Atualizar config.yaml: base_year_compare"]
+    TableRun["Executar docker-compose_table.yml"]
+    End(("Fim"))
+
+    subgraph Inputs["Dados de entrada"]
+        direction TB
+        LULC["LULC anual — MapBiomas"]
+        AOI["Shapefiles — AOI"]
+        RAOI["Raster — AOI"]
+        BURN_SRC["Dados de queimadas — MODIS"]
+        REF_TABLES["Tabelas de referência"]
+        CONFIG["config.yaml"]
+    end
+
+    subgraph RasterBase["Processamento raster — ano base"]
+        direction TB
+        VS["veg_sec_weight"]
+        Burn["npi_burn_freq"]
+        Queim["npi_burm"]
+        Borda["npi_edge"]
+        Weights["npi_weights"]
+        BaseDone["Raster do ano base concluído"]
+
+        VS --> Burn --> Queim --> Borda --> Weights --> BaseDone
+    end
+
+    subgraph RasterFinal["Processamento raster — ano final"]
+        direction TB
+        VSFinal["veg_sec_weight — ano final"]
+        BurnFinal["npi_burn_freq — ano final"]
+        QueimFinal["npi_burn — ano final"]
+        BordaFinal["npi_edge — ano final"]
+        WeightsFinal["npi_weights — ano final"]
+        FinalDone["Raster do ano final concluído"]
+
+        VSFinal --> BurnFinal --> QueimFinal --> BordaFinal --> WeightsFinal --> FinalDone
+    end
+
+    subgraph TableSeq["Processamento de tabelas"]
+        direction TB
+        Tables["npi_tables — compare_maps_condicao.py"]
+        GRI["npi_GRI — GRI_UPDATE.py"]
+        Tables --> GRI
+    end
+    
+    subgraph PipelineBlock["Processos da Pipeline"]
+        direction TB
+        CheckBuild
+        Build
+        Reuse
+        BaseConfig
+        FinalConfig
+        CompareConfig
+        TableRun
+        RasterBase
+        RasterFinal
+        TableSeq
+    end
+
+    Start --> Backup --> Cleanup --> CheckBuildInicial
+    CheckBuildInicial -->|Sim| RecuvereBackup --> End
+    CheckBuildInicial -->|Não| CheckBuild
+    PipelineBlock --> CheckBuildInicial
+    CheckBuild -->|Sim| Build
+    CheckBuild -->|Não| Reuse
+    Build --> BaseConfig
+    Reuse --> BaseConfig
+    Build --> FinalConfig
+    Reuse --> FinalConfig
+    Build --> CompareConfig
+    Reuse --> CompareConfig
+
+    Inputs --> FinalConfig
+    Inputs --> BaseConfig
+    Inputs --> CompareConfig
+    Inputs --> RasterBase
+    Inputs --> RasterFinal
+    Inputs --> TableSeq
+    BaseConfig --> VS
+    RasterBase --> CheckBuild
+    BaseDone --> TableSeq
+    FinalConfig --> VSFinal
+    FinalDone --> TableSeq
+    RasterBase --> CheckBuild
+    CompareConfig --> TableRun
+    TableRun --> TableSeq
+    GRI --> End
+
+    classDef inputBox fill:#f0f9ff,stroke:#38bdf8,stroke-width:2px
+    classDef rasterBox fill:#f0fdf4,stroke:#4ade80,stroke-width:2px
+    classDef tableBox fill:#fdf4ff,stroke:#e879f9,stroke-width:2px
+    classDef processBox fill:#eef2ff,stroke:#818cf8,stroke-width:2px
+    classDef decision fill:#fefce8,stroke:#facc15,stroke-width:2px
+    classDef startEnd fill:#fef2f2,stroke:#f87171,stroke-width:2px
+    classDef pipelinetable stroke-width:4px
+
+    class LULC,AOI,RAOI,BURN_SRC,REF_TABLES,CONFIG inputBox
+    class VS,Burn,Queim,Borda,Weights,VSFinal,BurnFinal,QueimFinal,BordaFinal,WeightsFinal,BaseDone,FinalDone rasterBox
+    class Tables,GRI,TableRun tableBox
+    class Backup,RecuvereBackup,Cleanup,Build,Reuse,BaseConfig,FinalConfig,CompareConfig processBox
+    class CheckBuildInicial,CheckBuild decision
+    class PipelineBlock,RasterBase,RasterFinal,TableSeq pipelinetable
+    class Start,End startEnd
