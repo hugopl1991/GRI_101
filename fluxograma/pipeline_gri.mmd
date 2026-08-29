@@ -1,244 +1,249 @@
-%%{init: {'flowchart': {'curve': 'basis'}, 'theme': 'base'}}%%
+---
+config:
+  layout: elk
+---
 flowchart TD
 
-%% =========================================================
-%% SUBGRAPH 1 - PIPELINE GRI (fluxo principal / orquestrador)
-%% =========================================================
-subgraph SG1["Pipeline - GRI"]
-direction TB
-inicio((início))
-A1[Rodando o orquestrador]
-A2["Entrada: anos a serem analisados e área de interesse\ninformada via CLI, caso não informado será usado\nos valores padrões do orquestrador."]
-A3[Acessar o Configfile.yaml e fazer backup]
-A4[Remove containers/órfãos de uma execução anterior]
-A5{Pipeline deu erro?}
-DK1{Precisa criar imagem docker?}
-DK2[Cria imagem docker]
-DK3[Reutiliza a imagem docker]
-A9[Atualiza o configfile para o ano Base e área]
-A10[/Proc. raster ano base/]
-A11{Algum erro no processamento?}
-DK4{Precisa criar imagem docker?}
-DK5[Cria imagem docker]
-DK6[Reutiliza a imagem docker]
-A15[Atualiza o configfile para o ano Final e área]
-A16[/Proc. raster ano final/]
-A17{Algum erro no processamento?}
-DT1{Precisa criar imagem docker?}
-DT2[Cria imagem docker]
-DT3[Reutiliza a imagem docker]
-A21[Atualiza o configfile e área para as tabelas]
-A22[/Proc. tables/]
-A23{Algum erro no processamento?}
-A24[Recuperar o backup]
-fim((Fim))
-
-inicio --> A1 --> A2 --> A3 --> A4 --> A5
-A5 -- "Sim" --> A24
-A5 -- "Não" --> DK1
-DK1 -- "Sim" --> DK2 --> A9
-DK1 -- "Não" --> DK3 --> A9
-A9 --> A10 --> A11
-A11 -- "Sim" --> A24
-A11 -- "Não" --> DK4
-DK4 -- "Sim" --> DK5 --> A15
-DK4 -- "Não" --> DK6 --> A15
-A15 --> A16 --> A17
-A17 -- "Sim" --> A24
-A17 -- "Não" --> DT1
-DT1 -- "Sim" --> DT2 --> A21
-DT1 -- "Não" --> DT3 --> A21
-A21 --> A22 --> A23
-A23 -- "Sim" --> A24
-A23 -- "Não" --> fim
-A24 --> fim
-end
-
-%% =========================================================
-%% SUBGRAPH 2 - Proc. raster ano base/final (arquivos usados)
-%% =========================================================
-subgraph SG2["Proc. raster ano base/final"]
-direction TB
-P1[npi_veg_sec_weight\nVeg_sec_weight.py]
-P2[npi_burn_freq\nNPI_Burn_Freq.py]
-P3[npi_burn_weight\nNPI_Burn_Weight.py]
-P4[npi_edge_weight\nNPI_Edge_Weight.py]
-P5[npi_com_weights\nMake_Map_Weights.py]
-P1 --> P2 --> P3 --> P4 --> P5
-end
-
-A10 -.-> SG2
-A16 -.-> SG2
-
-%% =========================================================
-%% SUBGRAPH 3 - Docker-compose-raster (containers/imagens)
-%% =========================================================
-subgraph SG3["Docker-compose-raster"]
-direction LR
-
-  subgraph SG3a["Veg_sec_weight.py"]
+  %% =========================================================
+  %% SUBGRAPH 1 - PIPELINE GRI (fluxo principal / orquestrador)
+  %% =========================================================
+  subgraph SG1["Pipeline - GRI"]
   direction TB
-  V1[Acessar o shapefile da área de interesse - AOI]
-  V2[Acessar o mapa de vegetação secundária do FUCA]
-  V3[Aplica o recorte do raster pela máscara da AOI]
-  V4[Acessar o Configfile.yaml]
-  V5{Pixel != 0}
-  V6[Aplica a fórmula de Pooter et al. 2021]
-  V7[Não aplica a fórmula no pixel]
-  V1 --> V3
-  V2 --> V3
-  V3 --> V5
-  V4 --> V5
-  V5 -- "Sim" --> V6
-  V5 -- "Não" --> V7
+  inicio((início))
+  A1[Rodando o orquestrador]
+  A2{Se informado os valores de:\nanos e área de interesse}
+  AC1[Usar valor fornecidors para realizar o processaento]
+  AC2[Usar valores padrões do orquestrador]
+  A3[Acessar o Configfile.yaml e fazer backup]
+  A4[Remove containers/órfãos de uma execução anterior]
+  A5{Pipeline deu erro?}
+  DK1{Precisa criar imagem docker?}
+  DK2[Cria imagem docker]
+  DK3[Reutiliza a imagem docker]
+  A9[Atualiza o configfile para o ano Base e área]
+  A10[/Proc. raster ano base/]
+  A11{Algum erro no processamento?}
+  DK4{Precisa criar imagem docker?}
+  DK5[Cria imagem docker]
+  DK6[Reutiliza a imagem docker]
+  A15[Atualiza o configfile para o ano Final e área]
+  A16[/Proc. raster ano final/]
+  A17{Algum erro no processamento?}
+  DT1{Precisa criar imagem docker?}
+  DT2[Cria imagem docker]
+  DT3[Reutiliza a imagem docker]
+  A21[Atualiza o configfile e área para as tabelas]
+  A22[/Proc. tables/]
+  A23{Algum erro no processamento?}
+  A24[Recuperar o backup]
+  fim((Fim))
+
+  inicio --> A1 --> A2
+  A2 -- "Sim" --> AC1 --> A3
+  A2 -- "Não" --> AC2 --> A3
+  A3 --> A4 --> A5
+  A5 -- "Sim" --> A24
+  A5 -- "Não" --> DK1
+  DK1 -- "Sim" --> DK2 --> A9
+  DK1 -- "Não" --> DK3 --> A9
+  A9 --> A10 --> A11
+  A11 -- "Sim" --> A24
+  A11 -- "Não" --> DK4
+  DK4 -- "Sim" --> DK5 --> A15
+  DK4 -- "Não" --> DK6 --> A15
+  A15 --> A16 --> A17
+  A17 -- "Sim" --> A24
+  A17 -- "Não" --> DT1
+  DT1 -- "Sim" --> DT2 --> A21
+  DT1 -- "Não" --> DT3 --> A21
+  A21 --> A22 --> A23
+  A23 -- "Sim" --> A24
+  A23 -- "Não" --> fim
+  A24 --> fim
   end
 
-  subgraph SG3b["NPI_Burn_Freq.py"]
+  %% =========================================================
+  %% SUBGRAPH 2 - Proc. raster ano base/final (arquivos usados)
+  %% =========================================================
+  subgraph SG2["Proc. raster ano base/final"]
   direction TB
-  F1[Acessar o shapefile da área de interesse - AOI]
-  F2[Acessar o mapa de áreas queimadas do MODIS]
-  F3[Aplica o recorte do raster MODIS pela máscara da AOI]
-  F4[Acessar o Configfile.yaml]
-  F5{Pixel > 0}
-  F6[Aplica-se uma somatória acumulativa nos pixels\ndetectados como queimada]
-  F7[Não aplica a somatória no pixel]
-  F1 --> F3
-  F2 --> F3
-  F3 --> F5
-  F4 --> F5
-  F5 -- "Sim" --> F6
-  F5 -- "Não" --> F7
+  P1[npi_veg_sec_weight\nVeg_sec_weight.py]
+  P2[npi_burn_freq\nNPI_Burn_Freq.py]
+  P3[npi_burn_weight\nNPI_Burn_Weight.py]
+  P4[npi_edge_weight\nNPI_Edge_Weight.py]
+  P5[npi_com_weights\nMake_Map_Weights.py]
+  P1 --> P2 --> P3 --> P4 --> P5
   end
 
-  subgraph SG3c["NPI_Burn_Weight.py"]
-  direction TB
-  B1[Acessar o mapa de frequência de queimadas]
-  B2[Acessar a tabela com os índices de queimadas]
-  B3[Aplica o upscaling no raster de frequência\nResampling.nearest]
-  B4["Gerar raster 'Milhão' - 0 a 1.000.000"]
-  B5[Atualiza os valores dos pixels pelos índices de condição]
-  B1 --> B3 --> B4 --> B5
-  B2 --> B5
+  A10 -.-> SG2
+  A16 -.-> SG2
+
+  %% =========================================================
+  %% SUBGRAPH 3 - Docker-compose-raster (containers/imagens)
+  %% =========================================================
+  subgraph SG3["Docker-compose-raster"]
+  direction LR
+
+    subgraph SG3a["Veg_sec_weight.py"]
+    direction TB
+    V1[Acessar o shapefile da área de interesse - AOI]
+    V2[Acessar o mapa de vegetação secundária do FUCA]
+    V3[Aplica o recorte do raster pela máscara da AOI]
+    V4[Acessar o Configfile.yaml]
+    V5{Pixel != 0}
+    V6[Aplica a fórmula de Pooter et al. 2021]
+    V7[Não aplica a fórmula no pixel]
+    V1 --> V3
+    V2 --> V3
+    V3 --> V5
+    V4 --> V5
+    V5 -- "Sim" --> V6
+    V5 -- "Não" --> V7
+    end
+
+    subgraph SG3b["NPI_Burn_Freq.py"]
+    direction TB
+    F1[Acessar o shapefile da área de interesse - AOI]
+    F2[Acessar o mapa de áreas queimadas do MODIS]
+    F3[Aplica o recorte do raster MODIS pela máscara da AOI]
+    F4[Acessar o Configfile.yaml]
+    F5{Pixel > 0}
+    F6[Aplica-se uma somatória acumulativa nos pixels\ndetectados como queimada]
+    F7[Não aplica a somatória no pixel]
+    F1 --> F3
+    F2 --> F3
+    F3 --> F5
+    F4 --> F5
+    F5 -- "Sim" --> F6
+    F5 -- "Não" --> F7
+    end
+
+    subgraph SG3c["NPI_Burn_Weight.py"]
+    direction TB
+    B1[Acessar o mapa de frequência de queimadas]
+    B2[Acessar a tabela com os índices de queimadas]
+    B3[Aplica o upscaling no raster de frequência\nResampling.nearest]
+    B4["Gerar raster 'Milhão' - 0 a 1.000.000"]
+    B5[Atualiza os valores dos pixels pelos índices de condição]
+    B1 --> B3 --> B4 --> B5
+    B2 --> B5
+    end
+
+    subgraph SG3d["NPI_Edge_Weight.py"]
+    direction TB
+    E1[Acesso o mapa do Mapbiomas - LULC]
+    E2[Acessar as classes naturais no config.yaml]
+    E3[Identificar áreas naturais]
+    E4[Criar máscara com pixel válido = valor classe natural]
+    E5[Acesso os dados no config.yaml para o cálculo\nda condição de borda]
+    E6[Calcular a distância\ndistance_transform_edt]
+    E7[Calcula a condição de borda\nlinear]
+    E1 --> E3
+    E2 --> E3
+    E3 --> E4 --> E6
+    E5 --> E7
+    E6 --> E7
+    end
+
+    subgraph SG3e["Make_Map_Weights.py"]
+    direction TB
+    M1[Acessar o raster de condição de vegetação secundária]
+    M2[Acessar o raster de condição de fogo]
+    M3[Acessar o raster de condição de borda]
+    M4[Ler as bandas de todos os rasters\nget_raster_band]
+    M5[Calcular os pesos combinados\nweight = sec_veg * edge * fire]
+    M6["Gerar raster '100' - 0 a 100 = weight / 10.000"]
+    M1 --> M4
+    M2 --> M4
+    M3 --> M4
+    M4 --> M5 --> M6
+    end
+
+    V6 --> M1
+    V7 --> M1
+    F6 --> M2
+    F7 --> M2
+    B5 --> M2
+    E7 --> M3
   end
 
-  subgraph SG3d["NPI_Edge_Weight.py"]
+  %% =========================================================
+  %% SUBGRAPH 4 - Proc. Tables (scripts de comparação/tabelas)
+  %% =========================================================
+  subgraph SG4["Proc. Tables"]
   direction TB
-  E1[Acesso o mapa do Mapbiomas - LULC]
-  E2[Acessar as classes naturais no config.yaml]
-  E3[Identificar áreas naturais]
-  E4[Criar máscara com pixel válido = valor classe natural]
-  E5[Acesso os dados no config.yaml para o cálculo\nda condição de borda]
-  E6[Calcular a distância\ndistance_transform_edt]
-  E7[Calcula a condição de borda\nlinear]
-  E1 --> E3
-  E2 --> E3
-  E3 --> E4 --> E6
-  E5 --> E7
-  E6 --> E7
+  T1[npi_tables\nCompare_Map_Conditions.py]
+  T2[npi_GRI\nGRI_1016_1017.py]
+  T1 --> T2
   end
 
-  subgraph SG3e["Make_Map_Weights.py"]
-  direction TB
-  M1[Acessar o raster de condição de vegetação secundária]
-  M2[Acessar o raster de condição de fogo]
-  M3[Acessar o raster de condição de borda]
-  M4[Ler as bandas de todos os rasters\nget_raster_band]
-  M5[Calcular os pesos combinados\nweight = sec_veg * edge * fire]
-  M6["Gerar raster '100' - 0 a 100 = weight / 10.000"]
-  M1 --> M4
-  M2 --> M4
-  M3 --> M4
-  M4 --> M5 --> M6
+  A22 -.-> SG4
+
+  subgraph SG5["Docker-compose-table"]
+  direction LR
+
+    subgraph SG5a["Compare_Map.py"]
+    direction TB
+    C01[Acessar o Configfile.yaml]
+    C02[Acessar o shapefile da área de interesse - AOI]
+    C03[Acessar o raster de condição de base e final]
+    C04[Acesso o mapa do Mapbiomas - LULC de base e final]
+    C05[Acessar o raster das unidades operacionais]
+    C06[Arquivos auxiliares\nlegenda, metadados de PoUnits, IDs de OpUnits]
+    C1{Ler config e parâmetros}
+    C2[Preparar dados espaciais]
+    C3[Recortar todos os mapas para a área de interesse - AOI]
+    C4[Acessar bandas dos rasters]
+    C5[Calcular fração de área por pixel]
+    C6[Empilhar dados por pixel]
+    C7[Tratar e padronizar os resultados]
+    C8[Exportar os resultados\nPlanilhas]
+    C9[Parar execução]
+    C01 --> C1
+    C02 --> C1
+    C03 --> C1
+    C04 --> C1
+    C05 --> C1
+    C06 --> C1
+    C1 -- "Sim" --> C2
+    C1 -- "Não" --> C9
+    C1 --> C2 --> C3 --> C4 --> C5 --> C6 --> C7 --> C8
+    end
+
+    subgraph SG5b["GRI_106_107.py"]
+    direction TB
+    G01[Acessar o Configfile.yaml]
+    G02[Acesso a tabela de combinações\ngeradas no script anterior]
+    G03[Acesso a tabela auxiliar de reclassificação]
+    G1{Configuração corretamente\ninformada?}
+    G2[Definir caminhos e carregar as abas das planilhas]
+    G3["Pré-processamento: converter colunas para string;\nremover espaços; substituir 0 por Zero."]
+    G4[Converter área m2 to ha]
+    G5[Reclassificações\nIBGE, LULC_Base e LULC_End\nusando função reclass_novo]
+    G6[Reclassificar da Condição]
+    G7[Cálculo dos totais por combinação]
+    G8[Exportar os resultados\nPlanilhas]
+    G9[Parar execução]
+    G01 --> G1
+    G02 --> G1
+    G03 --> G1
+    G1 -- "Sim" --> G2
+    G1 -- "Não" --> G9
+    G2 -->G3 --> G4 --> G5 --> G6 --> G7 --> G8
+    end
+
+    SG5a --> SG5b
   end
 
-  V6 --> M1
-  V7 --> M1
-  F6 --> M2
-  F7 --> M2
-  B5 --> M2
-  E7 --> M3
-end
+  %% =========================================================
+  %% Estilos
+  %% =========================================================
+  classDef decision fill:#FFF2CC,stroke:#D6B656,color:#333;
+  classDef process fill:#DAE8FC,stroke:#6C8EBF,color:#333;
+  classDef terminal fill:#FFFFFF,stroke:#F8CECC,color:#333,stroke-width:2px;
+  classDef info fill:#FFFFFF,stroke:#82B366,color:#333;
 
-%% =========================================================
-%% SUBGRAPH 4 - Proc. Tables (scripts de comparação/tabelas)
-%% =========================================================
-subgraph SG4["Proc. Tables"]
-direction TB
-T1[npi_tables\nCompare_Map_Conditions.py]
-T2[npi_GRI\nGRI_1016_1017.py]
-T1 --> T2
-end
+  class A2,A5,A11,A17,A18,A23,DK1,DK4,DT1,V5,F5,C1,G1 decision;
+  class inicio,fim terminal;
+  %% class A2 info;
 
-A22 -.-> SG4
-
-subgraph SG5["Docker-compose-table"]
-direction LR
-
-  subgraph SG5a["Compare_Map.py"]
-  direction TB
-  C01[Acessar o Configfile.yaml]
-  C3[Acessar o shapefile da área de interesse - AOI]
-  C4[Acessar o raster de condição de base e final]
-  C5[Acesso o mapa do Mapbiomas - LULC de base e final]
-  C2[Ler config e parâmetros]
-  
-  
-  
-  C6[Preparar dados espaciais]
-  C7[Recortar todos os mapas para a área de interesse - AOI]
-  C8[Reclassificações\nIBGE, LULC_Base e LULC_End\nusando função reclass_novo]
-  C9[Reclassificar da Condição]
-  C10[Calcular fração de área por pixel]
-  C11[Empilhar dados por pixel]
-  C12{Configuração de área\ninformada?}
-  C13[Converter área m2 to ha]
-  C14[Continuar sem conversão]
-  C15[Exportar os resultados\nPlanilhas]
-  C1 --> C2 --> C6
-  C3 --> C6
-  C4 --> C6
-  C5 --> C6
-  C6 --> C7 --> C8 --> C9 --> C10 --> C12
-  C12 -- "Sim" --> C13
-  C12 -- "Não" --> C14
-  C13 --> C11
-  C14 --> C11
-  C11 --> C15
-  end
-
-  subgraph SG5b["GRI_106_107.py"]
-  direction TB
-  G01[Acessar o Configfile.yaml]
-  G02[Acesso a tabela de combinações\ngeradas no script anterior]
-  G03[Acesso a tabela auxiliar de reclassificação]
-  G1{Configuração corretamente\ninformada?}
-  G2[Definir caminhos e carregar as abas das planilhas]
-  G3["Pré-processamento: converter colunas para string;\nremover espaços; substituir 0 por Zero."]
-  G4[Converter área m2 to ha]
-  G5[Reclassificações\nIBGE, LULC_Base e LULC_End\nusando função reclass_novo]
-  G6[Reclassificar da Condição]
-  G7[Cálculo dos totais por combinação]
-  G8[Exportar os resultados\nPlanilhas]
-  G9[Parar execução]
-  G01 --> G1
-  G02 --> G1
-  G03 --> G1
-  G1 -- "Sim" --> G2
-  G1 -- "Não" --> G9
-  G2 -->G3 --> G4 --> G5 --> G6 --> G7 --> G8
-  end
-
-  SG5a --> SG5b
-end
-
-%% =========================================================
-%% Estilos
-%% =========================================================
-classDef decision fill:#FFF2CC,stroke:#D6B656,color:#333;
-classDef process fill:#DAE8FC,stroke:#6C8EBF,color:#333;
-classDef terminal fill:#FFFFFF,stroke:#F8CECC,color:#333,stroke-width:2px;
-classDef info fill:#FFFFFF,stroke:#82B366,color:#333;
-
-class A5,A11,A17,A18,A23,DK1,DK4,DT1,V5,F5,C12,G2 decision;
-class inicio,fim terminal;
-class A2 info;
