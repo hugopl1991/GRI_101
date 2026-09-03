@@ -3,7 +3,7 @@ config:
   layout: elk
 ---
 flowchart TD
-
+ 
   %% =========================================================
   %% SUBGRAPH 1 - PIPELINE GRI (fluxo principal / orquestrador)
   %% =========================================================
@@ -11,8 +11,8 @@ flowchart TD
   direction TB
   inicio((início))
   A1[Rodando o orquestrador]
-  A2{Se informado os valores de:\nanos e área de interesse}
-  AC1[Usar valor fornecidors para realizar o processaento]
+  A2{"Se informado os valores de:\nanos e área de interesse"}
+  AC1[Usar valores fornecidos para realizar o processamento]
   AC2[Usar valores padrões do orquestrador]
   A3[Acessar o Configfile.yaml e fazer backup]
   A4[Remove containers/órfãos de uma execução anterior]
@@ -37,7 +37,7 @@ flowchart TD
   A23{Algum erro no processamento?}
   A24[Recuperar o backup]
   fim((Fim))
-
+ 
   inicio --> A1 --> A2
   A2 -- "Sim" --> AC1 --> A3
   A2 -- "Não" --> AC2 --> A3
@@ -61,7 +61,7 @@ flowchart TD
   A23 -- "Não" --> fim
   A24 --> fim
   end
-
+ 
   %% =========================================================
   %% SUBGRAPH 2 - Proc. raster ano base/final (arquivos usados)
   %% =========================================================
@@ -74,99 +74,143 @@ flowchart TD
   P5[npi_com_weights\nMake_Map_Weights.py]
   P1 --> P2 --> P3 --> P4 --> P5
   end
-
+ 
   A10 -.-> SG2
   A16 -.-> SG2
-
+ 
   %% =========================================================
   %% SUBGRAPH 3 - Docker-compose-raster (containers/imagens)
   %% =========================================================
   subgraph SG3["Docker-compose-raster"]
-  direction LR
-
+  direction TB
+ 
     subgraph SG3a["Veg_sec_weight.py"]
     direction TB
     V1[Acessar o shapefile da área de interesse - AOI]
     V2[Acessar o mapa de vegetação secundária do FUCA]
-    V3[Aplica o recorte do raster pela máscara da AOI]
-    V4[Acessar o Configfile.yaml]
-    V5{Pixel != 0}
+    V3[Acessar o Configfile.yaml]
+    V01{"Configuração corretamente\ninformada?"}
+    V4[Aplica o recorte do raster pela máscara da AOI]
+    V5{"Pixel != 0"}
     V6[Aplica a fórmula de Pooter et al. 2021]
     V7[Não aplica a fórmula no pixel]
-    V1 --> V3
-    V2 --> V3
-    V3 --> V5
+    V02[Parar execução]
+    V1 --> V01
+    V2 --> V01
+    V3 --> V01
+    V01 -- "Sim" --> V4
+    V01 -- "Não" --> V02
     V4 --> V5
     V5 -- "Sim" --> V6
     V5 -- "Não" --> V7
     end
-
+ 
     subgraph SG3b["NPI_Burn_Freq.py"]
     direction TB
     F1[Acessar o shapefile da área de interesse - AOI]
     F2[Acessar o mapa de áreas queimadas do MODIS]
-    F3[Aplica o recorte do raster MODIS pela máscara da AOI]
-    F4[Acessar o Configfile.yaml]
-    F5{Pixel > 0}
+    F3[Acessar o Configfile.yaml]
+    F01{"Configuração corretamente\ninformada?"}
+    F4[Aplica o recorte do raster MODIS pela máscara da AOI]
+    F5{"Pixel > 0"}
     F6[Aplica-se uma somatória acumulativa nos pixels\ndetectados como queimada]
     F7[Não aplica a somatória no pixel]
-    F1 --> F3
-    F2 --> F3
-    F3 --> F5
+    F02[Parar execução]
+    F1 --> F01
+    F2 --> F01
+    F3 --> F01
+    F01 -- "Sim" --> F4
+    F01 -- "Não" --> F02
     F4 --> F5
     F5 -- "Sim" --> F6
     F5 -- "Não" --> F7
     end
-
+ 
     subgraph SG3c["NPI_Burn_Weight.py"]
     direction TB
-    B1[Acessar o mapa de frequência de queimadas]
-    B2[Acessar a tabela com os índices de queimadas]
-    B3[Aplica o upscaling no raster de frequência\nResampling.nearest]
-    B4["Gerar raster 'Milhão' - 0 a 1.000.000"]
-    B5[Atualiza os valores dos pixels pelos índices de condição]
-    B1 --> B3 --> B4 --> B5
-    B2 --> B5
+    B01[Acessar o mapa de frequência de queimadas]
+    B02[Acessar o Configfile.yaml]
+    B03[Acessar o mapa do Mapbiomas - LULC]
+    B04[Acessar a tabela com os índices de queimadas]
+    B05[Acessar o shapefile da área de interesse, mas desativado o recorte]
+    B1{"Configuração corretamente\ninformada?"}
+    B2[Aplica o upscaling no raster de frequência\nResampling.nearest]
+    B3[Atualiza os valores dos pixels pelos índices de condição.]
+    B4[Opcional: recorte do raster pela máscara da AOI]
+    B06[Parar execução]
+    B01 --> B1
+    B02 --> B1
+    B03 --> B1
+    B1 -- "Sim" --> B2 --> B3 --> B4
+    B1 -- "Não" --> B06
+    B04 --> B3
+    B05 --> B4
     end
-
+ 
     subgraph SG3d["NPI_Edge_Weight.py"]
     direction TB
-    E1[Acesso o mapa do Mapbiomas - LULC]
-    E2[Acessar as classes naturais no config.yaml]
+    E01[Acessar o mapa do Mapbiomas - LULC]
+    E02[Acessar o shapefile da área de interesse - AOI]
+    E03[Acessar o Configfile.yaml]
+    E04[Acessar as classes naturais no config.yaml]
+    E05[Acessar os dados no config.yaml para o cálculo\nda condição de borda]
+    E06[Acessar o shapefile da área de interesse, mas desativado o recorte]
+    E1{"Configuração corretamente\ninformada?"}
+    E2[Gerar máscara da área de interesse]
     E3[Identificar áreas naturais]
     E4[Criar máscara com pixel válido = valor classe natural]
-    E5[Acesso os dados no config.yaml para o cálculo\nda condição de borda]
-    E6[Calcular a distância\ndistance_transform_edt]
-    E7[Calcula a condição de borda\nlinear]
-    E1 --> E3
-    E2 --> E3
-    E3 --> E4 --> E6
-    E5 --> E7
-    E6 --> E7
+    E5[Calcular a distância\ndistance_transform_edt]
+    E6[Calcula a condição de borda\nlinear]
+    E7[Opcional: recorte do raster pela máscara da AOI]
+    E07[Parar execução]
+    E01 --> E1
+    E02 --> E1
+    E03 --> E1
+    E1 -- "Sim" --> E2 --> E3 --> E4 --> E5 --> E6 --> E7
+    E1 -- "Não" --> E07
+    E04 --> E3
+    E05 --> E6
+    E06 --> E7
     end
-
+ 
     subgraph SG3e["Make_Map_Weights.py"]
     direction TB
     M1[Acessar o raster de condição de vegetação secundária]
     M2[Acessar o raster de condição de fogo]
     M3[Acessar o raster de condição de borda]
-    M4[Ler as bandas de todos os rasters\nget_raster_band]
-    M5[Calcular os pesos combinados\nweight = sec_veg * edge * fire]
-    M6["Gerar raster '100' - 0 a 100 = weight / 10.000"]
-    M1 --> M4
-    M2 --> M4
-    M3 --> M4
-    M4 --> M5 --> M6
+    M4[Acessar o Configfile.yaml]
+    M5[Acessar o mapa do Mapbiomas - LULC]
+    M6[Acessar o shapefile da área de interesse - AOI]
+    M7{"Configuração corretamente\ninformada?"}
+    M8{"Máscara informada?"}
+    M9[Recorta raster pela máscara]
+    M10[Usar raster sem recortar]
+    M11[Ler as bandas de todos os rasters\nget_raster_band]
+    M12[Calcular os pesos combinados\nweight = sec_veg * edge * fire]
+    M13["Gerar raster 'Milhão' - 0 a 1.000.000"]
+    M14["Gerar raster '100' - 0 a 100 = weight / 10.000"]
+    M15[Parar execução]
+    M1 --> M7
+    M2 --> M7
+    M3 --> M7
+    M4 --> M7
+    M5 --> M7
+    M6 --> M7
+    M7 -- "Sim" --> M8
+    M7 -- "Não" --> M15
+    M8 -- "Sim" --> M9 --> M11
+    M8 -- "Não" --> M10 --> M11
+    M11 --> M12 --> M13 --> M14
     end
-
+ 
     V6 --> M1
-    V7 --> M1
-    F6 --> M2
-    F7 --> M2
-    B5 --> M2
+    F6 --> B01
+    B4 --> M2
     E7 --> M3
   end
-
+ 
+  SG2 -.-> SG3
+ 
   %% =========================================================
   %% SUBGRAPH 4 - Proc. Tables (scripts de comparação/tabelas)
   %% =========================================================
@@ -176,21 +220,21 @@ flowchart TD
   T2[npi_GRI\nGRI_1016_1017.py]
   T1 --> T2
   end
-
+ 
   A22 -.-> SG4
-
+ 
   subgraph SG5["Docker-compose-table"]
-  direction LR
-
+  direction TB
+ 
     subgraph SG5a["Compare_Map.py"]
     direction TB
     C01[Acessar o Configfile.yaml]
     C02[Acessar o shapefile da área de interesse - AOI]
     C03[Acessar o raster de condição de base e final]
-    C04[Acesso o mapa do Mapbiomas - LULC de base e final]
+    C04[Acessar o mapa do Mapbiomas - LULC de base e final]
     C05[Acessar o raster das unidades operacionais]
     C06[Arquivos auxiliares\nlegenda, metadados de PoUnits, IDs de OpUnits]
-    C1{Ler config e parâmetros}
+    C1{"Configuração corretamente\ninformada?"}
     C2[Preparar dados espaciais]
     C3[Recortar todos os mapas para a área de interesse - AOI]
     C4[Acessar bandas dos rasters]
@@ -207,18 +251,18 @@ flowchart TD
     C06 --> C1
     C1 -- "Sim" --> C2
     C1 -- "Não" --> C9
-    C1 --> C2 --> C3 --> C4 --> C5 --> C6 --> C7 --> C8
+    C2 --> C3 --> C4 --> C5 --> C6 --> C7 --> C8
     end
-
+ 
     subgraph SG5b["GRI_106_107.py"]
     direction TB
     G01[Acessar o Configfile.yaml]
-    G02[Acesso a tabela de combinações\ngeradas no script anterior]
-    G03[Acesso a tabela auxiliar de reclassificação]
-    G1{Configuração corretamente\ninformada?}
+    G02[Acessar a tabela de combinações\ngeradas no script anterior]
+    G03[Acessar a tabela auxiliar de reclassificação]
+    G1{"Configuração corretamente\ninformada?"}
     G2[Definir caminhos e carregar as abas das planilhas]
     G3["Pré-processamento: converter colunas para string;\nremover espaços; substituir 0 por Zero."]
-    G4[Converter área m2 to ha]
+    G4[Converter área m2 para ha]
     G5[Reclassificações\nIBGE, LULC_Base e LULC_End\nusando função reclass_novo]
     G6[Reclassificar da Condição]
     G7[Cálculo dos totais por combinação]
@@ -229,21 +273,31 @@ flowchart TD
     G03 --> G1
     G1 -- "Sim" --> G2
     G1 -- "Não" --> G9
-    G2 -->G3 --> G4 --> G5 --> G6 --> G7 --> G8
+    G2 --> G3 --> G4 --> G5 --> G6 --> G7 --> G8
     end
-
+ 
     SG5a --> SG5b
   end
-
+ 
+  SG4 -.-> SG5
+ 
+  %% =========================================================
+  %% Legenda
+  %% =========================================================
+  subgraph LEGENDA["Legenda"]
+  direction LR
+  LG1{Decisão}
+  LG2[Processo]
+  LG3((Início/Fim))
+  end
+ 
   %% =========================================================
   %% Estilos
   %% =========================================================
   classDef decision fill:#FFF2CC,stroke:#D6B656,color:#333;
   classDef process fill:#DAE8FC,stroke:#6C8EBF,color:#333;
   classDef terminal fill:#FFFFFF,stroke:#F8CECC,color:#333,stroke-width:2px;
-  classDef info fill:#FFFFFF,stroke:#82B366,color:#333;
-
-  class A2,A5,A11,A17,A18,A23,DK1,DK4,DT1,V5,F5,C1,G1 decision;
-  class inicio,fim terminal;
-  %% class A2 info;
-
+ 
+  class A2,A5,A11,A17,A23,DK1,DK4,DT1,V01,V5,F01,F5,E1,B1,C1,G1,M7,M8,LG1 decision;
+  class LG2 process;
+  class inicio,fim,V02,F02,B06,E07,M15,C9,G9,LG3 terminal;
