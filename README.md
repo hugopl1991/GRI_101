@@ -66,6 +66,10 @@ python Run_pipeline_area.py --area PA --rebuild
 - `Data.anthropic_classes` : classes MapBiomas que recebem condição 1 no cálculo `BVfinal = BV * condição`.
 - `Data.lulc_nodata_classes` : classes MapBiomas tratadas como sem dados
   (por padrão, `[0]`) e excluídas dos mapas de BV.
+- `Data.secondary_vegetation_mask` : usa valores positivos do raster de
+  vegetação secundária como máscara do BV. Esses pixels recebem o BV da classe
+  configurada em `Data.secondary_vegetation_bv_class` (por padrão, classe `3`);
+  a redução pela equação de Potter permanece aplicada no mapa de condição.
 
 ## Mapas de valor biótico
 

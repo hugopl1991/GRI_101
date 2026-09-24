@@ -89,6 +89,8 @@ Data:
   rad_bv: 0.2083
   condition_scale: 100.0
   anthropic_classes: [15, 18, 19, 20, 21, 24, 30, 39, 40, 41, 46, 47, 48, 49]
+  secondary_vegetation_mask: true
+  secondary_vegetation_bv_class: 3
   # script de comparacao de condicoes
   n_condition_classes: 5     # numero de classes de condicao -(OBRIGATORIO).
   id_class_compare: 3        # Classes selecionadas -(OBRIGATORIO).

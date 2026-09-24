@@ -64,6 +64,24 @@ def read_condition_on_grid(condition_path: str, reference_path: str) -> tuple[np
         return condition, source.nodata
 
 
+def read_mask_on_grid(mask_path: str, reference_path: str) -> np.ndarray:
+    """Lê um raster-máscara na grade do MapBiomas recortado."""
+    with rasterio.open(reference_path) as reference, rasterio.open(mask_path) as source:
+        mask_data = np.zeros(reference.shape, dtype=np.float32)
+        reproject(
+            source=source.read(1),
+            destination=mask_data,
+            src_transform=source.transform,
+            src_crs=source.crs,
+            src_nodata=source.nodata,
+            dst_transform=reference.transform,
+            dst_crs=reference.crs,
+            dst_nodata=0,
+            resampling=Resampling.nearest,
+        )
+        return mask_data
+
+
 def assert_aligned(reference_path: str, other_path: str) -> None:
     with rasterio.open(reference_path) as reference, rasterio.open(other_path) as other:
         if (
@@ -124,6 +142,17 @@ def main() -> None:
     lulc, lulc_nodata = read_band(lulc_path)
     condition, condition_nodata = read_condition_on_grid(condition_path, lulc_path)
 
+    secondary_vegetation_mask = None
+    if data.get("secondary_vegetation_mask", True):
+        secondary_path = format_path(paths["sec_veg_map_file"], area=area, year=year)
+        clipped_secondary_path = str(
+            Path(paths["tmp_path"]) / f"clipped_sec_veg_{area}_{year}.tif"
+        )
+        secondary_path = clip_raster_to_shape(
+            secondary_path, shape_path, clipped_secondary_path
+        )
+        secondary_vegetation_mask = read_mask_on_grid(secondary_path, lulc_path) > 0
+
     rad_shape_path = paths.get("rad_shape_file", "")
     rad = None
     rad_nodata = None
@@ -140,6 +169,15 @@ def main() -> None:
         rad_nodata=rad_nodata,
         rad_value=float(data.get("rad_bv", 0.2083)),
     )
+    if secondary_vegetation_mask is not None:
+        secondary_class = int(data.get("secondary_vegetation_bv_class", 3))
+        if secondary_class not in coefficients:
+            raise ValueError(
+                f"Classe BV da vegetação secundária não encontrada na tabela: {secondary_class}"
+            )
+        bv[secondary_vegetation_mask] = coefficients[secondary_class]
+        valid[secondary_vegetation_mask] = True
+
     anthropic = {int(class_id) for class_id in data["anthropic_classes"]}
     bvfinal = apply_condition(
         bv,
