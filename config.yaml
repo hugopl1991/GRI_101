@@ -32,6 +32,8 @@ Paths:
   bioma_map_file: "inputs_indicadores/inputs/Biomas/{BIOMA}.shp"      # Caminho para o shape de biomas-(OBRIGATORIO).
   condition_map_file_base: output/map_weights_100_{BASE_YEAR}.tif     # Caminho para o mapa de condicao ano base-(OBRIGATORIO).
   condition_map_file_end: output/map_weights_100_{END_YEAR}.tif       # Caminho para o mapa de condicao ano final-(OBRIGATORIO).
+  biotic_value_table: "inputs/mapbiomas_id_bv.txt"                   # Tabela MapBiomas -> BV (colunas id_class,bv).
+  rad_shape_file: "inputs/Shapes_rad/sup24_v12_PA.shp"                # Único shape RAD; rasterizado no grid do MapBiomas.
   area_map_file: "inputs/Mapa_Area/pxA_x10m2_sembuffer.tif"           # Caminho para o mapa de area-(OBRIGATORIO).
   opunit_id_csv_file: "inputs/Planilhas/OpUnit_ID_2025.csv"             # Arquivo csv contendo os IDs de cada unidade operacional-(OBRIGATORIO).
   opunit_id_map_file: "inputs/Mapas_OpUnit_2025/ADAimo_{AREA}_2025.tif" # Diretorio do mapa de IDs de cada unidade operacional-(OBRIGATORIO).
@@ -82,6 +84,10 @@ Data:
   id_class_cond: [3, 6]   # Classes selecionadas do LULC -(OBRIGATORIO).
   all_touched_cond: false # Opção all_touched do rasterio para script de condicao dos ecossistemas
   nodata_cond: 0          # Nodata - após a algebra de raster que modifica os valores de pixel, pode ser usar o valor Zero para pixel sem dados.
+  biotic_value_nodata: -9999
+  rad_bv: 0.2083
+  condition_scale: 100.0
+  anthropic_classes: [15, 18, 19, 20, 21, 24, 30, 39, 40, 41, 46, 47, 48, 49]
   # script de comparacao de condicoes
   n_condition_classes: 5     # numero de classes de condicao -(OBRIGATORIO).
   id_class_compare: 3        # Classes selecionadas -(OBRIGATORIO).

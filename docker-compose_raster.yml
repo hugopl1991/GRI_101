@@ -74,3 +74,15 @@ services:
     depends_on:
       npi_borda:
         condition: service_completed_successfully
+
+  npi_biotic_value:
+    image: npi-geo:latest
+    container_name: npi-biotic-value
+    volumes:
+      - ./:/app:delegated
+    working_dir: /app
+    command: ["python3", "make_map_biotic_value.py"]
+    restart: "no"
+    depends_on:
+      npi_weights:
+        condition: service_completed_successfully

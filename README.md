@@ -11,6 +11,7 @@ Este repositório contém scripts para executar o pipeline geoespacial de:
 - `Run_pipeline.py` : executa o pipeline para um ano base e um ano final, atualiza `config.yaml` e chama os serviços Docker necessários.
 - `Run_pipeline_area.py` : mesma lógica de `Run_pipeline.py`, mas permite também definir a área/estado via `--area`.
 - `config.yaml` : arquivo principal de configuração com caminhos de entrada/saída e parâmetros de processamento.
+- `make_map_biotic_value.py` : gera os mapas de BV e BVfinal a partir da tabela externa de coeficientes.
 - `docker-compose_raster.yml` : orquestra o processamento dos dados raster para cada ano.
 - `docker-compose_table.yml` : executa a etapa de comparação entre o ano base e o ano final (Futuramente add Script do Matlab)
 
@@ -56,6 +57,22 @@ python Run_pipeline_area.py --area PA --rebuild
 - `Data.area` : estado de interesse (por exemplo, `PA`).
 - `Data.start_year`, `Data.end_year` : período de análise.
 - `Data.base_year_compare` : ano base para comparação.
+- `Paths.biotic_value_table` : tabela `mapbiomas_id_bv.txt` com as colunas
+  `id_class` e `bv` (tabulação ou outro separador detectável); as classes 60,
+  61, 62 e 80 são ignoradas.
+- `Paths.rad_shape_file` : único shape RAD (polígonos ou multipolígonos),
+  reprojetado e rasterizado automaticamente no grid do MapBiomas. Seus pixels
+  recebem BV `0.2083`.
+- `Data.anthropic_classes` : classes MapBiomas que recebem condição 1 no cálculo `BVfinal = BV * condição`.
+
+## Mapas de valor biótico
+
+O estágio `npi_biotic_value` é executado depois do mapa de condição. Ele gera
+`output/map_biotic_value_{AREA}_{YEAR}.tif` (BV sem condição) e
+`output/map_biotic_value_final_{AREA}_{YEAR}.tif` (BV com condição). A condição
+é convertida de 0–100 para 0–1; áreas antrópicas usam condição 1. O estágio
+falha explicitamente se faltar a tabela de BV, se houver classe MapBiomas sem
+coeficiente ou se o raster RAD estiver desalinhado.
 
 ## Fluxo básico
 
