@@ -178,6 +178,11 @@ def main() -> None:
         bv[secondary_vegetation_mask] = coefficients[secondary_class]
         valid[secondary_vegetation_mask] = True
 
+    bv_scale = float(data.get("biotic_value_scale", 100.0))
+    if bv_scale <= 0:
+        raise ValueError("biotic_value_scale deve ser maior que zero.")
+    bv *= bv_scale
+
     bvfinal = apply_condition(
         bv,
         condition,

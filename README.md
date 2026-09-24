@@ -65,6 +65,9 @@ python Run_pipeline_area.py --area PA --rebuild
   recebem BV `0.2083`.
 - `Data.lulc_nodata_classes` : classes MapBiomas tratadas como sem dados
   (por padrão, `[0]`) e excluídas dos mapas de BV.
+- `Data.biotic_value_scale` : fator aplicado aos valores da tabela antes da
+  geração dos mapas. O padrão `100` converte a tabela `0–1` para a escala
+  metodológica `0–100`; portanto, `BVfinal` permanece nessa mesma escala.
 - `Data.secondary_vegetation_mask` : usa valores positivos do raster de
   vegetação secundária como máscara do BV. Esses pixels recebem o BV da classe
   configurada em `Data.secondary_vegetation_bv_class` (por padrão, classe `3`);
