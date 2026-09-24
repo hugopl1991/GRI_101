@@ -4,7 +4,10 @@ from pathlib import Path
 import numpy as np
 import geopandas as gpd
 import rasterio
+from rasterio.mask import mask
 from rasterio.features import rasterize
+from rasterio.warp import reproject
+from rasterio.enums import Resampling
 import yaml
 
 from biotic_value import (
@@ -25,6 +28,40 @@ def read_band(path: str) -> tuple[np.ndarray, int | float | None]:
         raise FileNotFoundError(f"Raster não encontrado: {raster_path}")
     with rasterio.open(raster_path) as dataset:
         return dataset.read(1), dataset.nodata
+
+
+def clip_raster_to_shape(raster_path: str, shape_path: str, output_path: str) -> str:
+    """Recorta um raster para a mesma área operacional usada na condição."""
+    Path(output_path).parent.mkdir(parents=True, exist_ok=True)
+    shapes = gpd.read_file(shape_path)
+    if shapes.empty or shapes.crs is None:
+        raise ValueError(f"Shape de recorte inválido ou sem CRS: {shape_path}")
+    with rasterio.open(raster_path) as source:
+        shapes = shapes.to_crs(source.crs)
+        image, transform = mask(source, [geometry.__geo_interface__ for geometry in shapes.geometry], crop=True)
+        profile = source.profile.copy()
+        profile.update(height=image.shape[1], width=image.shape[2], transform=transform)
+        with rasterio.open(output_path, "w", **profile) as destination:
+            destination.write(image)
+    return output_path
+
+
+def read_condition_on_grid(condition_path: str, reference_path: str) -> tuple[np.ndarray, int | float | None]:
+    """Lê a condição reprojetada para a grade recortada do MapBiomas."""
+    with rasterio.open(reference_path) as reference, rasterio.open(condition_path) as source:
+        condition = np.full(reference.shape, source.nodata if source.nodata is not None else 0, dtype=np.float32)
+        reproject(
+            source=source.read(1),
+            destination=condition,
+            src_transform=source.transform,
+            src_crs=source.crs,
+            src_nodata=source.nodata,
+            dst_transform=reference.transform,
+            dst_crs=reference.crs,
+            dst_nodata=source.nodata if source.nodata is not None else 0,
+            resampling=Resampling.nearest,
+        )
+        return condition, source.nodata
 
 
 def assert_aligned(reference_path: str, other_path: str) -> None:
@@ -78,11 +115,14 @@ def main() -> None:
 
     lulc_path = format_path(paths["lulc_path"], area=area, year=year)
     condition_path = format_path(paths["condition_map_file_end"], area=area, year=year)
+    shape_path = paths["shp_file"].format(AREA=area)
+    clipped_lulc_path = str(Path(paths["tmp_path"]) / f"clipped_mapbiomas_{area}_{year}.tif")
+    lulc_path = clip_raster_to_shape(lulc_path, shape_path, clipped_lulc_path)
     coefficients = load_biotic_coefficients(
         format_path(paths["biotic_value_table"], area=area, year=year)
     )
     lulc, lulc_nodata = read_band(lulc_path)
-    condition, condition_nodata = read_band(condition_path)
+    condition, condition_nodata = read_condition_on_grid(condition_path, lulc_path)
 
     rad_shape_path = paths.get("rad_shape_file", "")
     rad = None
@@ -95,6 +135,7 @@ def main() -> None:
         lulc,
         coefficients,
         nodata=lulc_nodata,
+        nodata_classes={int(class_id) for class_id in data.get("lulc_nodata_classes", [0])},
         rad=rad,
         rad_nodata=rad_nodata,
         rad_value=float(data.get("rad_bv", 0.2083)),

@@ -85,6 +85,7 @@ Data:
   all_touched_cond: false # Opção all_touched do rasterio para script de condicao dos ecossistemas
   nodata_cond: 0          # Nodata - após a algebra de raster que modifica os valores de pixel, pode ser usar o valor Zero para pixel sem dados.
   biotic_value_nodata: -9999
+  lulc_nodata_classes: [0]                                     # Classes MapBiomas sem dados, não valoradas.
   rad_bv: 0.2083
   condition_scale: 100.0
   anthropic_classes: [15, 18, 19, 20, 21, 24, 30, 39, 40, 41, 46, 47, 48, 49]

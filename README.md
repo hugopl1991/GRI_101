@@ -64,6 +64,8 @@ python Run_pipeline_area.py --area PA --rebuild
   reprojetado e rasterizado automaticamente no grid do MapBiomas. Seus pixels
   recebem BV `0.2083`.
 - `Data.anthropic_classes` : classes MapBiomas que recebem condição 1 no cálculo `BVfinal = BV * condição`.
+- `Data.lulc_nodata_classes` : classes MapBiomas tratadas como sem dados
+  (por padrão, `[0]`) e excluídas dos mapas de BV.
 
 ## Mapas de valor biótico
 

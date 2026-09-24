@@ -45,6 +45,7 @@ def map_biotic_value(
     coefficients: dict[int, float],
     *,
     nodata: int | float | None,
+    nodata_classes: set[int] | None = None,
     rad: np.ndarray | None = None,
     rad_nodata: int | float | None = None,
     rad_value: float = 0.2083,
@@ -54,6 +55,8 @@ def map_biotic_value(
     valid = np.ones(lulc.shape, dtype=bool)
     if nodata is not None:
         valid &= lulc != nodata
+    if nodata_classes:
+        valid &= ~np.isin(lulc, list(nodata_classes))
 
     known = np.zeros(lulc.shape, dtype=bool)
     for class_id, value in coefficients.items():
