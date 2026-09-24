@@ -63,7 +63,6 @@ python Run_pipeline_area.py --area PA --rebuild
 - `Paths.rad_shape_file` : único shape RAD (polígonos ou multipolígonos),
   reprojetado e rasterizado automaticamente no grid do MapBiomas. Seus pixels
   recebem BV `0.2083`.
-- `Data.anthropic_classes` : classes MapBiomas que recebem condição 1 no cálculo `BVfinal = BV * condição`.
 - `Data.lulc_nodata_classes` : classes MapBiomas tratadas como sem dados
   (por padrão, `[0]`) e excluídas dos mapas de BV.
 - `Data.secondary_vegetation_mask` : usa valores positivos do raster de
@@ -76,7 +75,7 @@ python Run_pipeline_area.py --area PA --rebuild
 O estágio `npi_biotic_value` é executado depois do mapa de condição. Ele gera
 `output/map_biotic_value_{AREA}_{YEAR}.tif` (BV sem condição) e
 `output/map_biotic_value_final_{AREA}_{YEAR}.tif` (BV com condição). A condição
-é convertida de 0–100 para 0–1; áreas antrópicas usam condição 1. O estágio
+é convertida de 0–100 para 0–1. O estágio
 falha explicitamente se faltar a tabela de BV, se houver classe MapBiomas sem
 coeficiente ou se o raster RAD estiver desalinhado.
 

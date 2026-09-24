@@ -178,14 +178,11 @@ def main() -> None:
         bv[secondary_vegetation_mask] = coefficients[secondary_class]
         valid[secondary_vegetation_mask] = True
 
-    anthropic = {int(class_id) for class_id in data["anthropic_classes"]}
     bvfinal = apply_condition(
         bv,
         condition,
         valid=valid,
         condition_nodata=condition_nodata,
-        lulc=lulc,
-        anthropic_classes=anthropic,
         condition_scale=float(data.get("condition_scale", 100.0)),
         nodata=float(data.get("biotic_value_nodata", -9999)),
     )

@@ -90,14 +90,12 @@ def apply_condition(
     *,
     valid: np.ndarray,
     condition_nodata: int | float | None,
-    lulc: np.ndarray,
-    anthropic_classes: set[int],
     condition_scale: float = 100.0,
     nodata: float = -9999.0,
 ) -> np.ndarray:
-    """Calcula BVfinal = BV * condição, com antrópico fixado em condição 1."""
-    if bv.shape != condition.shape or bv.shape != lulc.shape:
-        raise ValueError("BV, condição e MapBiomas precisam ter a mesma dimensão.")
+    """Calcula BVfinal = BV * condição."""
+    if bv.shape != condition.shape or bv.shape != valid.shape:
+        raise ValueError("BV, condição e máscara de validade precisam ter a mesma dimensão.")
     if condition_scale <= 0:
         raise ValueError("condition_scale deve ser maior que zero.")
 
@@ -108,7 +106,6 @@ def apply_condition(
     else:
         condition_valid = np.ones(condition.shape, dtype=bool)
     usable = valid & condition_valid
-    condition_factor[np.isin(lulc, list(anthropic_classes))] = 1.0
     output[usable] = bv[usable] * np.clip(condition_factor[usable], 0.0, 1.0)
     return output
 
