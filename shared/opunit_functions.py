@@ -5,7 +5,7 @@ Modulo de unidades operacionais do FUCA
 Link do código-fonte: https://github.com/CID-ITV/ITV_TEA_FUCA-back
 """
 
-from fuca.functions import *
+from .functions import *
 from openpyxl.worksheet.dimensions import ColumnDimension, DimensionHolder
 from openpyxl.utils import get_column_letter
 

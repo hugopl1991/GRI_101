@@ -4,7 +4,8 @@ ENV DEBIAN_FRONTEND=noninteractive \
     LANG=C.UTF-8 \
     LC_ALL=C.UTF-8 \
     PYTHONIOENCODING=utf-8 \
-    PYTHONUNBUFFERED=1
+    PYTHONUNBUFFERED=1 \
+    PYTHONPATH=/app
 
 WORKDIR /app
 
@@ -22,4 +23,4 @@ RUN python3 -m pip install --no-cache-dir --upgrade pip \
 COPY . /app
 
 # Os serviços do Compose sobrescrevem este comando com cada etapa da pipeline.
-# CMD ["python3", "veg_sec_weight.py"]
+# CMD ["python3", "scripts/vegetation/veg_sec_weight.py"]

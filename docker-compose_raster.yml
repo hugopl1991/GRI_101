@@ -16,7 +16,7 @@ services:
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
-    command: ["python3", "veg_sec_weight.py"]
+    command: ["python3", "scripts/vegetation/veg_sec_weight.py"]
     restart: "no"
 
   npi_burn:
@@ -27,7 +27,7 @@ services:
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
-    command: ["python3", "NPI_Burn_Freq_v3.py"]
+    command: ["python3", "scripts/burn/NPI_Burn_Freq_v3.py"]
     restart: "no"
     depends_on:
       veg-sec-weight:
@@ -41,7 +41,7 @@ services:
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
-    command: ["python3", "NPI_queimadas_Organizado_v3.py"]
+    command: ["python3", "scripts/burn/NPI_queimadas_Organizado_v3.py"]
     restart: "no"
     depends_on:
       npi_burn:
@@ -55,7 +55,7 @@ services:
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
-    command: ["python3", "NPI_borda_Organizado_v5_clip.py"]
+    command: ["python3", "scripts/edge/NPI_borda_Organizado_v5_clip.py"]
     restart: "no"
     depends_on:
       npi_queimadas:
@@ -69,7 +69,7 @@ services:
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
-    command: ["python3", "make_map_weights.py"]
+    command: ["python3", "scripts/weights/make_map_weights.py"]
     restart: "no"
     depends_on:
       npi_borda:

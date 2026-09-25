@@ -9,8 +9,8 @@ import warnings
 # Suprimir todos os warnings
 warnings.filterwarnings("ignore")
 
-from fuca.functions import *
-from fuca.opunit_functions import *
+from shared.functions import *
+from shared.opunit_functions import *
 
 def obtem_legendas(nome_arquivo):
     """

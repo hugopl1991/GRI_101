@@ -1,5 +1,5 @@
 import yaml
-from utils_mat import carregar_dados, reclass_novo, gerar_tabelas_intermediarias, calcular_balanco
+from shared.utils_mat import carregar_dados, reclass_novo, gerar_tabelas_intermediarias, calcular_balanco
 
 def main():
     print("Iniciando processamento...")
