@@ -11,6 +11,7 @@ from ruamel.yaml import YAML
 CONFIG_FILE = 'config.yaml'  # Arquivo de configuração
 DEFAULT_BASE_YEAR = 2020     # Ano base do processamento
 DEFAULT_END_YEAR = 2024      # Ano final do processamento
+DEFAULT_AREA = "PA"          # Estado de interesse - Ex: PA
 
 BUILD_INPUT_FILES = ['Dockerfile', 'requirements.txt']
 BUILD_HASH_FILE = '.build_hash'
@@ -20,7 +21,7 @@ yaml.preserve_quotes = True
 yaml.indent(mapping=2, sequence=4, offset=2)
 
 def parse_args():
-    """Permite escolher os anos via linha de comando, sem precisar editar o código."""
+    """Permite escolher os anos e a área via linha de comando, sem precisar editar o código."""
     parser = argparse.ArgumentParser(
         description="Orquestra o pipeline Veg_sec -> Down -> Burn -> Queimadas -> Borda -> Comparação."
     )
@@ -28,6 +29,8 @@ def parse_args():
                          help=f"Ano base para a comparação (default: {DEFAULT_BASE_YEAR})")
     parser.add_argument("--end-year", type=int, default=DEFAULT_END_YEAR,
                          help=f"Ano final para a comparação (default: {DEFAULT_END_YEAR})")
+    parser.add_argument("--area", type=str, default=DEFAULT_AREA,
+                         help=f"Estado de interesse (default: {DEFAULT_AREA})")
     parser.add_argument("--rebuild", action="store_true",
                          help="Força a reconstrução da imagem mesmo sem mudanças no Dockerfile/requirements.txt")
     return parser.parse_args()
@@ -55,8 +58,8 @@ def restore_backup():
         shutil.copy(backup_path, CONFIG_FILE)
         print(f"[*] {CONFIG_FILE} restaurado a partir do backup após falha.")
 
-def update_config_year(end_year, base_year_compare=None):
-    """Lê, altera o end_year e opcionalmente o base_year_compare no config.yaml, preservando formatação."""
+def update_config_year(end_year, base_year_compare=None, area=None):
+    """Lê, altera o end_year, opcionalmente o base_year_compare e a area no config.yaml, preservando formatação."""
     try:
         with open(CONFIG_FILE, 'r', encoding='utf-8') as f:
             config = yaml.load(f)
@@ -71,14 +74,14 @@ def update_config_year(end_year, base_year_compare=None):
 
         if base_year_compare is not None:
             config['Data']['base_year_compare'] = base_year_compare
+            
+        if area is not None:
+            config['Data']['area'] = area
 
         with open(CONFIG_FILE, 'w', encoding='utf-8') as f:
             yaml.dump(config, f)
 
-        if base_year_compare is not None:
-            print(f"[*] config.yaml atualizado: end_year={end_year}, base_year_compare={base_year_compare}")
-        else:
-            print(f"[*] config.yaml atualizado: end_year={end_year}")
+        print(f"[*] config.yaml atualizado: end_year={end_year}, base_year_compare={base_year_compare}, area={area}")
 
     except Exception as e:
         print(f"[!] Erro ao atualizar {CONFIG_FILE}: {e}")
@@ -187,18 +190,18 @@ if __name__ == "__main__":
     build_needed = needs_rebuild(force=args.rebuild)
 
     # 1. Rodar a sequência do ano base
-    update_config_year(args.base_year)
+    update_config_year(args.base_year, area=args.area)
     run_docker_compose("docker-compose_raster.yml", build=build_needed)
     if build_needed:
         _save_build_hash()
         build_needed = False  # já reconstruída; próximas chamadas reaproveitam
 
     # 2. Rodar a sequência do ano final
-    update_config_year(args.end_year)
+    update_config_year(args.end_year, area=args.area)
     run_docker_compose("docker-compose_raster.yml", build=build_needed)
 
     # 3. Rodar o script de comparação (base vs final)
     # docker-compose_table.yml usa a mesma imagem (npi-geo:latest) já
     # construída acima, então nunca precisa de --build aqui.
-    update_config_year(args.end_year, base_year_compare=args.base_year)
+    update_config_year(args.end_year, base_year_compare=args.base_year, area=args.area)
     run_docker_compose("docker-compose_table.yml")
