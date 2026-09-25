@@ -16,7 +16,7 @@ services:
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
-    command: ["python3", "scripts/comparison/compare_maps_condicao_edt.py"]
+    command: ["python3", "scripts/comparison/compare_maps_conditions.py"]
     restart: "no"
 
   npi_GRI:
@@ -27,7 +27,7 @@ services:
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
-    command: ["python3", "scripts/gri/GRI_UPDATE.py"]
+    command: ["python3", "scripts/gri/gri_tables.py"]
     restart: "no"
     depends_on:
       npi_tables:
