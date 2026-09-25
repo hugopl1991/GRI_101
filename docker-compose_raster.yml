@@ -55,7 +55,7 @@ services:
     working_dir: /app
     #environment:
     #  - PYTHONUNBUFFERED=1
-    command: ["python3", "edge_map.py"]
+    command: ["python3", "edge_weight.py"]
     restart: "no"
     depends_on:
       npi_queimadas:
