@@ -40,13 +40,12 @@ Execute os comandos a partir da raiz do repositório. Os orquestradores atualiza
 │   └── weights/       # Mapa combinado de condições
 ├── shared/            # Funções e utilitários compartilhados
 ├── docs/fluxograma/   # Diagramas do fluxo
-├── tests/fixtures/    # Arquivos históricos de teste
 ├── inputs/            # Dados locais de entrada
 ├── output/            # Resultados do processamento
 └── tmp/               # Arquivos temporários
 ```
 
-Os módulos de `shared/` não são etapas executáveis isoladamente: são utilizados pelos scripts em `scripts/`. Os arquivos em `tests/fixtures/` são exemplos legados e não representam, por si só, uma suíte automatizada de testes.
+Os módulos de `shared/` não são etapas executáveis isoladamente: são utilizados pelos scripts em `scripts/`.
 
 ## Pré-requisitos
 
@@ -80,7 +79,7 @@ Os dados geoespaciais grandes não são distribuídos pelo repositório. A maior
 python Run_pipeline.py
 ```
 
-Este orquestrador processa os anos base e final definidos pelos argumentos padrão no script e usa a área configurada em `config.yaml`.
+Este orquestrador processa os anos base e final definidos pelos argumentos padrão no script.
 
 ### Pipeline com área e período informados na linha de comando
 
@@ -127,12 +126,12 @@ Os caminhos são interpretados a partir da raiz do repositório, que também é 
 O fluxo automatizado é executado nesta ordem:
 
 1. **Vegetação secundária** — `scripts/vegetation/veg_sec_weight.py`.
-2. **Frequência de queimadas** — `scripts/burn/NPI_Burn_Freq_v3.py`.
-3. **Condição de queimadas** — `scripts/burn/NPI_queimadas_Organizado_v3.py`.
-4. **Condição de borda** — `scripts/edge/NPI_borda_Organizado_v5_clip.py`.
+2. **Frequência de queimadas** — `scripts/burn/burn_freq_map.py`.
+3. **Condição de queimadas** — `scripts/burn/burn_weight.py`.
+4. **Condição de borda** — `scripts/edge/edge_weight.py`.
 5. **Combinação das condições** — `scripts/weights/make_map_weights.py`.
-6. **Comparação dos mapas** — `scripts/comparison/compare_maps_condicao_edt.py`.
-7. **Tabelas GRI** — `scripts/gri/GRI_UPDATE.py`.
+6. **Comparação dos mapas** — `scripts/comparison/compare_maps_conditions.py`.
+7. **Tabelas GRI** — `scripts/gri/gri_tables.py`.
 
 As etapas raster são orquestradas por `docker-compose_raster.yml`; a comparação e as tabelas, por `docker-compose_table.yml`. Cada etapa depende da conclusão bem-sucedida da anterior. Os diagramas estão em [docs/fluxograma/](docs/fluxograma/).
 
