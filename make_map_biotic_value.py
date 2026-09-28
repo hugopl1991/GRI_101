@@ -1,19 +1,21 @@
 import sys
+import os
 from pathlib import Path
 
 import numpy as np
 import geopandas as gpd
 import rasterio
-from rasterio.mask import mask
 from rasterio.features import rasterize
 from rasterio.warp import reproject
 from rasterio.enums import Resampling
 import yaml
 
+from fuca.functions import clip_raster, get_raster_band
 from biotic_value import (
     apply_condition,
     load_biotic_coefficients,
     map_biotic_value,
+    preserve_condition_values,
     write_raster,
 )
 
@@ -22,28 +24,19 @@ def format_path(template: str, *, area: str, year: int) -> str:
     return template.format(AREA=area, YEAR=year, END_YEAR=year, BASE_YEAR=year)
 
 
-def read_band(path: str) -> tuple[np.ndarray, int | float | None]:
-    raster_path = Path(path)
-    if not raster_path.is_file():
-        raise FileNotFoundError(f"Raster não encontrado: {raster_path}")
-    with rasterio.open(raster_path) as dataset:
-        return dataset.read(1), dataset.nodata
-
-
-def clip_raster_to_shape(raster_path: str, shape_path: str, output_path: str) -> str:
-    """Recorta um raster para a mesma área operacional usada na condição."""
-    Path(output_path).parent.mkdir(parents=True, exist_ok=True)
-    shapes = gpd.read_file(shape_path)
-    if shapes.empty or shapes.crs is None:
-        raise ValueError(f"Shape de recorte inválido ou sem CRS: {shape_path}")
-    with rasterio.open(raster_path) as source:
-        shapes = shapes.to_crs(source.crs)
-        image, transform = mask(source, [geometry.__geo_interface__ for geometry in shapes.geometry], crop=True)
-        profile = source.profile.copy()
-        profile.update(height=image.shape[1], width=image.shape[2], transform=transform)
-        with rasterio.open(output_path, "w", **profile) as destination:
-            destination.write(image)
-    return output_path
+def clip_with_fuca(
+    raster_path: str, shape_path: str, tmp_path: str, final_name: str
+) -> str:
+    """Recorta e alinha o shapefile operacional usando o helper FUCA."""
+    Path(tmp_path).mkdir(parents=True, exist_ok=True)
+    tmp_dir = str(Path(tmp_path)) + os.sep
+    return clip_raster(
+        raster_path=raster_path,
+        shp_path=shape_path,
+        tmp_path=tmp_dir,
+        final_name=final_name,
+        all_touched=False,
+    )
 
 
 def read_condition_on_grid(condition_path: str, reference_path: str) -> tuple[np.ndarray, int | float | None]:
@@ -134,22 +127,24 @@ def main() -> None:
     lulc_path = format_path(paths["lulc_path"], area=area, year=year)
     condition_path = format_path(paths["condition_map_file_end"], area=area, year=year)
     shape_path = paths["shp_file"].format(AREA=area)
-    clipped_lulc_path = str(Path(paths["tmp_path"]) / f"clipped_mapbiomas_{area}_{year}.tif")
-    lulc_path = clip_raster_to_shape(lulc_path, shape_path, clipped_lulc_path)
+    tmp_path = paths["tmp_path"]
+    lulc_path = clip_with_fuca(
+        lulc_path, shape_path, tmp_path, f"mapbiomas_{area}_{year}.tif"
+    )
     coefficients = load_biotic_coefficients(
         format_path(paths["biotic_value_table"], area=area, year=year)
     )
-    lulc, lulc_nodata = read_band(lulc_path)
+    lulc, lulc_nodata = get_raster_band(lulc_path)
     condition, condition_nodata = read_condition_on_grid(condition_path, lulc_path)
 
     secondary_vegetation_mask = None
     if data.get("secondary_vegetation_mask", True):
         secondary_path = format_path(paths["sec_veg_map_file"], area=area, year=year)
-        clipped_secondary_path = str(
-            Path(paths["tmp_path"]) / f"clipped_sec_veg_{area}_{year}.tif"
-        )
-        secondary_path = clip_raster_to_shape(
-            secondary_path, shape_path, clipped_secondary_path
+        secondary_path = clip_with_fuca(
+            secondary_path,
+            shape_path,
+            tmp_path,
+            f"sec_veg_{area}_{year}.tif",
         )
         secondary_vegetation_mask = read_mask_on_grid(secondary_path, lulc_path) > 0
 
@@ -159,6 +154,7 @@ def main() -> None:
     if rad_shape_path:
         rad = rasterize_rad_shape(rad_shape_path, lulc_path)
         rad_nodata = 0
+    rad_pixels = (rad != rad_nodata) & (rad != 0) if rad is not None else None
 
     bv, valid = map_biotic_value(
         lulc,
@@ -169,14 +165,9 @@ def main() -> None:
         rad_nodata=rad_nodata,
         rad_value=float(data.get("rad_bv", 0.2083)),
     )
+    bv_map_valid = valid.copy()
     if secondary_vegetation_mask is not None:
-        secondary_class = int(data.get("secondary_vegetation_bv_class", 3))
-        if secondary_class not in coefficients:
-            raise ValueError(
-                f"Classe BV da vegetação secundária não encontrada na tabela: {secondary_class}"
-            )
-        bv[secondary_vegetation_mask] = coefficients[secondary_class]
-        valid[secondary_vegetation_mask] = True
+        bv_map_valid[secondary_vegetation_mask] = False
 
     bv_scale = float(data.get("biotic_value_scale", 100.0))
     if bv_scale <= 0:
@@ -191,13 +182,20 @@ def main() -> None:
         condition_scale=float(data.get("condition_scale", 100.0)),
         nodata=float(data.get("biotic_value_nodata", -9999)),
     )
+    if secondary_vegetation_mask is not None:
+        bvfinal = preserve_condition_values(
+            bvfinal,
+            condition,
+            secondary_vegetation_mask,
+            condition_nodata=condition_nodata,
+        )
 
     output_dir = Path(paths["out_dir"])
     nodata = float(data.get("biotic_value_nodata", -9999))
     write_raster(
         str(output_dir / f"map_biotic_value_{area}_{year}.tif"),
         lulc_path,
-        np.where(valid, bv, nodata),
+        np.where(bv_map_valid, bv, nodata),
         nodata,
         "Valor biótico por classe MapBiomas",
     )

@@ -7,11 +7,8 @@ import pandas as pd
 import rasterio
 
 
-EXCLUDED_CLASSES = {60, 61, 62, 80}
-
-
 def load_biotic_coefficients(path: str) -> dict[int, float]:
-    """Carrega mapbiomas_id_bv.txt e remove as classes reservadas."""
+    """Carrega os IDs e valores BV definidos explicitamente na tabela."""
     table_path = Path(path)
     if not table_path.is_file():
         raise FileNotFoundError(f"Tabela de BV não encontrada: {table_path}")
@@ -33,7 +30,6 @@ def load_biotic_coefficients(path: str) -> dict[int, float]:
         raise ValueError("Tabela de BV contém valores negativos.")
 
     clean = pd.DataFrame({"class": classes.astype(int), "bv": values})
-    clean = clean[~clean["class"].isin(EXCLUDED_CLASSES)]
     if clean["class"].duplicated().any():
         duplicated = sorted(clean.loc[clean["class"].duplicated(), "class"].unique())
         raise ValueError(f"Tabela de BV contém classes duplicadas: {duplicated}")
@@ -50,7 +46,7 @@ def map_biotic_value(
     rad_nodata: int | float | None = None,
     rad_value: float = 0.2083,
 ) -> tuple[np.ndarray, np.ndarray]:
-    """Gera BV e máscara de pixels válidos a partir de um raster MapBiomas."""
+    """Valoriza apenas IDs listados na tabela e marca os demais como inválidos."""
     result = np.zeros(lulc.shape, dtype=np.float32)
     valid = np.ones(lulc.shape, dtype=bool)
     if nodata is not None:
@@ -58,11 +54,11 @@ def map_biotic_value(
     if nodata_classes:
         valid &= ~np.isin(lulc, list(nodata_classes))
 
-    known = np.zeros(lulc.shape, dtype=bool)
+    mapped = np.zeros(lulc.shape, dtype=bool)
     for class_id, value in coefficients.items():
         pixels = lulc == class_id
         result[pixels] = value
-        known |= pixels
+        mapped |= pixels
 
     if rad is not None:
         if rad.shape != lulc.shape:
@@ -72,15 +68,10 @@ def map_biotic_value(
             rad_pixels &= rad != rad_nodata
         rad_pixels &= rad != 0
         result[rad_pixels] = rad_value
-        known |= rad_pixels
+        valid = (valid & mapped) | rad_pixels
+    else:
+        valid &= mapped
 
-    missing = valid & ~known
-    if missing.any():
-        classes = np.unique(lulc[missing]).tolist()
-        raise ValueError(
-            f"Classes MapBiomas sem BV (incluindo classes não configuradas): {classes}"
-        )
-    valid &= known
     return result, valid
 
 
@@ -108,6 +99,26 @@ def apply_condition(
     usable = valid & condition_valid
     output[usable] = bv[usable] * np.clip(condition_factor[usable], 0.0, 1.0)
     return output
+
+
+def preserve_condition_values(
+    result: np.ndarray,
+    condition: np.ndarray,
+    mask: np.ndarray,
+    *,
+    condition_nodata: int | float | None,
+) -> np.ndarray:
+    """Copia valores de condição sem BV nos pixels indicados pela máscara."""
+    if result.shape != condition.shape or result.shape != mask.shape:
+        raise ValueError("Resultado, condição e máscara precisam ter a mesma dimensão.")
+    valid_condition = (
+        condition != condition_nodata
+        if condition_nodata is not None
+        else np.ones(condition.shape, dtype=bool)
+    )
+    copy_pixels = mask & valid_condition
+    result[copy_pixels] = condition[copy_pixels]
+    return result
 
 
 def write_raster(path: str, template: str, data: np.ndarray, nodata: float, description: str) -> None:

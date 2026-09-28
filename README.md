@@ -12,6 +12,9 @@ Este repositório contém scripts para executar o pipeline geoespacial de:
 - `Run_pipeline_area.py` : mesma lógica de `Run_pipeline.py`, mas permite também definir a área/estado via `--area`.
 - `config.yaml` : arquivo principal de configuração com caminhos de entrada/saída e parâmetros de processamento.
 - `make_map_biotic_value.py` : gera os mapas de BV e BVfinal a partir da tabela externa de coeficientes.
+- O cálculo de BV reutiliza `clip_raster` e `get_raster_band` de
+  `fuca/functions.py`; o recorte FUCA também reprojeta o polígono para o CRS do
+  raster antes de cortar.
 - `docker-compose_raster.yml` : orquestra o processamento dos dados raster para cada ano.
 - `docker-compose_table.yml` : executa a etapa de comparação entre o ano base e o ano final (Futuramente add Script do Matlab)
 
@@ -58,29 +61,35 @@ python Run_pipeline_area.py --area PA --rebuild
 - `Data.start_year`, `Data.end_year` : período de análise.
 - `Data.base_year_compare` : ano base para comparação.
 - `Paths.biotic_value_table` : tabela `mapbiomas_id_bv.txt` com as colunas
-  `id_class` e `bv` (tabulação ou outro separador detectável); as classes 60,
-  61, 62 e 80 são ignoradas.
+  `id_class` e `bv` (tabulação ou outro separador detectável). Ela é a lista
+  autorizada de classes: IDs nela recebem seus valores e todos os IDs ausentes
+  são descartados como nodata.
 - `Paths.rad_shape_file` : único shape RAD (polígonos ou multipolígonos),
   reprojetado e rasterizado automaticamente no grid do MapBiomas. Seus pixels
-  recebem BV `0.2083`.
+  recebem BV `0.2083` e reabilitam os pixels mesmo quando a classe MapBiomas
+  subjacente não consta na tabela ou é nodata, exceto nas áreas da máscara de
+  vegetação secundária, que são excluídas dos mapas de BV.
 - `Data.lulc_nodata_classes` : classes MapBiomas tratadas como sem dados
   (por padrão, `[0]`) e excluídas dos mapas de BV.
 - `Data.biotic_value_scale` : fator aplicado aos valores da tabela antes da
   geração dos mapas. O padrão `100` converte a tabela `0–1` para a escala
   metodológica `0–100`; portanto, `BVfinal` permanece nessa mesma escala.
 - `Data.secondary_vegetation_mask` : usa valores positivos do raster de
-  vegetação secundária como máscara do BV. Esses pixels recebem o BV da classe
-  configurada em `Data.secondary_vegetation_bv_class` (por padrão, classe `3`);
-  a redução pela equação de Potter permanece aplicada no mapa de condição.
+  vegetação secundária para excluir esses pixels do mapa BV sem condição.
+  No BVfinal, os valores já calculados do `map_weights_100` são preservados
+  diretamente para esses pixels, sem multiplicação por BV.
 
 ## Mapas de valor biótico
 
 O estágio `npi_biotic_value` é executado depois do mapa de condição. Ele gera
 `output/map_biotic_value_{AREA}_{YEAR}.tif` (BV sem condição) e
 `output/map_biotic_value_final_{AREA}_{YEAR}.tif` (BV com condição). A condição
-é convertida de 0–100 para 0–1. O estágio
-falha explicitamente se faltar a tabela de BV, se houver classe MapBiomas sem
-coeficiente ou se o raster RAD estiver desalinhado.
+é lida do raster `map_weights_100` e convertida de 0–100 para 0–1; portanto,
+para as áreas de vegetação secundária os valores do raster de condição são
+copiados diretamente para o BVfinal, enquanto o BV sem condição fica nodata.
+O estágio
+falha explicitamente se faltar a tabela de BV ou se o raster RAD estiver
+desalinhado. Classes ausentes da tabela são nodata nos mapas de saída.
 
 ## Fluxo básico
 
