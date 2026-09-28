@@ -85,6 +85,39 @@ A pipeline depende de vários conjuntos de dados geoespaciais e tabelas auxiliar
 
 A estrutura de caminhos é definida em `config.yaml`, com placeholders como `{AREA}`, `{YEAR}`, `{BASE_YEAR}` e `{END_YEAR}`. Isso permite parametrizar a execução para diferentes áreas e anos sem alterar o código-fonte.
 
+## Tabelas de referência
+
+A seguir, os parâmetros e classes adotados para a modelagem da condição dos ecossistemas no Pará, conforme as Tabelas 1 e 2.
+
+### Tabela 1 - Índices usados para classificar a condição de queimadas
+
+| Nº de queimadas no período | Condição atribuída |
+|---|---:|
+| 1 queimada | 80% |
+| 2 queimadas | 60% |
+| 3 queimadas | 40% |
+| ≥ 4 queimadas | 20% |
+
+Esses valores são usados como penalização da condição ecológica em áreas queimadas e foram consolidados a partir de revisão de literatura pela equipe de Biodiversidade do ITV.
+
+### Tabela 2 - Classes naturais do MapBiomas consideradas no cálculo da condição de borda para o estado do Pará
+
+| Classe do MapBiomas (Coleção 10) | ID |
+|---|---:|
+| Formação Florestal | 3 |
+| Formação Savânica | 4 |
+| Mangue | 5 |
+| Floresta Alagável | 6 |
+| Campo Alagado e Área Pantanosa | 11 |
+| Formação Campestre | 12 |
+| Praia, Duna e Areal | 23 |
+| Afloramento Rochoso | 29 |
+| Apicum | 32 |
+| Rio, Lago e Oceano | 33 |
+| Sem dados | 0 |
+
+A lista foi adaptada a partir do MapBiomas (2025) e aplicada no cálculo da distância de borda para o estado do Pará, com ressalva de revisão necessária para outras regiões.
+
 ## Fluxo de processamento
 
 A pipeline é executada em sequência e cada etapa depende da conclusão bem-sucedida da anterior:
