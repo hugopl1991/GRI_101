@@ -1,3 +1,9 @@
+"""
+Script para gerar as tabelas GRI 106ai e 107ai, bem como a tabela de balanço natural por ReIBGE.
+Baseado no script matlab original, mas reescrito em Python para maior flexibilidade e integração com pandas.
+Funcao reclass_novo: ajuste na logica anterior para ser mais generalista quanto ao dados de entrada.
+"""
+
 import yaml
 from shared.utils_gri import carregar_dados, reclass_novo, gerar_tabelas_intermediarias, calcular_balanco
 
