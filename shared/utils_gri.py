@@ -1,3 +1,8 @@
+"""
+Modulo de funcoes da GRI (Global Reporting Initiative) para gerar as tabelas 106ai e 107ai, bem como a tabela de balanço natural por ReIBGE.
+Baseado no script matlab original, mas reescrito em Python para maior flexibilidade e integração com pandas.
+"""
+
 import pandas as pd
 import numpy as np
 from pathlib import Path

@@ -1,3 +1,8 @@
+"""
+Modulo de funcoes utilitarias para manipulacao de rasters e shapefiles, incluindo 
+recorte por shapefile e ajuste dinamico de tamanho de tile baseado na memoria RAM disponivel.
+"""
+
 import os
 import math
 import gc
