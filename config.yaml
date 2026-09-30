@@ -32,7 +32,7 @@ Paths:
   bioma_map_file: "inputs_indicadores/inputs/Biomas/{BIOMA}.shp"      # Caminho para o shape de biomas-(OBRIGATORIO).
   condition_map_file_base: output/map_weights_100_{BASE_YEAR}.tif     # Caminho para o mapa de condicao ano base-(OBRIGATORIO).
   condition_map_file_end: output/map_weights_100_{END_YEAR}.tif       # Caminho para o mapa de condicao ano final-(OBRIGATORIO).
-  biotic_value_table: "inputs/mapbiomas_id_bv.txt"                   # Tabela MapBiomas -> BV (colunas id_class,bv).
+  biotic_value_table: "inputs/Planilhas/mapbiomas_id_bv.txt"                   # Tabela MapBiomas -> BV (colunas id_class,bv).
   rad_shape_file: "inputs/Shapes_rad/sup24_v12_PA.shp"                # Único shape RAD; rasterizado no grid do MapBiomas.
   area_map_file: "inputs/Mapa_Area/pxA_x10m2_sembuffer.tif"           # Caminho para o mapa de area-(OBRIGATORIO).
   opunit_id_csv_file: "inputs/Planilhas/OpUnit_ID_2025.csv"             # Arquivo csv contendo os IDs de cada unidade operacional-(OBRIGATORIO).
