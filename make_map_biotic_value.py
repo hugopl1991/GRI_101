@@ -114,7 +114,7 @@ def rasterize_rad_shape(shape_path: str, reference_path: str) -> np.ndarray:
         transform=transform,
         fill=0,
         dtype="uint8",
-        all_touched=False,
+        all_touched=True,
     )
 
 
