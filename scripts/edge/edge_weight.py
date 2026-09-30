@@ -5,7 +5,7 @@ import rasterio
 from rasterio.features import geometry_mask
 from rasterio.windows import Window
 from scipy.ndimage import distance_transform_edt
-from utils import calcular_tile_size_dinamico, remove_if_exists, clipar_por_shapefile
+from shared.utils import calcular_tile_size_dinamico, remove_if_exists, clipar_por_shapefile
 
 with open('config.yaml', 'r', encoding='utf-8') as f:
     cfg = yaml.safe_load(f)

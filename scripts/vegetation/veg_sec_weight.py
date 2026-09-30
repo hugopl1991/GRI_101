@@ -7,7 +7,7 @@ import warnings
 # Suprimir todos os warnings
 warnings.filterwarnings("ignore")
 
-from fuca.functions import *
+from shared.functions import *
 
 def make_raster_from_matrix(band: np.ndarray, raster_std: str,
                             tmp_path: str, final_name: str,

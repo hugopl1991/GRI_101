@@ -1,3 +1,8 @@
+"""
+Versao editada de compare_maps_condicao.py com um filtro de pixels validos 
+(LULC final != 0) -- usada para filtrar TUDO antes de montar o DataFrame, 
+em vez de processar o raster inteiro, o que melhora a performance e reduz o uso de memoria.
+"""
 import sys
 import yaml
 import pandas as pd
@@ -9,8 +14,8 @@ import warnings
 # Suprimir todos os warnings
 warnings.filterwarnings("ignore")
 
-from fuca.functions import *
-from fuca.opunit_functions import *
+from shared.functions import *
+from shared.opunit_functions import *
 
 def obtem_legendas(nome_arquivo):
     """
